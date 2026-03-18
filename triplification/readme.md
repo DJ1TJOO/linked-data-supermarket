@@ -23,7 +23,7 @@ source .env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 or in pyenv
-pyenv exec python -m pip --version
+python -m pip --version
 
 ## Run the Script
 
