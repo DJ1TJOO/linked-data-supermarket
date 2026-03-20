@@ -87,7 +87,7 @@ def process_chunk_worker(sales_chunk, chunk_index, product_offers_mapping, offer
     with tqdm(total=len(sales_chunk), desc=f"Parsing chunk {chunk_index:02d}", position=chunk_index, leave=False) as pbar:
         orders_graph = build_orders_graph(sales_chunk, product_offers_mapping, offers_graph, pbar)
         output_orders_graph(chunk_index, orders_graph, output_directory)
-        pbar.write(f"Successfully generated: {output_path}")
+        print(f"Successfully generated: {output_path}")
 
 def orders(rows = 1000):
     output_directory = Path("out")
