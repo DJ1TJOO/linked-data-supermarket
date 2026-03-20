@@ -4,7 +4,11 @@ from pathlib import Path
 
 def terms_graph():
     graph = bind_namespaces(Graph())
-    
+
+    graph.add((TERMS["CostPrice"], RDF.type, RDFS.Class))
+    graph.add((TERMS["CostPrice"], RDFS.label, Literal("Cost Price")))
+    graph.add((TERMS["CostPrice"], RDFS.comment, Literal("A record of the wholesale cost for a product at a specific time.")))
+     
     graph.add((TERMS["lossRate"], RDF.type, RDF.Property))
     graph.add((TERMS["lossRate"], RDFS.label, Literal("Loss Rate")))
     graph.add((TERMS["lossRate"], RDFS.comment, Literal("The percentage of product lost during processing.")))
