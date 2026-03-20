@@ -28,11 +28,19 @@
       let target = null;
 
       if (/\/product\/[^/]+\/offer\/[^/]+$/.test(path)) {
-        target = "/linked-data-supermarket/orders.ttl";
+        target = "/linked-data-supermarket/offers.ttl";
       } else if (/\/product\/[^/]+$/.test(path)) {
         target = "/linked-data-supermarket/products.ttl";
       } else if (/\/order\/[^/]+$/.test(path)) {
-        target = "/linked-data-supermarket/orders.ttl";
+        const orderMatch = path.match(/\/order\/(\d+)$/);
+        if (orderMatch) {
+          const id = parseInt(orderMatch[1], 10);
+
+          const chunkSize = 250000;
+          const fileIndex = Math.floor(id / chunkSize) + 1;
+
+          target = `/linked-data-supermarket/orders-${fileIndex}.ttl`;
+        }
       } else if (/\/terms(\/.*)?$/.test(path)) {
         target = "/linked-data-supermarket/terms.ttl";
       } else if (/\/category\/[^/]+$/.test(path)) {

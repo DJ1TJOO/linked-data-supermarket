@@ -3,10 +3,17 @@ from terms import terms
 from products import products
 from orders import orders
 from cost_prices import cost_prices
+
+from pathlib import Path
+import shutil
 import argparse
 
 def run_all(rows = 1000):
     num_rows = None if rows == -1 else rows
+    
+    if Path("out").exists():
+        print(f"Cleaning existing directory: out")
+        shutil.rmtree("out")
     
     row_display = "Full File" if num_rows is None else f"{num_rows} rows"
     print(f"--- Starting RDF Triplification Process ({row_display}) ---")
