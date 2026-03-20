@@ -1,6 +1,6 @@
 from rdflib import Namespace, RDF, XSD
 
-BASE = Namespace('http://localhost/')
+BASE = Namespace('http://data.yoursupermarket.org/')
 SCHEMA = Namespace('http://schema.org/')
 TERMS = Namespace(BASE["terms/"])
 

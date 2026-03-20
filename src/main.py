@@ -2,7 +2,7 @@ import os
 from terms import terms
 from products import products
 from orders import orders
-from cost_price import cost_price
+from cost_prices import cost_prices
 import argparse
 
 def run_all(rows = 1000):
@@ -21,7 +21,7 @@ def run_all(rows = 1000):
     orders(num_rows)
     
     print("\n[4/4] Generating Cost Prices...")
-    cost_price(num_rows)
+    cost_prices(num_rows)
     
     print("\n--- Process Complete! ---")
     print("Files generated: terms.ttl, products.ttl, orders.ttl, cost_price.ttl")
