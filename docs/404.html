@@ -38,7 +38,7 @@
         if (orderMatch) {
           const id = parseInt(orderMatch[1], 10);
 
-          const chunkSize = 250000;
+          const chunkSize = 175000;
           const fileIndex = Math.floor(id / chunkSize) + 1;
 
           target = `/linked-data-supermarket/orders-${fileIndex}.ttl`;
