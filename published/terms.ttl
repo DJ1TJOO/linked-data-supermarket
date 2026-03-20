@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix terms: <http://data.yoursupermarket.org/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+terms:CostPrice a rdfs:Class ;
+    rdfs:label "Cost Price" ;
+    rdfs:comment "A record of the wholesale cost for a product at a specific time." .
+
+terms:isDiscounted a rdf:Property ;
+    rdfs:label "Is Discounted" ;
+    rdfs:comment "Whether the product is discounted." ;
+    rdfs:range xsd:boolean .
+
+terms:lossRate a rdf:Property ;
+    rdfs:label "Loss Rate" ;
+    rdfs:comment "The percentage of product lost during processing." .
+
+terms:orderQuantity a rdf:Property ;
+    rdfs:label "Order Quantity" ;
+    rdfs:comment "The quantity of the product ordered." ;
+    rdfs:range schema1:QuantitativeValue .
+
+terms:perKG a schema1:QuantitativeValue ;
+    rdfs:label "Per KG" ;
+    schema1:unitCode "KGM" ;
+    schema1:value 1 ;
+    rdfs:comment "The one unit per kilogram." .
+

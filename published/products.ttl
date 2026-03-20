@@ -1,0 +1,1534 @@
+@prefix schema1: <http://schema.org/> .
+@prefix terms: <http://data.yoursupermarket.org/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.yoursupermarket.org/product/102900005115168> a schema1:Product ;
+    terms:lossRate 4.39e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Niushou Shengcai" ;
+    schema1:sku 102900005115168 .
+
+<http://data.yoursupermarket.org/product/102900005115199> a schema1:Product ;
+    terms:lossRate 1.046e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Sichuan Red Cedar" ;
+    schema1:sku 102900005115199 .
+
+<http://data.yoursupermarket.org/product/102900005115250> a schema1:Product ;
+    terms:lossRate 1.08e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Xixia Black Mushroom (1)" ;
+    schema1:sku 102900005115250 .
+
+<http://data.yoursupermarket.org/product/102900005115625> a schema1:Product ;
+    terms:lossRate 1.8e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Local Xiaomao Cabbage" ;
+    schema1:sku 102900005115625 .
+
+<http://data.yoursupermarket.org/product/102900005115748> a schema1:Product ;
+    terms:lossRate 8.78e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "White Caitai" ;
+    schema1:sku 102900005115748 .
+
+<http://data.yoursupermarket.org/product/102900005115762> a schema1:Product ;
+    terms:lossRate 1.852e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Amaranth" ;
+    schema1:sku 102900005115762 .
+
+<http://data.yoursupermarket.org/product/102900005115779> a schema1:Product ;
+    terms:lossRate 1.525e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yunnan Shengcai" ;
+    schema1:sku 102900005115779 .
+
+<http://data.yoursupermarket.org/product/102900005115786> a schema1:Product ;
+    terms:lossRate 1.362e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Zhuyecai" ;
+    schema1:sku 102900005115786 .
+
+<http://data.yoursupermarket.org/product/102900005115793> a schema1:Product ;
+    terms:lossRate 7.59e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Chinese Cabbage" ;
+    schema1:sku 102900005115793 .
+
+<http://data.yoursupermarket.org/product/102900005115816> a schema1:Product ;
+    terms:lossRate 1.346e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Nanguajian" ;
+    schema1:sku 102900005115816 .
+
+<http://data.yoursupermarket.org/product/102900005115823> a schema1:Product ;
+    terms:lossRate 1.443e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Shanghaiqing" ;
+    schema1:sku 102900005115823 .
+
+<http://data.yoursupermarket.org/product/102900005115854> a schema1:Product ;
+    terms:lossRate 5.35e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Radish Leaves" ;
+    schema1:sku 102900005115854 .
+
+<http://data.yoursupermarket.org/product/102900005115861> a schema1:Product ;
+    terms:lossRate 1.217e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Niushou Youcai" ;
+    schema1:sku 102900005115861 .
+
+<http://data.yoursupermarket.org/product/102900005115878> a schema1:Product ;
+    terms:lossRate 6.27e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Garden Chrysanthemum" ;
+    schema1:sku 102900005115878 .
+
+<http://data.yoursupermarket.org/product/102900005115885> a schema1:Product ;
+    terms:lossRate 4.7e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Caidian Quinoa Artemisia" ;
+    schema1:sku 102900005115885 .
+
+<http://data.yoursupermarket.org/product/102900005115908> a schema1:Product ;
+    terms:lossRate 1.37e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Caixin" ;
+    schema1:sku 102900005115908 .
+
+<http://data.yoursupermarket.org/product/102900005115946> a schema1:Product ;
+    terms:lossRate 7.61e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Muercai" ;
+    schema1:sku 102900005115946 .
+
+<http://data.yoursupermarket.org/product/102900005115960> a schema1:Product ;
+    terms:lossRate 2.227e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Chinese Cabbage" ;
+    schema1:sku 102900005115960 .
+
+<http://data.yoursupermarket.org/product/102900005115977> a schema1:Product ;
+    terms:lossRate 8.36e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Wandoujian" ;
+    schema1:sku 102900005115977 .
+
+<http://data.yoursupermarket.org/product/102900005115984> a schema1:Product ;
+    terms:lossRate 1.281e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yunnan Lettuces" ;
+    schema1:sku 102900005115984 .
+
+<http://data.yoursupermarket.org/product/102900005116042> a schema1:Product ;
+    terms:lossRate 1.532e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Lotus Root" ;
+    schema1:sku 102900005116042 .
+
+<http://data.yoursupermarket.org/product/102900005116219> a schema1:Product ;
+    terms:lossRate 6.73e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Hot Peppers" ;
+    schema1:sku 102900005116219 .
+
+<http://data.yoursupermarket.org/product/102900005116226> a schema1:Product ;
+    terms:lossRate 6.72e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green Hot Peppers" ;
+    schema1:sku 102900005116226 .
+
+<http://data.yoursupermarket.org/product/102900005116233> a schema1:Product ;
+    terms:lossRate 1.176e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Pepper (1)" ;
+    schema1:sku 102900005116233 .
+
+<http://data.yoursupermarket.org/product/102900005116257> a schema1:Product ;
+    terms:lossRate 6.07e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Eggplant (2)" ;
+    schema1:sku 102900005116257 .
+
+<http://data.yoursupermarket.org/product/102900005116509> a schema1:Product ;
+    terms:lossRate 5.01e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Green Eggplant (1)" ;
+    schema1:sku 102900005116509 .
+
+<http://data.yoursupermarket.org/product/102900005116530> a schema1:Product ;
+    terms:lossRate 1.382e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Xixia Mushroom (1)" ;
+    schema1:sku 102900005116530 .
+
+<http://data.yoursupermarket.org/product/102900005116547> a schema1:Product ;
+    terms:lossRate 3.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Needle Mushroom (1)" ;
+    schema1:sku 102900005116547 .
+
+<http://data.yoursupermarket.org/product/102900005116639> a schema1:Product ;
+    terms:lossRate 1.178e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Machixian" ;
+    schema1:sku 102900005116639 .
+
+<http://data.yoursupermarket.org/product/102900005116714> a schema1:Product ;
+    terms:lossRate 9.26e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010201> ;
+    schema1:name "Broccoli" ;
+    schema1:sku 102900005116714 .
+
+<http://data.yoursupermarket.org/product/102900005116776> a schema1:Product ;
+    terms:lossRate 1.046e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Local Spinach" ;
+    schema1:sku 102900005116776 .
+
+<http://data.yoursupermarket.org/product/102900005116790> a schema1:Product ;
+    terms:lossRate 1.064e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yellow Xincai (1)" ;
+    schema1:sku 102900005116790 .
+
+<http://data.yoursupermarket.org/product/102900005116806> a schema1:Product ;
+    terms:lossRate 1e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Black Rapeseed" ;
+    schema1:sku 102900005116806 .
+
+<http://data.yoursupermarket.org/product/102900005116837> a schema1:Product ;
+    terms:lossRate 1.16e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Ping Mushroom" ;
+    schema1:sku 102900005116837 .
+
+<http://data.yoursupermarket.org/product/102900005116899> a schema1:Product ;
+    terms:lossRate 5.54e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Net Lotus Root (1)" ;
+    schema1:sku 102900005116899 .
+
+<http://data.yoursupermarket.org/product/102900005116905> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green Hangjiao (1)" ;
+    schema1:sku 102900005116905 .
+
+<http://data.yoursupermarket.org/product/102900005116912> a schema1:Product ;
+    terms:lossRate 8.99e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Jigu Mushroom (1)" ;
+    schema1:sku 102900005116912 .
+
+<http://data.yoursupermarket.org/product/102900005116943> a schema1:Product ;
+    terms:lossRate 9.99e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Hang Pepper" ;
+    schema1:sku 102900005116943 .
+
+<http://data.yoursupermarket.org/product/102900005117056> a schema1:Product ;
+    terms:lossRate 7.08e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Paopaojiao (Jingpin)" ;
+    schema1:sku 102900005117056 .
+
+<http://data.yoursupermarket.org/product/102900005117209> a schema1:Product ;
+    terms:lossRate 1.598e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "7 Colour Pepper (1)" ;
+    schema1:sku 102900005117209 .
+
+<http://data.yoursupermarket.org/product/102900005117353> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The White Mushroom (1)" ;
+    schema1:sku 102900005117353 .
+
+<http://data.yoursupermarket.org/product/102900005118572> a schema1:Product ;
+    terms:lossRate 1.199e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Local Shanghaiqing" ;
+    schema1:sku 102900005118572 .
+
+<http://data.yoursupermarket.org/product/102900005118817> a schema1:Product ;
+    terms:lossRate 1.851e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Spinach" ;
+    schema1:sku 102900005118817 .
+
+<http://data.yoursupermarket.org/product/102900005118824> a schema1:Product ;
+    terms:lossRate 2.925e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "High Melon (1)" ;
+    schema1:sku 102900005118824 .
+
+<http://data.yoursupermarket.org/product/102900005118831> a schema1:Product ;
+    terms:lossRate 2.48e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Wawacai" ;
+    schema1:sku 102900005118831 .
+
+<http://data.yoursupermarket.org/product/102900005119098> a schema1:Product ;
+    terms:lossRate 1.278e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Agaricus Bisporus" ;
+    schema1:sku 102900005119098 .
+
+<http://data.yoursupermarket.org/product/102900005119104> a schema1:Product ;
+    terms:lossRate 9.24e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Crab Flavor Mushroom (1)" ;
+    schema1:sku 102900005119104 .
+
+<http://data.yoursupermarket.org/product/102900005119944> a schema1:Product ;
+    terms:lossRate 9.89e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Haixian Mushroom (1)" ;
+    schema1:sku 102900005119944 .
+
+<http://data.yoursupermarket.org/product/102900005119968> a schema1:Product ;
+    terms:lossRate 9e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green Hangzhou Pepper (2)" ;
+    schema1:sku 102900005119968 .
+
+<http://data.yoursupermarket.org/product/102900005119975> a schema1:Product ;
+    terms:lossRate 8.42e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Hongshujian" ;
+    schema1:sku 102900005119975 .
+
+<http://data.yoursupermarket.org/product/102900005122654> a schema1:Product ;
+    terms:lossRate 1.138e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Zhijiang Red Bolt" ;
+    schema1:sku 102900005122654 .
+
+<http://data.yoursupermarket.org/product/102900005123880> a schema1:Product ;
+    terms:lossRate 1.633e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Bell Pepper (1)" ;
+    schema1:sku 102900005123880 .
+
+<http://data.yoursupermarket.org/product/102900005125808> a schema1:Product ;
+    terms:lossRate 5.86e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Millet Pepper" ;
+    schema1:sku 102900005125808 .
+
+<http://data.yoursupermarket.org/product/102900005125815> a schema1:Product ;
+    terms:lossRate 5.05e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Apricot Bao Mushroom (1)" ;
+    schema1:sku 102900005125815 .
+
+<http://data.yoursupermarket.org/product/102900005128748> a schema1:Product ;
+    terms:lossRate 1.689e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Huanghuacai" ;
+    schema1:sku 102900005128748 .
+
+<http://data.yoursupermarket.org/product/102900011000175> a schema1:Product ;
+    terms:lossRate 2.038e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Kuaicai" ;
+    schema1:sku 102900011000175 .
+
+<http://data.yoursupermarket.org/product/102900011000328> a schema1:Product ;
+    terms:lossRate 1.018e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Luosi Pepper" ;
+    schema1:sku 102900011000328 .
+
+<http://data.yoursupermarket.org/product/102900011000335> a schema1:Product ;
+    terms:lossRate 3.2e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Round Eggplant" ;
+    schema1:sku 102900011000335 .
+
+<http://data.yoursupermarket.org/product/102900011000571> a schema1:Product ;
+    terms:lossRate 1.22e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Suizhou Bubble Green" ;
+    schema1:sku 102900011000571 .
+
+<http://data.yoursupermarket.org/product/102900011000632> a schema1:Product ;
+    terms:lossRate 2.553e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010201> ;
+    schema1:name "Purple Cabbage (1)" ;
+    schema1:sku 102900011000632 .
+
+<http://data.yoursupermarket.org/product/102900011000861> a schema1:Product ;
+    terms:lossRate 7.71e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Line Pepper" ;
+    schema1:sku 102900011000861 .
+
+<http://data.yoursupermarket.org/product/102900011001219> a schema1:Product ;
+    terms:lossRate 8.93e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "The Red Bell Pepper (1)" ;
+    schema1:sku 102900011001219 .
+
+<http://data.yoursupermarket.org/product/102900011001561> a schema1:Product ;
+    terms:lossRate 1.217e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Lotus (Ea)" ;
+    schema1:sku 102900011001561 .
+
+<http://data.yoursupermarket.org/product/102900011001691> a schema1:Product ;
+    terms:lossRate 9.61e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Water Chestnut (Lingjiao)" ;
+    schema1:sku 102900011001691 .
+
+<http://data.yoursupermarket.org/product/102900011001806> a schema1:Product ;
+    terms:lossRate 1.242e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Jigu Mushroom (Bunch)" ;
+    schema1:sku 102900011001806 .
+
+<http://data.yoursupermarket.org/product/102900011001813> a schema1:Product ;
+    terms:lossRate 8.85e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Needle Mushroom (Bag) (1)" ;
+    schema1:sku 102900011001813 .
+
+<http://data.yoursupermarket.org/product/102900011002414> a schema1:Product ;
+    terms:lossRate 1.695e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Panax Notoginseng" ;
+    schema1:sku 102900011002414 .
+
+<http://data.yoursupermarket.org/product/102900011006689> a schema1:Product ;
+    terms:lossRate 2.784e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Dongmenkou Xiaobaicai" ;
+    schema1:sku 102900011006689 .
+
+<http://data.yoursupermarket.org/product/102900011006948> a schema1:Product ;
+    terms:lossRate 2.616e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Foreign Garland Chrysanthemum " ;
+    schema1:sku 102900011006948 .
+
+<http://data.yoursupermarket.org/product/102900011006955> a schema1:Product ;
+    terms:lossRate 1.501e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Ice Grass" ;
+    schema1:sku 102900011006955 .
+
+<http://data.yoursupermarket.org/product/102900011007044> a schema1:Product ;
+    terms:lossRate 9.14e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Tremella (Flower)" ;
+    schema1:sku 102900011007044 .
+
+<http://data.yoursupermarket.org/product/102900011007464> a schema1:Product ;
+    terms:lossRate 1.288e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Perilla" ;
+    schema1:sku 102900011007464 .
+
+<http://data.yoursupermarket.org/product/102900011007471> a schema1:Product ;
+    terms:lossRate 1.328e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Mint" ;
+    schema1:sku 102900011007471 .
+
+<http://data.yoursupermarket.org/product/102900011007495> a schema1:Product ;
+    terms:lossRate 1.592e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "The Dandelion" ;
+    schema1:sku 102900011007495 .
+
+<http://data.yoursupermarket.org/product/102900011007969> a schema1:Product ;
+    terms:lossRate 1.663e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Red Lotus Root Zone" ;
+    schema1:sku 102900011007969 .
+
+<http://data.yoursupermarket.org/product/102900011008133> a schema1:Product ;
+    terms:lossRate 1.598e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Siguajian" ;
+    schema1:sku 102900011008133 .
+
+<http://data.yoursupermarket.org/product/102900011008164> a schema1:Product ;
+    terms:lossRate 1.568e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Naibaicai" ;
+    schema1:sku 102900011008164 .
+
+<http://data.yoursupermarket.org/product/102900011008485> a schema1:Product ;
+    terms:lossRate 1.375e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Mustard" ;
+    schema1:sku 102900011008485 .
+
+<http://data.yoursupermarket.org/product/102900011008492> a schema1:Product ;
+    terms:lossRate 4.69e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Big Broccoli" ;
+    schema1:sku 102900011008492 .
+
+<http://data.yoursupermarket.org/product/102900011008515> a schema1:Product ;
+    terms:lossRate 1.28e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Miantiaocai" ;
+    schema1:sku 102900011008515 .
+
+<http://data.yoursupermarket.org/product/102900011008522> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Sweet Chinese Cabbage" ;
+    schema1:sku 102900011008522 .
+
+<http://data.yoursupermarket.org/product/102900011008577> a schema1:Product ;
+    terms:lossRate 1.619e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Hericium " ;
+    schema1:sku 102900011008577 .
+
+<http://data.yoursupermarket.org/product/102900011008676> a schema1:Product ;
+    terms:lossRate 1.156e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Jicai" ;
+    schema1:sku 102900011008676 .
+
+<http://data.yoursupermarket.org/product/102900011009246> a schema1:Product ;
+    terms:lossRate 7.63e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Fresh Black Fungus (1)" ;
+    schema1:sku 102900011009246 .
+
+<http://data.yoursupermarket.org/product/102900011009277> a schema1:Product ;
+    terms:lossRate 1.102e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Water Chestnut" ;
+    schema1:sku 102900011009277 .
+
+<http://data.yoursupermarket.org/product/102900011009444> a schema1:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Dalong Eggplant" ;
+    schema1:sku 102900011009444 .
+
+<http://data.yoursupermarket.org/product/102900011009772> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Fruit Pepper (Orange)" ;
+    schema1:sku 102900011009772 .
+
+<http://data.yoursupermarket.org/product/102900011009970> a schema1:Product ;
+    terms:lossRate 1.706e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010201> ;
+    schema1:name "Qinggengsanhua" ;
+    schema1:sku 102900011009970 .
+
+<http://data.yoursupermarket.org/product/102900011010563> a schema1:Product ;
+    terms:lossRate 1.193e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chicken Fir Bacteria" ;
+    schema1:sku 102900011010563 .
+
+<http://data.yoursupermarket.org/product/102900011010891> a schema1:Product ;
+    terms:lossRate 7.97e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Wild Lotus Root (1)" ;
+    schema1:sku 102900011010891 .
+
+<http://data.yoursupermarket.org/product/102900011011058> a schema1:Product ;
+    terms:lossRate 1.017e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Black Porcini" ;
+    schema1:sku 102900011011058 .
+
+<http://data.yoursupermarket.org/product/102900011011546> a schema1:Product ;
+    terms:lossRate 5.96e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Haixian Mushroom (Bag) (1)" ;
+    schema1:sku 102900011011546 .
+
+<http://data.yoursupermarket.org/product/102900011011669> a schema1:Product ;
+    terms:lossRate 1.193e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Xiuzhen Mushroom" ;
+    schema1:sku 102900011011669 .
+
+<http://data.yoursupermarket.org/product/102900011011782> a schema1:Product ;
+    terms:lossRate 1.193e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chinese Caterpillar Fungus Flowers (Box) (1)" ;
+    schema1:sku 102900011011782 .
+
+<http://data.yoursupermarket.org/product/102900011012482> a schema1:Product ;
+    terms:lossRate 9.97e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Tea Tree Mushroom (Bag)" ;
+    schema1:sku 102900011012482 .
+
+<http://data.yoursupermarket.org/product/102900011012871> a schema1:Product ;
+    terms:lossRate 1.103e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Black Chicken  Mushroom" ;
+    schema1:sku 102900011012871 .
+
+<http://data.yoursupermarket.org/product/102900011012994> a schema1:Product ;
+    terms:lossRate 1.003e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Apricot Bao Mushroom (Bag)" ;
+    schema1:sku 102900011012994 .
+
+<http://data.yoursupermarket.org/product/102900011013274> a schema1:Product ;
+    terms:lossRate 6.57e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The White Mushroom (Bag)" ;
+    schema1:sku 102900011013274 .
+
+<http://data.yoursupermarket.org/product/102900011015384> a schema1:Product ;
+    terms:lossRate 1.516e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Malan Head" ;
+    schema1:sku 102900011015384 .
+
+<http://data.yoursupermarket.org/product/102900011015391> a schema1:Product ;
+    terms:lossRate 1.158e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Ganlanye" ;
+    schema1:sku 102900011015391 .
+
+<http://data.yoursupermarket.org/product/102900011016701> a schema1:Product ;
+    terms:lossRate 5.7e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Wuhu Green Pepper (1)" ;
+    schema1:sku 102900011016701 .
+
+<http://data.yoursupermarket.org/product/102900011016909> a schema1:Product ;
+    terms:lossRate 6.98e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Hua Eggplant" ;
+    schema1:sku 102900011016909 .
+
+<http://data.yoursupermarket.org/product/102900011018095> a schema1:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chinese Caterpillar Fungus Flowers (Bag)" ;
+    schema1:sku 102900011018095 .
+
+<http://data.yoursupermarket.org/product/102900011018132> a schema1:Product ;
+    terms:lossRate 1.269e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Wild Pink Lotus Root" ;
+    schema1:sku 102900011018132 .
+
+<http://data.yoursupermarket.org/product/102900011021644> a schema1:Product ;
+    terms:lossRate 9.34e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Hongshan Caitai" ;
+    schema1:sku 102900011021644 .
+
+<http://data.yoursupermarket.org/product/102900011021675> a schema1:Product ;
+    terms:lossRate 8.75e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chopped Red Pine" ;
+    schema1:sku 102900011021675 .
+
+<http://data.yoursupermarket.org/product/102900011021699> a schema1:Product ;
+    terms:lossRate 8.11e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Steak Mushrooms" ;
+    schema1:sku 102900011021699 .
+
+<http://data.yoursupermarket.org/product/102900011021842> a schema1:Product ;
+    terms:lossRate 1.181e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Honghu Lotus Root Powder (Fenou)" ;
+    schema1:sku 102900011021842 .
+
+<http://data.yoursupermarket.org/product/102900011022030> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Pepper Mix" ;
+    schema1:sku 102900011022030 .
+
+<http://data.yoursupermarket.org/product/102900011022764> a schema1:Product ;
+    terms:lossRate 6.9e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Changxianqie" ;
+    schema1:sku 102900011022764 .
+
+<http://data.yoursupermarket.org/product/102900011022849> a schema1:Product ;
+    terms:lossRate 6.73e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "The Local Yellow Youcai" ;
+    schema1:sku 102900011022849 .
+
+<http://data.yoursupermarket.org/product/102900011022924> a schema1:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Green Caitai" ;
+    schema1:sku 102900011022924 .
+
+<http://data.yoursupermarket.org/product/102900011023075> a schema1:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "White Jelly Mushroom" ;
+    schema1:sku 102900011023075 .
+
+<http://data.yoursupermarket.org/product/102900011023464> a schema1:Product ;
+    terms:lossRate 1.033e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xiaoqingcai (1)" ;
+    schema1:sku 102900011023464 .
+
+<http://data.yoursupermarket.org/product/102900011023648> a schema1:Product ;
+    terms:lossRate 8.78e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Wuhu Green Pepper (2)" ;
+    schema1:sku 102900011023648 .
+
+<http://data.yoursupermarket.org/product/102900011023976> a schema1:Product ;
+    terms:lossRate 1.162e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Net Lotus Root (2)" ;
+    schema1:sku 102900011023976 .
+
+<http://data.yoursupermarket.org/product/102900011024010> a schema1:Product ;
+    terms:lossRate 1.269e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Fresh Lotus Root Zone (Bag)" ;
+    schema1:sku 102900011024010 .
+
+<http://data.yoursupermarket.org/product/102900011026502> a schema1:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Fresh Rice Dumplings Leaves" ;
+    schema1:sku 102900011026502 .
+
+<http://data.yoursupermarket.org/product/102900011026618> a schema1:Product ;
+    terms:lossRate 9.27e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Aihao" ;
+    schema1:sku 102900011026618 .
+
+<http://data.yoursupermarket.org/product/102900011026793> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Apricot Bao Mushroom (250 G)" ;
+    schema1:sku 102900011026793 .
+
+<http://data.yoursupermarket.org/product/102900011027462> a schema1:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Naibai Caimiao" ;
+    schema1:sku 102900011027462 .
+
+<http://data.yoursupermarket.org/product/102900011027479> a schema1:Product ;
+    terms:lossRate 8.71e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Xiaozhoupi" ;
+    schema1:sku 102900011027479 .
+
+<http://data.yoursupermarket.org/product/102900011027615> a schema1:Product ;
+    terms:lossRate 3.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Juhua Youcai" ;
+    schema1:sku 102900011027615 .
+
+<http://data.yoursupermarket.org/product/102900011028407> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Yuganjiao" ;
+    schema1:sku 102900011028407 .
+
+<http://data.yoursupermarket.org/product/102900011029176> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Lameizi" ;
+    schema1:sku 102900011029176 .
+
+<http://data.yoursupermarket.org/product/102900011029275> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Purple Hot Peppers" ;
+    schema1:sku 102900011029275 .
+
+<http://data.yoursupermarket.org/product/102900011029299> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Purple Screw Pepper" ;
+    schema1:sku 102900011029299 .
+
+<http://data.yoursupermarket.org/product/102900011029305> a schema1:Product ;
+    terms:lossRate 1.8e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Fruit Chili" ;
+    schema1:sku 102900011029305 .
+
+<http://data.yoursupermarket.org/product/102900011029688> a schema1:Product ;
+    terms:lossRate 1.075e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Shuanggou Cabbage" ;
+    schema1:sku 102900011029688 .
+
+<http://data.yoursupermarket.org/product/102900011030042> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Zhijiang Red Bolt (Bag)" ;
+    schema1:sku 102900011030042 .
+
+<http://data.yoursupermarket.org/product/102900011030059> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yunnan Lettuce (Bag)" ;
+    schema1:sku 102900011030059 .
+
+<http://data.yoursupermarket.org/product/102900011030097> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yunnan Leaf Lettuce (Bag)" ;
+    schema1:sku 102900011030097 .
+
+<http://data.yoursupermarket.org/product/102900011030103> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Garden Chrysanthemum (Bag)" ;
+    schema1:sku 102900011030103 .
+
+<http://data.yoursupermarket.org/product/102900011030110> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Spinach (Bag)" ;
+    schema1:sku 102900011030110 .
+
+<http://data.yoursupermarket.org/product/102900011030134> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Caixin (Bag)" ;
+    schema1:sku 102900011030134 .
+
+<http://data.yoursupermarket.org/product/102900011030141> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Shanghai Green (Bag)" ;
+    schema1:sku 102900011030141 .
+
+<http://data.yoursupermarket.org/product/102900011030158> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xiaoqingcai (2)" ;
+    schema1:sku 102900011030158 .
+
+<http://data.yoursupermarket.org/product/102900011030400> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Hongshan Shoutidai" ;
+    schema1:sku 102900011030400 .
+
+<http://data.yoursupermarket.org/product/102900011030417> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Hongshan Gift Box" ;
+    schema1:sku 102900011030417 .
+
+<http://data.yoursupermarket.org/product/102900011030561> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chopped Red Pine (Box)" ;
+    schema1:sku 102900011030561 .
+
+<http://data.yoursupermarket.org/product/102900011030608> a schema1:Product ;
+    terms:lossRate 1.98e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Steak Mushrooms (Box)" ;
+    schema1:sku 102900011030608 .
+
+<http://data.yoursupermarket.org/product/102900011030615> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Pork Stomach Mushroom (Box)" ;
+    schema1:sku 102900011030615 .
+
+<http://data.yoursupermarket.org/product/102900011030622> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Black Porcini (Box)" ;
+    schema1:sku 102900011030622 .
+
+<http://data.yoursupermarket.org/product/102900011030639> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Black Chicken Fir Bacteria (Box)" ;
+    schema1:sku 102900011030639 .
+
+<http://data.yoursupermarket.org/product/102900011030905> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yuxingcao (Bag)" ;
+    schema1:sku 102900011030905 .
+
+<http://data.yoursupermarket.org/product/102900011030912> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Haixian Mushroom (Bag)" ;
+    schema1:sku 102900011030912 .
+
+<http://data.yoursupermarket.org/product/102900011030929> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Fresh Edible Fungus (Bag)" ;
+    schema1:sku 102900011030929 .
+
+<http://data.yoursupermarket.org/product/102900011031100> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Millet Pepper (Bag)" ;
+    schema1:sku 102900011031100 .
+
+<http://data.yoursupermarket.org/product/102900011031216> a schema1:Product ;
+    terms:lossRate 1.034e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Ice Grass (Box)" ;
+    schema1:sku 102900011031216 .
+
+<http://data.yoursupermarket.org/product/102900011031582> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green Hot Peppers (Bag)" ;
+    schema1:sku 102900011031582 .
+
+<http://data.yoursupermarket.org/product/102900011031599> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Apricot Bao Mushroom (Bag)" ;
+    schema1:sku 102900011031599 .
+
+<http://data.yoursupermarket.org/product/102900011031735> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "7 Colour Pepper (Bag)" ;
+    schema1:sku 102900011031735 .
+
+<http://data.yoursupermarket.org/product/102900011031742> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Bell Pepper (Bag)" ;
+    schema1:sku 102900011031742 .
+
+<http://data.yoursupermarket.org/product/102900011031759> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Bell Pepper (Bag)" ;
+    schema1:sku 102900011031759 .
+
+<http://data.yoursupermarket.org/product/102900011031841> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Agaricus Bisporus (Bag)" ;
+    schema1:sku 102900011031841 .
+
+<http://data.yoursupermarket.org/product/102900011031858> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Needle Mushroom (Bag)" ;
+    schema1:sku 102900011031858 .
+
+<http://data.yoursupermarket.org/product/102900011031926> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chinese Caterpillar Fungus Flowers (Bag)" ;
+    schema1:sku 102900011031926 .
+
+<http://data.yoursupermarket.org/product/102900011031995> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Jigu (Bag)" ;
+    schema1:sku 102900011031995 .
+
+<http://data.yoursupermarket.org/product/102900011032022> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Xiaozhoupi (Bag)" ;
+    schema1:sku 102900011032022 .
+
+<http://data.yoursupermarket.org/product/102900011032114> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Water Chestnut (Bag)" ;
+    schema1:sku 102900011032114 .
+
+<http://data.yoursupermarket.org/product/102900011032145> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Wuhu Green Pepper (Bag)" ;
+    schema1:sku 102900011032145 .
+
+<http://data.yoursupermarket.org/product/102900011032176> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Basil (Bag)" ;
+    schema1:sku 102900011032176 .
+
+<http://data.yoursupermarket.org/product/102900011032206> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green Hang Pepper (Bag)" ;
+    schema1:sku 102900011032206 .
+
+<http://data.yoursupermarket.org/product/102900011032213> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Hang Pepper (Bag)" ;
+    schema1:sku 102900011032213 .
+
+<http://data.yoursupermarket.org/product/102900011032220> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Fruit Pepper (Bag)" ;
+    schema1:sku 102900011032220 .
+
+<http://data.yoursupermarket.org/product/102900011032237> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green Line Pepper (Bag)" ;
+    schema1:sku 102900011032237 .
+
+<http://data.yoursupermarket.org/product/102900011032244> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Hot Peppers (Bag)" ;
+    schema1:sku 102900011032244 .
+
+<http://data.yoursupermarket.org/product/102900011032251> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Luosi Pepper (Bag)" ;
+    schema1:sku 102900011032251 .
+
+<http://data.yoursupermarket.org/product/102900011032282> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xiangtianhongcaitai (Bag)" ;
+    schema1:sku 102900011032282 .
+
+<http://data.yoursupermarket.org/product/102900011032343> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "7 Colour Pepper (2)" ;
+    schema1:sku 102900011032343 .
+
+<http://data.yoursupermarket.org/product/102900011032350> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Bell Pepper (2)" ;
+    schema1:sku 102900011032350 .
+
+<http://data.yoursupermarket.org/product/102900011032367> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Bell Pepper (2)" ;
+    schema1:sku 102900011032367 .
+
+<http://data.yoursupermarket.org/product/102900011032480> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Artemisia Stelleriana" ;
+    schema1:sku 102900011032480 .
+
+<http://data.yoursupermarket.org/product/102900011032589> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yuxingcao " ;
+    schema1:sku 102900011032589 .
+
+<http://data.yoursupermarket.org/product/102900011032619> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Xixia Xianggu Mushroom (2)" ;
+    schema1:sku 102900011032619 .
+
+<http://data.yoursupermarket.org/product/102900011032626> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Fresh Edible Fungus (2)" ;
+    schema1:sku 102900011032626 .
+
+<http://data.yoursupermarket.org/product/102900011032633> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Fresh Sea (2)" ;
+    schema1:sku 102900011032633 .
+
+<http://data.yoursupermarket.org/product/102900011032640> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Jigu (2)" ;
+    schema1:sku 102900011032640 .
+
+<http://data.yoursupermarket.org/product/102900011032732> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "High Melon (2)" ;
+    schema1:sku 102900011032732 .
+
+<http://data.yoursupermarket.org/product/102900011032787> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Zhuyecai (Bag)" ;
+    schema1:sku 102900011032787 .
+
+<http://data.yoursupermarket.org/product/102900011032848> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Ginger And Xiaomijiao Mix (Small Bag)" ;
+    schema1:sku 102900011032848 .
+
+<http://data.yoursupermarket.org/product/102900011033081> a schema1:Product ;
+    terms:lossRate 2.903e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Chuncai" ;
+    schema1:sku 102900011033081 .
+
+<http://data.yoursupermarket.org/product/102900011033173> a schema1:Product ;
+    terms:lossRate 1.68e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Sophora Japonica" ;
+    schema1:sku 102900011033173 .
+
+<http://data.yoursupermarket.org/product/102900011033234> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Hongshujian (Bag)" ;
+    schema1:sku 102900011033234 .
+
+<http://data.yoursupermarket.org/product/102900011033241> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Caidian Quinoa Artemisia (Bag)" ;
+    schema1:sku 102900011033241 .
+
+<http://data.yoursupermarket.org/product/102900011033531> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Red Coral (Leaf)" ;
+    schema1:sku 102900011033531 .
+
+<http://data.yoursupermarket.org/product/102900011033562> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Red Oak Leaf" ;
+    schema1:sku 102900011033562 .
+
+<http://data.yoursupermarket.org/product/102900011033586> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Green Butter" ;
+    schema1:sku 102900011033586 .
+
+<http://data.yoursupermarket.org/product/102900011033906> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Powcan Mountain Chinese Cabbage " ;
+    schema1:sku 102900011033906 .
+
+<http://data.yoursupermarket.org/product/102900011033913> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010201> ;
+    schema1:name "Purple Cabbage (2)" ;
+    schema1:sku 102900011033913 .
+
+<http://data.yoursupermarket.org/product/102900011033920> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Huangxincai (2)" ;
+    schema1:sku 102900011033920 .
+
+<http://data.yoursupermarket.org/product/102900011033937> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Needle Mushroom (2)" ;
+    schema1:sku 102900011033937 .
+
+<http://data.yoursupermarket.org/product/102900011033944> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Apricot Bao Mushroom (2)" ;
+    schema1:sku 102900011033944 .
+
+<http://data.yoursupermarket.org/product/102900011033968> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Xixia Black Mushroom (2)" ;
+    schema1:sku 102900011033968 .
+
+<http://data.yoursupermarket.org/product/102900011033975> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Green Eggplant (2)" ;
+    schema1:sku 102900011033975 .
+
+<http://data.yoursupermarket.org/product/102900011033982> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Eggplant (1)" ;
+    schema1:sku 102900011033982 .
+
+<http://data.yoursupermarket.org/product/102900011033999> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Round Eggplant (1)" ;
+    schema1:sku 102900011033999 .
+
+<http://data.yoursupermarket.org/product/102900011034026> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010201> ;
+    schema1:name "Zhijiang Qinggengsanhua" ;
+    schema1:sku 102900011034026 .
+
+<http://data.yoursupermarket.org/product/102900011034200> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Amaranth (Bag)" ;
+    schema1:sku 102900011034200 .
+
+<http://data.yoursupermarket.org/product/102900011034217> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Chinese Cabbage (Bag)" ;
+    schema1:sku 102900011034217 .
+
+<http://data.yoursupermarket.org/product/102900011034224> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xiaoqingcai (Bag)" ;
+    schema1:sku 102900011034224 .
+
+<http://data.yoursupermarket.org/product/102900011034231> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Cabbage Stem (Bag)" ;
+    schema1:sku 102900011034231 .
+
+<http://data.yoursupermarket.org/product/102900011034262> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Pepper (Bag)" ;
+    schema1:sku 102900011034262 .
+
+<http://data.yoursupermarket.org/product/102900011034316> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Zhimaxiancai" ;
+    schema1:sku 102900011034316 .
+
+<http://data.yoursupermarket.org/product/102900011034323> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xianzongye" ;
+    schema1:sku 102900011034323 .
+
+<http://data.yoursupermarket.org/product/102900011034330> a schema1:Product ;
+    terms:lossRate 2e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Agaricus Bisporus (Box)" ;
+    schema1:sku 102900011034330 .
+
+<http://data.yoursupermarket.org/product/102900011034354> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xianzongye (Bag) (1)" ;
+    schema1:sku 102900011034354 .
+
+<http://data.yoursupermarket.org/product/102900011034439> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green And Red Hang Pepper Mix (Bag)" ;
+    schema1:sku 102900011034439 .
+
+<http://data.yoursupermarket.org/product/102900011034538> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Black Mushroom (Bag)" ;
+    schema1:sku 102900011034538 .
+
+<http://data.yoursupermarket.org/product/102900011034569> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Honghu Lotus (Lotus Root)" ;
+    schema1:sku 102900011034569 .
+
+<http://data.yoursupermarket.org/product/102900011034705> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Fungus Mushroom Hot Pot Package (Bag)" ;
+    schema1:sku 102900011034705 .
+
+<http://data.yoursupermarket.org/product/102900011035078> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Red Pepper (2)" ;
+    schema1:sku 102900011035078 .
+
+<http://data.yoursupermarket.org/product/102900011035481> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Foreign Garland Chrysanthemum  (Bag)" ;
+    schema1:sku 102900011035481 .
+
+<http://data.yoursupermarket.org/product/102900011035511> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Net Lotus Root (3)" ;
+    schema1:sku 102900011035511 .
+
+<http://data.yoursupermarket.org/product/102900011035740> a schema1:Product ;
+    terms:lossRate 8.4e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Crab Flavor Mushroom And White Mushroom Mix (Box)" ;
+    schema1:sku 102900011035740 .
+
+<http://data.yoursupermarket.org/product/102900011035764> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Longyacai" ;
+    schema1:sku 102900011035764 .
+
+<http://data.yoursupermarket.org/product/102900011035771> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Yellow Baicai (1)" ;
+    schema1:sku 102900011035771 .
+
+<http://data.yoursupermarket.org/product/102900011035788> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Xixia Xianggu Mushroom (Bag)" ;
+    schema1:sku 102900011035788 .
+
+<http://data.yoursupermarket.org/product/102900011035849> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Chinese Cabbage Seedling" ;
+    schema1:sku 102900011035849 .
+
+<http://data.yoursupermarket.org/product/102900011035962> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Wild Lotus Root (2)" ;
+    schema1:sku 102900011035962 .
+
+<http://data.yoursupermarket.org/product/102900011036068> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Mushroom And Leaf Mix (Bag)" ;
+    schema1:sku 102900011036068 .
+
+<http://data.yoursupermarket.org/product/102900011036242> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green And Red Jian Pepper Mix (Bag)" ;
+    schema1:sku 102900011036242 .
+
+<http://data.yoursupermarket.org/product/102900011036266> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Velvet Antler Mushroom (Box)" ;
+    schema1:sku 102900011036266 .
+
+<http://data.yoursupermarket.org/product/102900011036686> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Muercai (Bag)" ;
+    schema1:sku 102900011036686 .
+
+<http://data.yoursupermarket.org/product/102900051000463> a schema1:Product ;
+    terms:lossRate 6.71e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010501> ;
+    schema1:name "Round Eggplant (2)" ;
+    schema1:sku 102900051000463 .
+
+<http://data.yoursupermarket.org/product/102900051000890> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Broccoli" ;
+    schema1:sku 102900051000890 .
+
+<http://data.yoursupermarket.org/product/102900051000944> a schema1:Product ;
+    terms:lossRate 2.405e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Honghu Lotus Root" ;
+    schema1:sku 102900051000944 .
+
+<http://data.yoursupermarket.org/product/102900051004294> a schema1:Product ;
+    terms:lossRate 7.8e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010504> ;
+    schema1:name "Green Line Pepper" ;
+    schema1:sku 102900051004294 .
+
+<http://data.yoursupermarket.org/product/102900051006229> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010402> ;
+    schema1:name "Lotus Root Tip" ;
+    schema1:sku 102900051006229 .
+
+<http://data.yoursupermarket.org/product/102900051009220> a schema1:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Youcaitai" ;
+    schema1:sku 102900051009220 .
+
+<http://data.yoursupermarket.org/product/102900051009336> a schema1:Product ;
+    terms:lossRate 1.168e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chinese Caterpillar Fungus Flowers" ;
+    schema1:sku 102900051009336 .
+
+<http://data.yoursupermarket.org/product/102900051010455> a schema1:Product ;
+    terms:lossRate 1.561e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Huangbaicai (2)" ;
+    schema1:sku 102900051010455 .
+
+<http://data.yoursupermarket.org/product/102900051010790> a schema1:Product ;
+    terms:lossRate 1.958e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Purple Beicai" ;
+    schema1:sku 102900051010790 .
+
+<http://data.yoursupermarket.org/product/106930274220092> a schema1:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Crab Flavor Mushroom (Bag)" ;
+    schema1:sku 106930274220092 .
+
+<http://data.yoursupermarket.org/product/106930274620090> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Haixian Mushroom (Bag) (2)" ;
+    schema1:sku 106930274620090 .
+
+<http://data.yoursupermarket.org/product/106931885000035> a schema1:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Embroidered Aureus" ;
+    schema1:sku 106931885000035 .
+
+<http://data.yoursupermarket.org/product/106931885000356> a schema1:Product ;
+    terms:lossRate 8.34e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Embroidered Aureus (Bag)" ;
+    schema1:sku 106931885000356 .
+
+<http://data.yoursupermarket.org/product/106949711300068> a schema1:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Needle Mushroom (Bag) (3)" ;
+    schema1:sku 106949711300068 .
+
+<http://data.yoursupermarket.org/product/106949711300167> a schema1:Product ;
+    terms:lossRate 6.64e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Needle Mushroom (Bag) (2)" ;
+    schema1:sku 106949711300167 .
+
+<http://data.yoursupermarket.org/product/106949711300259> a schema1:Product ;
+    terms:lossRate 4.5e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Needle Mushroom (Box)" ;
+    schema1:sku 106949711300259 .
+
+<http://data.yoursupermarket.org/product/106956146480197> a schema1:Product ;
+    terms:lossRate 7.3e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The White Mushroom (2)" ;
+    schema1:sku 106956146480197 .
+
+<http://data.yoursupermarket.org/product/106956146480203> a schema1:Product ;
+    terms:lossRate 1.604e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Crab Flavor Mushroom (2)" ;
+    schema1:sku 106956146480203 .
+
+<http://data.yoursupermarket.org/product/106957634300010> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The White Mushroom (Box)" ;
+    schema1:sku 106957634300010 .
+
+<http://data.yoursupermarket.org/product/106957634300058> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "The Crab Flavor Mushroom (Box)" ;
+    schema1:sku 106957634300058 .
+
+<http://data.yoursupermarket.org/product/106958851400125> a schema1:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Haixian Mushroom (Bag) (4)" ;
+    schema1:sku 106958851400125 .
+
+<http://data.yoursupermarket.org/product/106971533450003> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Haixian Mushroom (Bunch)" ;
+    schema1:sku 106971533450003 .
+
+<http://data.yoursupermarket.org/product/106971533455008> a schema1:Product ;
+    terms:lossRate 1.3e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Haixian Mushroom (Bag) (3)" ;
+    schema1:sku 106971533455008 .
+
+<http://data.yoursupermarket.org/product/106971563780002> a schema1:Product ;
+    terms:lossRate 0e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xianzongye (Bag) (2)" ;
+    schema1:sku 106971563780002 .
+
+<http://data.yoursupermarket.org/product/106972776821582> a schema1:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010101> ;
+    schema1:name "Xianzongye (Bag) (3)" ;
+    schema1:sku 106972776821582 .
+
+<http://data.yoursupermarket.org/product/106973223300667> a schema1:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Chinese Caterpillar Fungus Flowers (Box) (2)" ;
+    schema1:sku 106973223300667 .
+
+<http://data.yoursupermarket.org/product/106973990980123> a schema1:Product ;
+    terms:lossRate 1.2e-01 ;
+    schema1:category <http://data.yoursupermarket.org/category/1011010801> ;
+    schema1:name "Hfyg Haixian Mushroom (Bunch)" ;
+    schema1:sku 106973990980123 .
+
+<http://data.yoursupermarket.org/category/1011010201> a schema1:CategoryCode ;
+    schema1:codeValue 1011010201 ;
+    schema1:name "Cabbage" .
+
+<http://data.yoursupermarket.org/category/1011010501> a schema1:CategoryCode ;
+    schema1:codeValue 1011010501 ;
+    schema1:name "Solanum" .
+
+<http://data.yoursupermarket.org/category/1011010402> a schema1:CategoryCode ;
+    schema1:codeValue 1011010402 ;
+    schema1:name "Aquatic Tuberous Vegetables" .
+
+<http://data.yoursupermarket.org/category/1011010504> a schema1:CategoryCode ;
+    schema1:codeValue 1011010504 ;
+    schema1:name "Capsicum" .
+
+<http://data.yoursupermarket.org/category/1011010801> a schema1:CategoryCode ;
+    schema1:codeValue 1011010801 ;
+    schema1:name "Edible Mushroom" .
+
+<http://data.yoursupermarket.org/category/1011010101> a schema1:CategoryCode ;
+    schema1:codeValue 1011010101 ;
+    schema1:name "Flower/Leaf Vegetables" .
+
