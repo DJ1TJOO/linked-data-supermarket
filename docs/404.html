@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      const path = window.location.pathname.replace(/\/$/, "");
+
+      if (/\/product\/[^/]+\/offer\/[^/]+$/.test(path)) {
+        window.location.replace("/linked-data-supermarket/orders.ttl");
+      } else if (/\/product\/[^/]+$/.test(path)) {
+        window.location.replace("/linked-data-supermarket/products.ttl");
+      } else if (/\/order\/[^/]+$/.test(path)) {
+        window.location.replace("/linked-data-supermarket/orders.ttl");
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>
