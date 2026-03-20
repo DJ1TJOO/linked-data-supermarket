@@ -1,1534 +1,1534 @@
-@prefix schema1: <http://schema.org/> .
+@prefix schema: <https://schema.org/> .
 @prefix terms: <https://dj1tjoo.github.io/linked-data-supermarket/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115168> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Niushou Shengcai" ;
-    schema1:sku 102900005115168 ;
-    terms:lossRate 4.39e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115199> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Sichuan Red Cedar" ;
-    schema1:sku 102900005115199 ;
-    terms:lossRate 1.046e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115250> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Xixia Black Mushroom (1)" ;
-    schema1:sku 102900005115250 ;
-    terms:lossRate 1.08e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115625> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Local Xiaomao Cabbage" ;
-    schema1:sku 102900005115625 ;
-    terms:lossRate 1.8e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115748> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "White Caitai" ;
-    schema1:sku 102900005115748 ;
-    terms:lossRate 8.78e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115762> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Amaranth" ;
-    schema1:sku 102900005115762 ;
-    terms:lossRate 1.852e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115779> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yunnan Shengcai" ;
-    schema1:sku 102900005115779 ;
-    terms:lossRate 1.525e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115786> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Zhuyecai" ;
-    schema1:sku 102900005115786 ;
-    terms:lossRate 1.362e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115793> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Chinese Cabbage" ;
-    schema1:sku 102900005115793 ;
-    terms:lossRate 7.59e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115816> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Nanguajian" ;
-    schema1:sku 102900005115816 ;
-    terms:lossRate 1.346e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115823> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Shanghaiqing" ;
-    schema1:sku 102900005115823 ;
-    terms:lossRate 1.443e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115854> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Radish Leaves" ;
-    schema1:sku 102900005115854 ;
-    terms:lossRate 5.35e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115861> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Niushou Youcai" ;
-    schema1:sku 102900005115861 ;
-    terms:lossRate 1.217e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115878> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Garden Chrysanthemum" ;
-    schema1:sku 102900005115878 ;
-    terms:lossRate 6.27e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115885> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Caidian Quinoa Artemisia" ;
-    schema1:sku 102900005115885 ;
-    terms:lossRate 4.7e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115908> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Caixin" ;
-    schema1:sku 102900005115908 ;
-    terms:lossRate 1.37e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115946> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Muercai" ;
-    schema1:sku 102900005115946 ;
-    terms:lossRate 7.61e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115960> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Chinese Cabbage" ;
-    schema1:sku 102900005115960 ;
-    terms:lossRate 2.227e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115977> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Wandoujian" ;
-    schema1:sku 102900005115977 ;
-    terms:lossRate 8.36e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115984> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yunnan Lettuces" ;
-    schema1:sku 102900005115984 ;
-    terms:lossRate 1.281e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116042> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Lotus Root" ;
-    schema1:sku 102900005116042 ;
-    terms:lossRate 1.532e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116219> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Hot Peppers" ;
-    schema1:sku 102900005116219 ;
-    terms:lossRate 6.73e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116226> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green Hot Peppers" ;
-    schema1:sku 102900005116226 ;
-    terms:lossRate 6.72e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116233> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Pepper (1)" ;
-    schema1:sku 102900005116233 ;
-    terms:lossRate 1.176e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116257> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Eggplant (2)" ;
-    schema1:sku 102900005116257 ;
-    terms:lossRate 6.07e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116509> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Green Eggplant (1)" ;
-    schema1:sku 102900005116509 ;
-    terms:lossRate 5.01e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116530> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Xixia Mushroom (1)" ;
-    schema1:sku 102900005116530 ;
-    terms:lossRate 1.382e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116547> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Needle Mushroom (1)" ;
-    schema1:sku 102900005116547 ;
-    terms:lossRate 3.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116639> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Machixian" ;
-    schema1:sku 102900005116639 ;
-    terms:lossRate 1.178e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116714> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
-    schema1:name "Broccoli" ;
-    schema1:sku 102900005116714 ;
-    terms:lossRate 9.26e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116776> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Local Spinach" ;
-    schema1:sku 102900005116776 ;
-    terms:lossRate 1.046e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116790> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yellow Xincai (1)" ;
-    schema1:sku 102900005116790 ;
-    terms:lossRate 1.064e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116806> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Black Rapeseed" ;
-    schema1:sku 102900005116806 ;
-    terms:lossRate 1e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116837> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Ping Mushroom" ;
-    schema1:sku 102900005116837 ;
-    terms:lossRate 1.16e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116899> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Net Lotus Root (1)" ;
-    schema1:sku 102900005116899 ;
-    terms:lossRate 5.54e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116905> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green Hangjiao (1)" ;
-    schema1:sku 102900005116905 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116912> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Jigu Mushroom (1)" ;
-    schema1:sku 102900005116912 ;
-    terms:lossRate 8.99e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116943> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Hang Pepper" ;
-    schema1:sku 102900005116943 ;
-    terms:lossRate 9.99e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005117056> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Paopaojiao (Jingpin)" ;
-    schema1:sku 102900005117056 ;
-    terms:lossRate 7.08e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005117209> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "7 Colour Pepper (1)" ;
-    schema1:sku 102900005117209 ;
-    terms:lossRate 1.598e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005117353> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The White Mushroom (1)" ;
-    schema1:sku 102900005117353 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118572> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Local Shanghaiqing" ;
-    schema1:sku 102900005118572 ;
-    terms:lossRate 1.199e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118817> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Spinach" ;
-    schema1:sku 102900005118817 ;
-    terms:lossRate 1.851e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118824> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "High Melon (1)" ;
-    schema1:sku 102900005118824 ;
-    terms:lossRate 2.925e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118831> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Wawacai" ;
-    schema1:sku 102900005118831 ;
-    terms:lossRate 2.48e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119098> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Agaricus Bisporus" ;
-    schema1:sku 102900005119098 ;
-    terms:lossRate 1.278e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119104> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Crab Flavor Mushroom (1)" ;
-    schema1:sku 102900005119104 ;
-    terms:lossRate 9.24e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119944> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Haixian Mushroom (1)" ;
-    schema1:sku 102900005119944 ;
-    terms:lossRate 9.89e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119968> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green Hangzhou Pepper (2)" ;
-    schema1:sku 102900005119968 ;
-    terms:lossRate 9e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119975> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Hongshujian" ;
-    schema1:sku 102900005119975 ;
-    terms:lossRate 8.42e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005122654> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Zhijiang Red Bolt" ;
-    schema1:sku 102900005122654 ;
-    terms:lossRate 1.138e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005123880> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Bell Pepper (1)" ;
-    schema1:sku 102900005123880 ;
-    terms:lossRate 1.633e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005125808> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Millet Pepper" ;
-    schema1:sku 102900005125808 ;
-    terms:lossRate 5.86e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005125815> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Apricot Bao Mushroom (1)" ;
-    schema1:sku 102900005125815 ;
-    terms:lossRate 5.05e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005128748> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Huanghuacai" ;
-    schema1:sku 102900005128748 ;
-    terms:lossRate 1.689e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000175> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Kuaicai" ;
-    schema1:sku 102900011000175 ;
-    terms:lossRate 2.038e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000328> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Luosi Pepper" ;
-    schema1:sku 102900011000328 ;
-    terms:lossRate 1.018e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000335> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Round Eggplant" ;
-    schema1:sku 102900011000335 ;
-    terms:lossRate 3.2e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000571> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Suizhou Bubble Green" ;
-    schema1:sku 102900011000571 ;
-    terms:lossRate 1.22e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000632> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
-    schema1:name "Purple Cabbage (1)" ;
-    schema1:sku 102900011000632 ;
-    terms:lossRate 2.553e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000861> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Line Pepper" ;
-    schema1:sku 102900011000861 ;
-    terms:lossRate 7.71e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001219> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "The Red Bell Pepper (1)" ;
-    schema1:sku 102900011001219 ;
-    terms:lossRate 8.93e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001561> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Lotus (Ea)" ;
-    schema1:sku 102900011001561 ;
-    terms:lossRate 1.217e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001691> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Water Chestnut (Lingjiao)" ;
-    schema1:sku 102900011001691 ;
-    terms:lossRate 9.61e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001806> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Jigu Mushroom (Bunch)" ;
-    schema1:sku 102900011001806 ;
-    terms:lossRate 1.242e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001813> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Needle Mushroom (Bag) (1)" ;
-    schema1:sku 102900011001813 ;
-    terms:lossRate 8.85e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011002414> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Panax Notoginseng" ;
-    schema1:sku 102900011002414 ;
-    terms:lossRate 1.695e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006689> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Dongmenkou Xiaobaicai" ;
-    schema1:sku 102900011006689 ;
-    terms:lossRate 2.784e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006948> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Foreign Garland Chrysanthemum " ;
-    schema1:sku 102900011006948 ;
-    terms:lossRate 2.616e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006955> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Ice Grass" ;
-    schema1:sku 102900011006955 ;
-    terms:lossRate 1.501e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007044> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Tremella (Flower)" ;
-    schema1:sku 102900011007044 ;
-    terms:lossRate 9.14e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007464> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Perilla" ;
-    schema1:sku 102900011007464 ;
-    terms:lossRate 1.288e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007471> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Mint" ;
-    schema1:sku 102900011007471 ;
-    terms:lossRate 1.328e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007495> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "The Dandelion" ;
-    schema1:sku 102900011007495 ;
-    terms:lossRate 1.592e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007969> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Red Lotus Root Zone" ;
-    schema1:sku 102900011007969 ;
-    terms:lossRate 1.663e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008133> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Siguajian" ;
-    schema1:sku 102900011008133 ;
-    terms:lossRate 1.598e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008164> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Naibaicai" ;
-    schema1:sku 102900011008164 ;
-    terms:lossRate 1.568e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008485> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Mustard" ;
-    schema1:sku 102900011008485 ;
-    terms:lossRate 1.375e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008492> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Big Broccoli" ;
-    schema1:sku 102900011008492 ;
-    terms:lossRate 4.69e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008515> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Miantiaocai" ;
-    schema1:sku 102900011008515 ;
-    terms:lossRate 1.28e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008522> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Sweet Chinese Cabbage" ;
-    schema1:sku 102900011008522 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008577> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Hericium " ;
-    schema1:sku 102900011008577 ;
-    terms:lossRate 1.619e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008676> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Jicai" ;
-    schema1:sku 102900011008676 ;
-    terms:lossRate 1.156e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009246> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Fresh Black Fungus (1)" ;
-    schema1:sku 102900011009246 ;
-    terms:lossRate 7.63e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009277> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Water Chestnut" ;
-    schema1:sku 102900011009277 ;
-    terms:lossRate 1.102e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009444> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Dalong Eggplant" ;
-    schema1:sku 102900011009444 ;
-    terms:lossRate 1.094e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009772> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Fruit Pepper (Orange)" ;
-    schema1:sku 102900011009772 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009970> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
-    schema1:name "Qinggengsanhua" ;
-    schema1:sku 102900011009970 ;
-    terms:lossRate 1.706e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011010563> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chicken Fir Bacteria" ;
-    schema1:sku 102900011010563 ;
-    terms:lossRate 1.193e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011010891> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Wild Lotus Root (1)" ;
-    schema1:sku 102900011010891 ;
-    terms:lossRate 7.97e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011058> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Black Porcini" ;
-    schema1:sku 102900011011058 ;
-    terms:lossRate 1.017e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011546> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Haixian Mushroom (Bag) (1)" ;
-    schema1:sku 102900011011546 ;
-    terms:lossRate 5.96e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011669> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Xiuzhen Mushroom" ;
-    schema1:sku 102900011011669 ;
-    terms:lossRate 1.193e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011782> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chinese Caterpillar Fungus Flowers (Box) (1)" ;
-    schema1:sku 102900011011782 ;
-    terms:lossRate 1.193e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011012482> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Tea Tree Mushroom (Bag)" ;
-    schema1:sku 102900011012482 ;
-    terms:lossRate 9.97e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011012871> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Black Chicken  Mushroom" ;
-    schema1:sku 102900011012871 ;
-    terms:lossRate 1.103e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011012994> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Apricot Bao Mushroom (Bag)" ;
-    schema1:sku 102900011012994 ;
-    terms:lossRate 1.003e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011013274> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The White Mushroom (Bag)" ;
-    schema1:sku 102900011013274 ;
-    terms:lossRate 6.57e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011015384> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Malan Head" ;
-    schema1:sku 102900011015384 ;
-    terms:lossRate 1.516e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011015391> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Ganlanye" ;
-    schema1:sku 102900011015391 ;
-    terms:lossRate 1.158e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011016701> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Wuhu Green Pepper (1)" ;
-    schema1:sku 102900011016701 ;
-    terms:lossRate 5.7e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011016909> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Hua Eggplant" ;
-    schema1:sku 102900011016909 ;
-    terms:lossRate 6.98e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011018095> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chinese Caterpillar Fungus Flowers (Bag)" ;
-    schema1:sku 102900011018095 ;
-    terms:lossRate 1.113e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011018132> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Wild Pink Lotus Root" ;
-    schema1:sku 102900011018132 ;
-    terms:lossRate 1.269e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021644> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Hongshan Caitai" ;
-    schema1:sku 102900011021644 ;
-    terms:lossRate 9.34e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021675> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chopped Red Pine" ;
-    schema1:sku 102900011021675 ;
-    terms:lossRate 8.75e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021699> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Steak Mushrooms" ;
-    schema1:sku 102900011021699 ;
-    terms:lossRate 8.11e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021842> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Honghu Lotus Root Powder (Fenou)" ;
-    schema1:sku 102900011021842 ;
-    terms:lossRate 1.181e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022030> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Pepper Mix" ;
-    schema1:sku 102900011022030 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022764> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Changxianqie" ;
-    schema1:sku 102900011022764 ;
-    terms:lossRate 6.9e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022849> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "The Local Yellow Youcai" ;
-    schema1:sku 102900011022849 ;
-    terms:lossRate 6.73e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022924> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Green Caitai" ;
-    schema1:sku 102900011022924 ;
-    terms:lossRate 1.094e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023075> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "White Jelly Mushroom" ;
-    schema1:sku 102900011023075 ;
-    terms:lossRate 1.113e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023464> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xiaoqingcai (1)" ;
-    schema1:sku 102900011023464 ;
-    terms:lossRate 1.033e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023648> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Wuhu Green Pepper (2)" ;
-    schema1:sku 102900011023648 ;
-    terms:lossRate 8.78e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023976> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Net Lotus Root (2)" ;
-    schema1:sku 102900011023976 ;
-    terms:lossRate 1.162e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011024010> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Fresh Lotus Root Zone (Bag)" ;
-    schema1:sku 102900011024010 ;
-    terms:lossRate 1.269e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011026502> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Fresh Rice Dumplings Leaves" ;
-    schema1:sku 102900011026502 ;
-    terms:lossRate 1.094e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011026618> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Aihao" ;
-    schema1:sku 102900011026618 ;
-    terms:lossRate 9.27e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011026793> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Apricot Bao Mushroom (250 G)" ;
-    schema1:sku 102900011026793 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011027462> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Naibai Caimiao" ;
-    schema1:sku 102900011027462 ;
-    terms:lossRate 1.094e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011027479> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Xiaozhoupi" ;
-    schema1:sku 102900011027479 ;
-    terms:lossRate 8.71e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011027615> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Juhua Youcai" ;
-    schema1:sku 102900011027615 ;
-    terms:lossRate 3.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011028407> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Yuganjiao" ;
-    schema1:sku 102900011028407 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029176> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Lameizi" ;
-    schema1:sku 102900011029176 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029275> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Purple Hot Peppers" ;
-    schema1:sku 102900011029275 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029299> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Purple Screw Pepper" ;
-    schema1:sku 102900011029299 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029305> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Fruit Chili" ;
-    schema1:sku 102900011029305 ;
-    terms:lossRate 1.8e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029688> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Shuanggou Cabbage" ;
-    schema1:sku 102900011029688 ;
-    terms:lossRate 1.075e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030042> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Zhijiang Red Bolt (Bag)" ;
-    schema1:sku 102900011030042 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030059> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yunnan Lettuce (Bag)" ;
-    schema1:sku 102900011030059 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030097> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yunnan Leaf Lettuce (Bag)" ;
-    schema1:sku 102900011030097 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030103> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Garden Chrysanthemum (Bag)" ;
-    schema1:sku 102900011030103 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030110> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Spinach (Bag)" ;
-    schema1:sku 102900011030110 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030134> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Caixin (Bag)" ;
-    schema1:sku 102900011030134 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030141> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Shanghai Green (Bag)" ;
-    schema1:sku 102900011030141 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030158> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xiaoqingcai (2)" ;
-    schema1:sku 102900011030158 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030400> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Hongshan Shoutidai" ;
-    schema1:sku 102900011030400 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030417> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Hongshan Gift Box" ;
-    schema1:sku 102900011030417 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030561> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chopped Red Pine (Box)" ;
-    schema1:sku 102900011030561 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030608> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Steak Mushrooms (Box)" ;
-    schema1:sku 102900011030608 ;
-    terms:lossRate 1.98e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030615> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Pork Stomach Mushroom (Box)" ;
-    schema1:sku 102900011030615 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030622> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Black Porcini (Box)" ;
-    schema1:sku 102900011030622 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030639> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Black Chicken Fir Bacteria (Box)" ;
-    schema1:sku 102900011030639 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030905> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yuxingcao (Bag)" ;
-    schema1:sku 102900011030905 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030912> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Haixian Mushroom (Bag)" ;
-    schema1:sku 102900011030912 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030929> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Fresh Edible Fungus (Bag)" ;
-    schema1:sku 102900011030929 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031100> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Millet Pepper (Bag)" ;
-    schema1:sku 102900011031100 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031216> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Ice Grass (Box)" ;
-    schema1:sku 102900011031216 ;
-    terms:lossRate 1.034e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031582> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green Hot Peppers (Bag)" ;
-    schema1:sku 102900011031582 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031599> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Apricot Bao Mushroom (Bag)" ;
-    schema1:sku 102900011031599 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031735> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "7 Colour Pepper (Bag)" ;
-    schema1:sku 102900011031735 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031742> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Bell Pepper (Bag)" ;
-    schema1:sku 102900011031742 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031759> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Bell Pepper (Bag)" ;
-    schema1:sku 102900011031759 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031841> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Agaricus Bisporus (Bag)" ;
-    schema1:sku 102900011031841 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031858> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Needle Mushroom (Bag)" ;
-    schema1:sku 102900011031858 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031926> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chinese Caterpillar Fungus Flowers (Bag)" ;
-    schema1:sku 102900011031926 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031995> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Jigu (Bag)" ;
-    schema1:sku 102900011031995 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032022> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Xiaozhoupi (Bag)" ;
-    schema1:sku 102900011032022 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032114> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Water Chestnut (Bag)" ;
-    schema1:sku 102900011032114 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032145> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Wuhu Green Pepper (Bag)" ;
-    schema1:sku 102900011032145 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032176> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Basil (Bag)" ;
-    schema1:sku 102900011032176 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032206> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green Hang Pepper (Bag)" ;
-    schema1:sku 102900011032206 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032213> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Hang Pepper (Bag)" ;
-    schema1:sku 102900011032213 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032220> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Fruit Pepper (Bag)" ;
-    schema1:sku 102900011032220 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032237> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green Line Pepper (Bag)" ;
-    schema1:sku 102900011032237 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032244> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Hot Peppers (Bag)" ;
-    schema1:sku 102900011032244 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032251> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Luosi Pepper (Bag)" ;
-    schema1:sku 102900011032251 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032282> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xiangtianhongcaitai (Bag)" ;
-    schema1:sku 102900011032282 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032343> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "7 Colour Pepper (2)" ;
-    schema1:sku 102900011032343 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032350> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Bell Pepper (2)" ;
-    schema1:sku 102900011032350 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032367> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Bell Pepper (2)" ;
-    schema1:sku 102900011032367 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032480> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Artemisia Stelleriana" ;
-    schema1:sku 102900011032480 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032589> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yuxingcao " ;
-    schema1:sku 102900011032589 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032619> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Xixia Xianggu Mushroom (2)" ;
-    schema1:sku 102900011032619 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032626> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Fresh Edible Fungus (2)" ;
-    schema1:sku 102900011032626 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032633> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Fresh Sea (2)" ;
-    schema1:sku 102900011032633 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032640> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Jigu (2)" ;
-    schema1:sku 102900011032640 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032732> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "High Melon (2)" ;
-    schema1:sku 102900011032732 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032787> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Zhuyecai (Bag)" ;
-    schema1:sku 102900011032787 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032848> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Ginger And Xiaomijiao Mix (Small Bag)" ;
-    schema1:sku 102900011032848 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033081> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Chuncai" ;
-    schema1:sku 102900011033081 ;
-    terms:lossRate 2.903e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033173> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Sophora Japonica" ;
-    schema1:sku 102900011033173 ;
-    terms:lossRate 1.68e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033234> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Hongshujian (Bag)" ;
-    schema1:sku 102900011033234 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033241> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Caidian Quinoa Artemisia (Bag)" ;
-    schema1:sku 102900011033241 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033531> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Red Coral (Leaf)" ;
-    schema1:sku 102900011033531 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033562> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Red Oak Leaf" ;
-    schema1:sku 102900011033562 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033586> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Green Butter" ;
-    schema1:sku 102900011033586 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033906> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Powcan Mountain Chinese Cabbage " ;
-    schema1:sku 102900011033906 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033913> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
-    schema1:name "Purple Cabbage (2)" ;
-    schema1:sku 102900011033913 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033920> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Huangxincai (2)" ;
-    schema1:sku 102900011033920 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033937> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Needle Mushroom (2)" ;
-    schema1:sku 102900011033937 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033944> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Apricot Bao Mushroom (2)" ;
-    schema1:sku 102900011033944 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033968> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Xixia Black Mushroom (2)" ;
-    schema1:sku 102900011033968 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033975> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Green Eggplant (2)" ;
-    schema1:sku 102900011033975 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033982> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Eggplant (1)" ;
-    schema1:sku 102900011033982 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033999> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Round Eggplant (1)" ;
-    schema1:sku 102900011033999 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034026> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
-    schema1:name "Zhijiang Qinggengsanhua" ;
-    schema1:sku 102900011034026 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034200> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Amaranth (Bag)" ;
-    schema1:sku 102900011034200 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034217> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Chinese Cabbage (Bag)" ;
-    schema1:sku 102900011034217 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034224> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xiaoqingcai (Bag)" ;
-    schema1:sku 102900011034224 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034231> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Cabbage Stem (Bag)" ;
-    schema1:sku 102900011034231 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034262> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Pepper (Bag)" ;
-    schema1:sku 102900011034262 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034316> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Zhimaxiancai" ;
-    schema1:sku 102900011034316 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034323> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xianzongye" ;
-    schema1:sku 102900011034323 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034330> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Agaricus Bisporus (Box)" ;
-    schema1:sku 102900011034330 ;
-    terms:lossRate 2e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034354> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xianzongye (Bag) (1)" ;
-    schema1:sku 102900011034354 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034439> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green And Red Hang Pepper Mix (Bag)" ;
-    schema1:sku 102900011034439 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034538> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Black Mushroom (Bag)" ;
-    schema1:sku 102900011034538 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034569> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Honghu Lotus (Lotus Root)" ;
-    schema1:sku 102900011034569 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034705> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Fungus Mushroom Hot Pot Package (Bag)" ;
-    schema1:sku 102900011034705 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035078> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Red Pepper (2)" ;
-    schema1:sku 102900011035078 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035481> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Foreign Garland Chrysanthemum  (Bag)" ;
-    schema1:sku 102900011035481 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035511> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Net Lotus Root (3)" ;
-    schema1:sku 102900011035511 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035740> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Crab Flavor Mushroom And White Mushroom Mix (Box)" ;
-    schema1:sku 102900011035740 ;
-    terms:lossRate 8.4e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035764> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Longyacai" ;
-    schema1:sku 102900011035764 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035771> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Yellow Baicai (1)" ;
-    schema1:sku 102900011035771 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035788> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Xixia Xianggu Mushroom (Bag)" ;
-    schema1:sku 102900011035788 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035849> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Chinese Cabbage Seedling" ;
-    schema1:sku 102900011035849 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035962> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Wild Lotus Root (2)" ;
-    schema1:sku 102900011035962 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036068> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Mushroom And Leaf Mix (Bag)" ;
-    schema1:sku 102900011036068 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036242> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green And Red Jian Pepper Mix (Bag)" ;
-    schema1:sku 102900011036242 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036266> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Velvet Antler Mushroom (Box)" ;
-    schema1:sku 102900011036266 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036686> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Muercai (Bag)" ;
-    schema1:sku 102900011036686 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000463> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
-    schema1:name "Round Eggplant (2)" ;
-    schema1:sku 102900051000463 ;
-    terms:lossRate 6.71e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000890> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Broccoli" ;
-    schema1:sku 102900051000890 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000944> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Honghu Lotus Root" ;
-    schema1:sku 102900051000944 ;
-    terms:lossRate 2.405e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051004294> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
-    schema1:name "Green Line Pepper" ;
-    schema1:sku 102900051004294 ;
-    terms:lossRate 7.8e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051006229> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
-    schema1:name "Lotus Root Tip" ;
-    schema1:sku 102900051006229 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051009220> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Youcaitai" ;
-    schema1:sku 102900051009220 ;
-    terms:lossRate 1.094e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051009336> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chinese Caterpillar Fungus Flowers" ;
-    schema1:sku 102900051009336 ;
-    terms:lossRate 1.168e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051010455> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Huangbaicai (2)" ;
-    schema1:sku 102900051010455 ;
-    terms:lossRate 1.561e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051010790> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Purple Beicai" ;
-    schema1:sku 102900051010790 ;
-    terms:lossRate 1.958e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106930274220092> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Crab Flavor Mushroom (Bag)" ;
-    schema1:sku 106930274220092 ;
-    terms:lossRate 1.113e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106930274620090> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Haixian Mushroom (Bag) (2)" ;
-    schema1:sku 106930274620090 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106931885000035> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Embroidered Aureus" ;
-    schema1:sku 106931885000035 ;
-    terms:lossRate 1.113e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106931885000356> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Embroidered Aureus (Bag)" ;
-    schema1:sku 106931885000356 ;
-    terms:lossRate 8.34e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106949711300068> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Needle Mushroom (Bag) (3)" ;
-    schema1:sku 106949711300068 ;
-    terms:lossRate 1.113e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106949711300167> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Needle Mushroom (Bag) (2)" ;
-    schema1:sku 106949711300167 ;
-    terms:lossRate 6.64e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106949711300259> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Needle Mushroom (Box)" ;
-    schema1:sku 106949711300259 ;
-    terms:lossRate 4.5e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106956146480197> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The White Mushroom (2)" ;
-    schema1:sku 106956146480197 ;
-    terms:lossRate 7.3e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106956146480203> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Crab Flavor Mushroom (2)" ;
-    schema1:sku 106956146480203 ;
-    terms:lossRate 1.604e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106957634300010> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The White Mushroom (Box)" ;
-    schema1:sku 106957634300010 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106957634300058> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "The Crab Flavor Mushroom (Box)" ;
-    schema1:sku 106957634300058 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106958851400125> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Haixian Mushroom (Bag) (4)" ;
-    schema1:sku 106958851400125 ;
-    terms:lossRate 1.113e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106971533450003> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Haixian Mushroom (Bunch)" ;
-    schema1:sku 106971533450003 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106971533455008> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Haixian Mushroom (Bag) (3)" ;
-    schema1:sku 106971533455008 ;
-    terms:lossRate 1.3e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106971563780002> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xianzongye (Bag) (2)" ;
-    schema1:sku 106971563780002 ;
-    terms:lossRate 0e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106972776821582> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
-    schema1:name "Xianzongye (Bag) (3)" ;
-    schema1:sku 106972776821582 ;
-    terms:lossRate 9.43e+00 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106973223300667> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Chinese Caterpillar Fungus Flowers (Box) (2)" ;
-    schema1:sku 106973223300667 ;
-    terms:lossRate 1.113e+01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/product/106973990980123> a schema1:Product ;
-    schema1:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
-    schema1:name "Hfyg Haixian Mushroom (Bunch)" ;
-    schema1:sku 106973990980123 ;
-    terms:lossRate 1.2e-01 .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> a schema1:CategoryCode ;
-    schema1:codeValue 1011010201 ;
-    schema1:name "Cabbage" .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> a schema1:CategoryCode ;
-    schema1:codeValue 1011010501 ;
-    schema1:name "Solanum" .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> a schema1:CategoryCode ;
-    schema1:codeValue 1011010402 ;
-    schema1:name "Aquatic Tuberous Vegetables" .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> a schema1:CategoryCode ;
-    schema1:codeValue 1011010504 ;
-    schema1:name "Capsicum" .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> a schema1:CategoryCode ;
-    schema1:codeValue 1011010801 ;
-    schema1:name "Edible Mushroom" .
-
-<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> a schema1:CategoryCode ;
-    schema1:codeValue 1011010101 ;
-    schema1:name "Flower/Leaf Vegetables" .
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115168> a schema:Product ;
+    terms:lossRate 4.39e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Niushou Shengcai" ;
+    schema:sku 102900005115168 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115199> a schema:Product ;
+    terms:lossRate 1.046e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Sichuan Red Cedar" ;
+    schema:sku 102900005115199 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115250> a schema:Product ;
+    terms:lossRate 1.08e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Xixia Black Mushroom (1)" ;
+    schema:sku 102900005115250 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115625> a schema:Product ;
+    terms:lossRate 1.8e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Local Xiaomao Cabbage" ;
+    schema:sku 102900005115625 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115748> a schema:Product ;
+    terms:lossRate 8.78e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "White Caitai" ;
+    schema:sku 102900005115748 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115762> a schema:Product ;
+    terms:lossRate 1.852e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Amaranth" ;
+    schema:sku 102900005115762 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115779> a schema:Product ;
+    terms:lossRate 1.525e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yunnan Shengcai" ;
+    schema:sku 102900005115779 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115786> a schema:Product ;
+    terms:lossRate 1.362e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Zhuyecai" ;
+    schema:sku 102900005115786 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115793> a schema:Product ;
+    terms:lossRate 7.59e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Chinese Cabbage" ;
+    schema:sku 102900005115793 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115816> a schema:Product ;
+    terms:lossRate 1.346e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Nanguajian" ;
+    schema:sku 102900005115816 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115823> a schema:Product ;
+    terms:lossRate 1.443e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Shanghaiqing" ;
+    schema:sku 102900005115823 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115854> a schema:Product ;
+    terms:lossRate 5.35e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Radish Leaves" ;
+    schema:sku 102900005115854 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115861> a schema:Product ;
+    terms:lossRate 1.217e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Niushou Youcai" ;
+    schema:sku 102900005115861 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115878> a schema:Product ;
+    terms:lossRate 6.27e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Garden Chrysanthemum" ;
+    schema:sku 102900005115878 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115885> a schema:Product ;
+    terms:lossRate 4.7e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Caidian Quinoa Artemisia" ;
+    schema:sku 102900005115885 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115908> a schema:Product ;
+    terms:lossRate 1.37e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Caixin" ;
+    schema:sku 102900005115908 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115946> a schema:Product ;
+    terms:lossRate 7.61e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Muercai" ;
+    schema:sku 102900005115946 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115960> a schema:Product ;
+    terms:lossRate 2.227e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Chinese Cabbage" ;
+    schema:sku 102900005115960 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115977> a schema:Product ;
+    terms:lossRate 8.36e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Wandoujian" ;
+    schema:sku 102900005115977 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115984> a schema:Product ;
+    terms:lossRate 1.281e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yunnan Lettuces" ;
+    schema:sku 102900005115984 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116042> a schema:Product ;
+    terms:lossRate 1.532e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Lotus Root" ;
+    schema:sku 102900005116042 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116219> a schema:Product ;
+    terms:lossRate 6.73e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Hot Peppers" ;
+    schema:sku 102900005116219 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116226> a schema:Product ;
+    terms:lossRate 6.72e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green Hot Peppers" ;
+    schema:sku 102900005116226 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116233> a schema:Product ;
+    terms:lossRate 1.176e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Pepper (1)" ;
+    schema:sku 102900005116233 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116257> a schema:Product ;
+    terms:lossRate 6.07e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Eggplant (2)" ;
+    schema:sku 102900005116257 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116509> a schema:Product ;
+    terms:lossRate 5.01e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Green Eggplant (1)" ;
+    schema:sku 102900005116509 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116530> a schema:Product ;
+    terms:lossRate 1.382e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Xixia Mushroom (1)" ;
+    schema:sku 102900005116530 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116547> a schema:Product ;
+    terms:lossRate 3.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Needle Mushroom (1)" ;
+    schema:sku 102900005116547 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116639> a schema:Product ;
+    terms:lossRate 1.178e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Machixian" ;
+    schema:sku 102900005116639 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116714> a schema:Product ;
+    terms:lossRate 9.26e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
+    schema:name "Broccoli" ;
+    schema:sku 102900005116714 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116776> a schema:Product ;
+    terms:lossRate 1.046e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Local Spinach" ;
+    schema:sku 102900005116776 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116790> a schema:Product ;
+    terms:lossRate 1.064e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yellow Xincai (1)" ;
+    schema:sku 102900005116790 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116806> a schema:Product ;
+    terms:lossRate 1e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Black Rapeseed" ;
+    schema:sku 102900005116806 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116837> a schema:Product ;
+    terms:lossRate 1.16e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Ping Mushroom" ;
+    schema:sku 102900005116837 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116899> a schema:Product ;
+    terms:lossRate 5.54e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Net Lotus Root (1)" ;
+    schema:sku 102900005116899 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116905> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green Hangjiao (1)" ;
+    schema:sku 102900005116905 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116912> a schema:Product ;
+    terms:lossRate 8.99e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Jigu Mushroom (1)" ;
+    schema:sku 102900005116912 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116943> a schema:Product ;
+    terms:lossRate 9.99e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Hang Pepper" ;
+    schema:sku 102900005116943 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005117056> a schema:Product ;
+    terms:lossRate 7.08e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Paopaojiao (Jingpin)" ;
+    schema:sku 102900005117056 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005117209> a schema:Product ;
+    terms:lossRate 1.598e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "7 Colour Pepper (1)" ;
+    schema:sku 102900005117209 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005117353> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The White Mushroom (1)" ;
+    schema:sku 102900005117353 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118572> a schema:Product ;
+    terms:lossRate 1.199e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Local Shanghaiqing" ;
+    schema:sku 102900005118572 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118817> a schema:Product ;
+    terms:lossRate 1.851e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Spinach" ;
+    schema:sku 102900005118817 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118824> a schema:Product ;
+    terms:lossRate 2.925e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "High Melon (1)" ;
+    schema:sku 102900005118824 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118831> a schema:Product ;
+    terms:lossRate 2.48e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Wawacai" ;
+    schema:sku 102900005118831 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119098> a schema:Product ;
+    terms:lossRate 1.278e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Agaricus Bisporus" ;
+    schema:sku 102900005119098 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119104> a schema:Product ;
+    terms:lossRate 9.24e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Crab Flavor Mushroom (1)" ;
+    schema:sku 102900005119104 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119944> a schema:Product ;
+    terms:lossRate 9.89e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Haixian Mushroom (1)" ;
+    schema:sku 102900005119944 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119968> a schema:Product ;
+    terms:lossRate 9e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green Hangzhou Pepper (2)" ;
+    schema:sku 102900005119968 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119975> a schema:Product ;
+    terms:lossRate 8.42e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Hongshujian" ;
+    schema:sku 102900005119975 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005122654> a schema:Product ;
+    terms:lossRate 1.138e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Zhijiang Red Bolt" ;
+    schema:sku 102900005122654 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005123880> a schema:Product ;
+    terms:lossRate 1.633e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Bell Pepper (1)" ;
+    schema:sku 102900005123880 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005125808> a schema:Product ;
+    terms:lossRate 5.86e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Millet Pepper" ;
+    schema:sku 102900005125808 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005125815> a schema:Product ;
+    terms:lossRate 5.05e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Apricot Bao Mushroom (1)" ;
+    schema:sku 102900005125815 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900005128748> a schema:Product ;
+    terms:lossRate 1.689e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Huanghuacai" ;
+    schema:sku 102900005128748 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000175> a schema:Product ;
+    terms:lossRate 2.038e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Kuaicai" ;
+    schema:sku 102900011000175 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000328> a schema:Product ;
+    terms:lossRate 1.018e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Luosi Pepper" ;
+    schema:sku 102900011000328 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000335> a schema:Product ;
+    terms:lossRate 3.2e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Round Eggplant" ;
+    schema:sku 102900011000335 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000571> a schema:Product ;
+    terms:lossRate 1.22e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Suizhou Bubble Green" ;
+    schema:sku 102900011000571 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000632> a schema:Product ;
+    terms:lossRate 2.553e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
+    schema:name "Purple Cabbage (1)" ;
+    schema:sku 102900011000632 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000861> a schema:Product ;
+    terms:lossRate 7.71e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Line Pepper" ;
+    schema:sku 102900011000861 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001219> a schema:Product ;
+    terms:lossRate 8.93e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "The Red Bell Pepper (1)" ;
+    schema:sku 102900011001219 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001561> a schema:Product ;
+    terms:lossRate 1.217e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Lotus (Ea)" ;
+    schema:sku 102900011001561 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001691> a schema:Product ;
+    terms:lossRate 9.61e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Water Chestnut (Lingjiao)" ;
+    schema:sku 102900011001691 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001806> a schema:Product ;
+    terms:lossRate 1.242e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Jigu Mushroom (Bunch)" ;
+    schema:sku 102900011001806 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001813> a schema:Product ;
+    terms:lossRate 8.85e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Needle Mushroom (Bag) (1)" ;
+    schema:sku 102900011001813 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011002414> a schema:Product ;
+    terms:lossRate 1.695e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Panax Notoginseng" ;
+    schema:sku 102900011002414 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006689> a schema:Product ;
+    terms:lossRate 2.784e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Dongmenkou Xiaobaicai" ;
+    schema:sku 102900011006689 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006948> a schema:Product ;
+    terms:lossRate 2.616e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Foreign Garland Chrysanthemum " ;
+    schema:sku 102900011006948 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006955> a schema:Product ;
+    terms:lossRate 1.501e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Ice Grass" ;
+    schema:sku 102900011006955 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007044> a schema:Product ;
+    terms:lossRate 9.14e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Tremella (Flower)" ;
+    schema:sku 102900011007044 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007464> a schema:Product ;
+    terms:lossRate 1.288e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Perilla" ;
+    schema:sku 102900011007464 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007471> a schema:Product ;
+    terms:lossRate 1.328e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Mint" ;
+    schema:sku 102900011007471 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007495> a schema:Product ;
+    terms:lossRate 1.592e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "The Dandelion" ;
+    schema:sku 102900011007495 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007969> a schema:Product ;
+    terms:lossRate 1.663e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Red Lotus Root Zone" ;
+    schema:sku 102900011007969 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008133> a schema:Product ;
+    terms:lossRate 1.598e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Siguajian" ;
+    schema:sku 102900011008133 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008164> a schema:Product ;
+    terms:lossRate 1.568e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Naibaicai" ;
+    schema:sku 102900011008164 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008485> a schema:Product ;
+    terms:lossRate 1.375e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Mustard" ;
+    schema:sku 102900011008485 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008492> a schema:Product ;
+    terms:lossRate 4.69e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Big Broccoli" ;
+    schema:sku 102900011008492 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008515> a schema:Product ;
+    terms:lossRate 1.28e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Miantiaocai" ;
+    schema:sku 102900011008515 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008522> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Sweet Chinese Cabbage" ;
+    schema:sku 102900011008522 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008577> a schema:Product ;
+    terms:lossRate 1.619e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Hericium " ;
+    schema:sku 102900011008577 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008676> a schema:Product ;
+    terms:lossRate 1.156e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Jicai" ;
+    schema:sku 102900011008676 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009246> a schema:Product ;
+    terms:lossRate 7.63e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Fresh Black Fungus (1)" ;
+    schema:sku 102900011009246 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009277> a schema:Product ;
+    terms:lossRate 1.102e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Water Chestnut" ;
+    schema:sku 102900011009277 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009444> a schema:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Dalong Eggplant" ;
+    schema:sku 102900011009444 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009772> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Fruit Pepper (Orange)" ;
+    schema:sku 102900011009772 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009970> a schema:Product ;
+    terms:lossRate 1.706e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
+    schema:name "Qinggengsanhua" ;
+    schema:sku 102900011009970 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011010563> a schema:Product ;
+    terms:lossRate 1.193e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chicken Fir Bacteria" ;
+    schema:sku 102900011010563 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011010891> a schema:Product ;
+    terms:lossRate 7.97e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Wild Lotus Root (1)" ;
+    schema:sku 102900011010891 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011058> a schema:Product ;
+    terms:lossRate 1.017e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Black Porcini" ;
+    schema:sku 102900011011058 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011546> a schema:Product ;
+    terms:lossRate 5.96e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Haixian Mushroom (Bag) (1)" ;
+    schema:sku 102900011011546 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011669> a schema:Product ;
+    terms:lossRate 1.193e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Xiuzhen Mushroom" ;
+    schema:sku 102900011011669 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011011782> a schema:Product ;
+    terms:lossRate 1.193e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chinese Caterpillar Fungus Flowers (Box) (1)" ;
+    schema:sku 102900011011782 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011012482> a schema:Product ;
+    terms:lossRate 9.97e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Tea Tree Mushroom (Bag)" ;
+    schema:sku 102900011012482 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011012871> a schema:Product ;
+    terms:lossRate 1.103e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Black Chicken  Mushroom" ;
+    schema:sku 102900011012871 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011012994> a schema:Product ;
+    terms:lossRate 1.003e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Apricot Bao Mushroom (Bag)" ;
+    schema:sku 102900011012994 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011013274> a schema:Product ;
+    terms:lossRate 6.57e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The White Mushroom (Bag)" ;
+    schema:sku 102900011013274 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011015384> a schema:Product ;
+    terms:lossRate 1.516e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Malan Head" ;
+    schema:sku 102900011015384 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011015391> a schema:Product ;
+    terms:lossRate 1.158e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Ganlanye" ;
+    schema:sku 102900011015391 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011016701> a schema:Product ;
+    terms:lossRate 5.7e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Wuhu Green Pepper (1)" ;
+    schema:sku 102900011016701 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011016909> a schema:Product ;
+    terms:lossRate 6.98e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Hua Eggplant" ;
+    schema:sku 102900011016909 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011018095> a schema:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chinese Caterpillar Fungus Flowers (Bag)" ;
+    schema:sku 102900011018095 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011018132> a schema:Product ;
+    terms:lossRate 1.269e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Wild Pink Lotus Root" ;
+    schema:sku 102900011018132 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021644> a schema:Product ;
+    terms:lossRate 9.34e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Hongshan Caitai" ;
+    schema:sku 102900011021644 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021675> a schema:Product ;
+    terms:lossRate 8.75e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chopped Red Pine" ;
+    schema:sku 102900011021675 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021699> a schema:Product ;
+    terms:lossRate 8.11e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Steak Mushrooms" ;
+    schema:sku 102900011021699 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021842> a schema:Product ;
+    terms:lossRate 1.181e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Honghu Lotus Root Powder (Fenou)" ;
+    schema:sku 102900011021842 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022030> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Pepper Mix" ;
+    schema:sku 102900011022030 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022764> a schema:Product ;
+    terms:lossRate 6.9e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Changxianqie" ;
+    schema:sku 102900011022764 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022849> a schema:Product ;
+    terms:lossRate 6.73e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "The Local Yellow Youcai" ;
+    schema:sku 102900011022849 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022924> a schema:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Green Caitai" ;
+    schema:sku 102900011022924 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023075> a schema:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "White Jelly Mushroom" ;
+    schema:sku 102900011023075 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023464> a schema:Product ;
+    terms:lossRate 1.033e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xiaoqingcai (1)" ;
+    schema:sku 102900011023464 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023648> a schema:Product ;
+    terms:lossRate 8.78e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Wuhu Green Pepper (2)" ;
+    schema:sku 102900011023648 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023976> a schema:Product ;
+    terms:lossRate 1.162e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Net Lotus Root (2)" ;
+    schema:sku 102900011023976 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011024010> a schema:Product ;
+    terms:lossRate 1.269e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Fresh Lotus Root Zone (Bag)" ;
+    schema:sku 102900011024010 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011026502> a schema:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Fresh Rice Dumplings Leaves" ;
+    schema:sku 102900011026502 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011026618> a schema:Product ;
+    terms:lossRate 9.27e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Aihao" ;
+    schema:sku 102900011026618 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011026793> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Apricot Bao Mushroom (250 G)" ;
+    schema:sku 102900011026793 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011027462> a schema:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Naibai Caimiao" ;
+    schema:sku 102900011027462 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011027479> a schema:Product ;
+    terms:lossRate 8.71e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Xiaozhoupi" ;
+    schema:sku 102900011027479 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011027615> a schema:Product ;
+    terms:lossRate 3.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Juhua Youcai" ;
+    schema:sku 102900011027615 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011028407> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Yuganjiao" ;
+    schema:sku 102900011028407 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029176> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Lameizi" ;
+    schema:sku 102900011029176 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029275> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Purple Hot Peppers" ;
+    schema:sku 102900011029275 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029299> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Purple Screw Pepper" ;
+    schema:sku 102900011029299 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029305> a schema:Product ;
+    terms:lossRate 1.8e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Fruit Chili" ;
+    schema:sku 102900011029305 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029688> a schema:Product ;
+    terms:lossRate 1.075e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Shuanggou Cabbage" ;
+    schema:sku 102900011029688 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030042> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Zhijiang Red Bolt (Bag)" ;
+    schema:sku 102900011030042 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030059> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yunnan Lettuce (Bag)" ;
+    schema:sku 102900011030059 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030097> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yunnan Leaf Lettuce (Bag)" ;
+    schema:sku 102900011030097 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030103> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Garden Chrysanthemum (Bag)" ;
+    schema:sku 102900011030103 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030110> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Spinach (Bag)" ;
+    schema:sku 102900011030110 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030134> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Caixin (Bag)" ;
+    schema:sku 102900011030134 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030141> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Shanghai Green (Bag)" ;
+    schema:sku 102900011030141 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030158> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xiaoqingcai (2)" ;
+    schema:sku 102900011030158 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030400> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Hongshan Shoutidai" ;
+    schema:sku 102900011030400 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030417> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Hongshan Gift Box" ;
+    schema:sku 102900011030417 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030561> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chopped Red Pine (Box)" ;
+    schema:sku 102900011030561 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030608> a schema:Product ;
+    terms:lossRate 1.98e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Steak Mushrooms (Box)" ;
+    schema:sku 102900011030608 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030615> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Pork Stomach Mushroom (Box)" ;
+    schema:sku 102900011030615 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030622> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Black Porcini (Box)" ;
+    schema:sku 102900011030622 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030639> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Black Chicken Fir Bacteria (Box)" ;
+    schema:sku 102900011030639 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030905> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yuxingcao (Bag)" ;
+    schema:sku 102900011030905 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030912> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Haixian Mushroom (Bag)" ;
+    schema:sku 102900011030912 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030929> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Fresh Edible Fungus (Bag)" ;
+    schema:sku 102900011030929 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031100> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Millet Pepper (Bag)" ;
+    schema:sku 102900011031100 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031216> a schema:Product ;
+    terms:lossRate 1.034e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Ice Grass (Box)" ;
+    schema:sku 102900011031216 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031582> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green Hot Peppers (Bag)" ;
+    schema:sku 102900011031582 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031599> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Apricot Bao Mushroom (Bag)" ;
+    schema:sku 102900011031599 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031735> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "7 Colour Pepper (Bag)" ;
+    schema:sku 102900011031735 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031742> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Bell Pepper (Bag)" ;
+    schema:sku 102900011031742 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031759> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Bell Pepper (Bag)" ;
+    schema:sku 102900011031759 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031841> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Agaricus Bisporus (Bag)" ;
+    schema:sku 102900011031841 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031858> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Needle Mushroom (Bag)" ;
+    schema:sku 102900011031858 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031926> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chinese Caterpillar Fungus Flowers (Bag)" ;
+    schema:sku 102900011031926 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031995> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Jigu (Bag)" ;
+    schema:sku 102900011031995 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032022> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Xiaozhoupi (Bag)" ;
+    schema:sku 102900011032022 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032114> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Water Chestnut (Bag)" ;
+    schema:sku 102900011032114 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032145> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Wuhu Green Pepper (Bag)" ;
+    schema:sku 102900011032145 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032176> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Basil (Bag)" ;
+    schema:sku 102900011032176 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032206> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green Hang Pepper (Bag)" ;
+    schema:sku 102900011032206 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032213> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Hang Pepper (Bag)" ;
+    schema:sku 102900011032213 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032220> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Fruit Pepper (Bag)" ;
+    schema:sku 102900011032220 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032237> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green Line Pepper (Bag)" ;
+    schema:sku 102900011032237 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032244> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Hot Peppers (Bag)" ;
+    schema:sku 102900011032244 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032251> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Luosi Pepper (Bag)" ;
+    schema:sku 102900011032251 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032282> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xiangtianhongcaitai (Bag)" ;
+    schema:sku 102900011032282 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032343> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "7 Colour Pepper (2)" ;
+    schema:sku 102900011032343 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032350> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Bell Pepper (2)" ;
+    schema:sku 102900011032350 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032367> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Bell Pepper (2)" ;
+    schema:sku 102900011032367 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032480> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Artemisia Stelleriana" ;
+    schema:sku 102900011032480 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032589> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yuxingcao " ;
+    schema:sku 102900011032589 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032619> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Xixia Xianggu Mushroom (2)" ;
+    schema:sku 102900011032619 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032626> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Fresh Edible Fungus (2)" ;
+    schema:sku 102900011032626 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032633> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Fresh Sea (2)" ;
+    schema:sku 102900011032633 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032640> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Jigu (2)" ;
+    schema:sku 102900011032640 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032732> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "High Melon (2)" ;
+    schema:sku 102900011032732 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032787> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Zhuyecai (Bag)" ;
+    schema:sku 102900011032787 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032848> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Ginger And Xiaomijiao Mix (Small Bag)" ;
+    schema:sku 102900011032848 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033081> a schema:Product ;
+    terms:lossRate 2.903e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Chuncai" ;
+    schema:sku 102900011033081 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033173> a schema:Product ;
+    terms:lossRate 1.68e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Sophora Japonica" ;
+    schema:sku 102900011033173 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033234> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Hongshujian (Bag)" ;
+    schema:sku 102900011033234 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033241> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Caidian Quinoa Artemisia (Bag)" ;
+    schema:sku 102900011033241 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033531> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Red Coral (Leaf)" ;
+    schema:sku 102900011033531 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033562> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Red Oak Leaf" ;
+    schema:sku 102900011033562 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033586> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Green Butter" ;
+    schema:sku 102900011033586 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033906> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Powcan Mountain Chinese Cabbage " ;
+    schema:sku 102900011033906 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033913> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
+    schema:name "Purple Cabbage (2)" ;
+    schema:sku 102900011033913 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033920> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Huangxincai (2)" ;
+    schema:sku 102900011033920 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033937> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Needle Mushroom (2)" ;
+    schema:sku 102900011033937 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033944> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Apricot Bao Mushroom (2)" ;
+    schema:sku 102900011033944 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033968> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Xixia Black Mushroom (2)" ;
+    schema:sku 102900011033968 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033975> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Green Eggplant (2)" ;
+    schema:sku 102900011033975 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033982> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Eggplant (1)" ;
+    schema:sku 102900011033982 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033999> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Round Eggplant (1)" ;
+    schema:sku 102900011033999 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034026> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
+    schema:name "Zhijiang Qinggengsanhua" ;
+    schema:sku 102900011034026 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034200> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Amaranth (Bag)" ;
+    schema:sku 102900011034200 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034217> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Chinese Cabbage (Bag)" ;
+    schema:sku 102900011034217 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034224> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xiaoqingcai (Bag)" ;
+    schema:sku 102900011034224 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034231> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Cabbage Stem (Bag)" ;
+    schema:sku 102900011034231 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034262> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Pepper (Bag)" ;
+    schema:sku 102900011034262 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034316> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Zhimaxiancai" ;
+    schema:sku 102900011034316 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034323> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xianzongye" ;
+    schema:sku 102900011034323 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034330> a schema:Product ;
+    terms:lossRate 2e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Agaricus Bisporus (Box)" ;
+    schema:sku 102900011034330 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034354> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xianzongye (Bag) (1)" ;
+    schema:sku 102900011034354 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034439> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green And Red Hang Pepper Mix (Bag)" ;
+    schema:sku 102900011034439 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034538> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Black Mushroom (Bag)" ;
+    schema:sku 102900011034538 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034569> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Honghu Lotus (Lotus Root)" ;
+    schema:sku 102900011034569 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034705> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Fungus Mushroom Hot Pot Package (Bag)" ;
+    schema:sku 102900011034705 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035078> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Red Pepper (2)" ;
+    schema:sku 102900011035078 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035481> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Foreign Garland Chrysanthemum  (Bag)" ;
+    schema:sku 102900011035481 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035511> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Net Lotus Root (3)" ;
+    schema:sku 102900011035511 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035740> a schema:Product ;
+    terms:lossRate 8.4e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Crab Flavor Mushroom And White Mushroom Mix (Box)" ;
+    schema:sku 102900011035740 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035764> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Longyacai" ;
+    schema:sku 102900011035764 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035771> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Yellow Baicai (1)" ;
+    schema:sku 102900011035771 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035788> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Xixia Xianggu Mushroom (Bag)" ;
+    schema:sku 102900011035788 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035849> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Chinese Cabbage Seedling" ;
+    schema:sku 102900011035849 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035962> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Wild Lotus Root (2)" ;
+    schema:sku 102900011035962 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036068> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Mushroom And Leaf Mix (Bag)" ;
+    schema:sku 102900011036068 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036242> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green And Red Jian Pepper Mix (Bag)" ;
+    schema:sku 102900011036242 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036266> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Velvet Antler Mushroom (Box)" ;
+    schema:sku 102900011036266 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036686> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Muercai (Bag)" ;
+    schema:sku 102900011036686 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000463> a schema:Product ;
+    terms:lossRate 6.71e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
+    schema:name "Round Eggplant (2)" ;
+    schema:sku 102900051000463 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000890> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Broccoli" ;
+    schema:sku 102900051000890 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000944> a schema:Product ;
+    terms:lossRate 2.405e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Honghu Lotus Root" ;
+    schema:sku 102900051000944 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051004294> a schema:Product ;
+    terms:lossRate 7.8e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
+    schema:name "Green Line Pepper" ;
+    schema:sku 102900051004294 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051006229> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
+    schema:name "Lotus Root Tip" ;
+    schema:sku 102900051006229 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051009220> a schema:Product ;
+    terms:lossRate 1.094e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Youcaitai" ;
+    schema:sku 102900051009220 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051009336> a schema:Product ;
+    terms:lossRate 1.168e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chinese Caterpillar Fungus Flowers" ;
+    schema:sku 102900051009336 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051010455> a schema:Product ;
+    terms:lossRate 1.561e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Huangbaicai (2)" ;
+    schema:sku 102900051010455 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/102900051010790> a schema:Product ;
+    terms:lossRate 1.958e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Purple Beicai" ;
+    schema:sku 102900051010790 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106930274220092> a schema:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Crab Flavor Mushroom (Bag)" ;
+    schema:sku 106930274220092 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106930274620090> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Haixian Mushroom (Bag) (2)" ;
+    schema:sku 106930274620090 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106931885000035> a schema:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Embroidered Aureus" ;
+    schema:sku 106931885000035 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106931885000356> a schema:Product ;
+    terms:lossRate 8.34e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Embroidered Aureus (Bag)" ;
+    schema:sku 106931885000356 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106949711300068> a schema:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Needle Mushroom (Bag) (3)" ;
+    schema:sku 106949711300068 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106949711300167> a schema:Product ;
+    terms:lossRate 6.64e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Needle Mushroom (Bag) (2)" ;
+    schema:sku 106949711300167 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106949711300259> a schema:Product ;
+    terms:lossRate 4.5e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Needle Mushroom (Box)" ;
+    schema:sku 106949711300259 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106956146480197> a schema:Product ;
+    terms:lossRate 7.3e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The White Mushroom (2)" ;
+    schema:sku 106956146480197 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106956146480203> a schema:Product ;
+    terms:lossRate 1.604e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Crab Flavor Mushroom (2)" ;
+    schema:sku 106956146480203 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106957634300010> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The White Mushroom (Box)" ;
+    schema:sku 106957634300010 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106957634300058> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "The Crab Flavor Mushroom (Box)" ;
+    schema:sku 106957634300058 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106958851400125> a schema:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Haixian Mushroom (Bag) (4)" ;
+    schema:sku 106958851400125 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106971533450003> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Haixian Mushroom (Bunch)" ;
+    schema:sku 106971533450003 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106971533455008> a schema:Product ;
+    terms:lossRate 1.3e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Haixian Mushroom (Bag) (3)" ;
+    schema:sku 106971533455008 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106971563780002> a schema:Product ;
+    terms:lossRate 0e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xianzongye (Bag) (2)" ;
+    schema:sku 106971563780002 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106972776821582> a schema:Product ;
+    terms:lossRate 9.43e+00 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
+    schema:name "Xianzongye (Bag) (3)" ;
+    schema:sku 106972776821582 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106973223300667> a schema:Product ;
+    terms:lossRate 1.113e+01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Chinese Caterpillar Fungus Flowers (Box) (2)" ;
+    schema:sku 106973223300667 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/product/106973990980123> a schema:Product ;
+    terms:lossRate 1.2e-01 ;
+    schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> ;
+    schema:name "Hfyg Haixian Mushroom (Bunch)" ;
+    schema:sku 106973990980123 .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> a schema:CategoryCode ;
+    schema:codeValue 1011010201 ;
+    schema:name "Cabbage" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> a schema:CategoryCode ;
+    schema:codeValue 1011010501 ;
+    schema:name "Solanum" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> a schema:CategoryCode ;
+    schema:codeValue 1011010402 ;
+    schema:name "Aquatic Tuberous Vegetables" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> a schema:CategoryCode ;
+    schema:codeValue 1011010504 ;
+    schema:name "Capsicum" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010801> a schema:CategoryCode ;
+    schema:codeValue 1011010801 ;
+    schema:name "Edible Mushroom" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> a schema:CategoryCode ;
+    schema:codeValue 1011010101 ;
+    schema:name "Flower/Leaf Vegetables" .
 

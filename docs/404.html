@@ -2,22 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting...</title>
+    <title>404 - Page Not Found</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+      h1 {
+        font-size: 48px;
+      }
+      p {
+        font-size: 18px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">404</h1>
+    <p id="message">Page not found.</p>
+
     <script>
       const path = window.location.pathname.replace(/\/$/, "");
 
+      let target = null;
+
       if (/\/product\/[^/]+\/offer\/[^/]+$/.test(path)) {
-        window.location.replace("/linked-data-supermarket/orders.ttl");
+        target = "/linked-data-supermarket/orders.ttl";
       } else if (/\/product\/[^/]+$/.test(path)) {
-        window.location.replace("/linked-data-supermarket/products.ttl");
+        target = "/linked-data-supermarket/products.ttl";
       } else if (/\/order\/[^/]+$/.test(path)) {
-        window.location.replace("/linked-data-supermarket/orders.ttl");
-      } else if (/\/terms(\/)?$/.test(path)) {
-        window.location.replace("/linked-data-supermarket/terms.ttl");
+        target = "/linked-data-supermarket/orders.ttl";
+      } else if (/\/terms(\/.*)?$/.test(path)) {
+        target = "/linked-data-supermarket/terms.ttl";
+      } else if (/\/category\/[^/]+$/.test(path)) {
+        target = "/linked-data-supermarket/products.ttl";
+      }
+
+      if (target) {
+        document.getElementById("title").textContent = "Redirecting...";
+        document.getElementById("message").innerHTML =
+          'You are being redirected. <br>If nothing happens, <a href="' +
+          target +
+          '">click here</a>.';
+
+        window.location.replace(target);
       }
     </script>
-  </head>
-  <body>
-    <p>Redirecting…</p>
   </body>
 </html>

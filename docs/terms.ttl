@@ -1,6 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema1: <http://schema.org/> .
+@prefix schema: <https://schema.org/> .
 @prefix terms: <https://dj1tjoo.github.io/linked-data-supermarket/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -20,11 +20,11 @@ terms:lossRate a rdf:Property ;
 terms:orderQuantity a rdf:Property ;
     rdfs:label "Order Quantity" ;
     rdfs:comment "The quantity of the product ordered." ;
-    rdfs:range schema1:QuantitativeValue .
+    rdfs:range schema:QuantitativeValue .
 
-terms:perKG a schema1:QuantitativeValue ;
+terms:perKG a schema:QuantitativeValue ;
     rdfs:label "Per KG" ;
-    schema1:unitCode "KGM" ;
-    schema1:value 1 ;
-    rdfs:comment "The one unit per kilogram." .
+    rdfs:comment "The one unit per kilogram." ;
+    schema:unitCode "KGM" ;
+    schema:value 1 .
 
