@@ -29,6 +29,8 @@
 
       if (/\/product\/[^/]+\/offer\/[^/]+$/.test(path)) {
         target = "/linked-data-supermarket/offers.ttl";
+      } else if (/\/product\/[^/]+\/cost-price\/[^/]+$/.test(path)) {
+        target = "/linked-data-supermarket/cost_prices.ttl";
       } else if (/\/product\/[^/]+$/.test(path)) {
         target = "/linked-data-supermarket/products.ttl";
       } else if (/\/order\/[^/]+$/.test(path)) {
