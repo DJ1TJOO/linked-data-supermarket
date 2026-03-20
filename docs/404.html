@@ -12,6 +12,8 @@
         window.location.replace("/linked-data-supermarket/products.ttl");
       } else if (/\/order\/[^/]+$/.test(path)) {
         window.location.replace("/linked-data-supermarket/orders.ttl");
+      } else if (/\/terms(\/)?$/.test(path)) {
+        window.location.replace("/linked-data-supermarket/terms.ttl");
       }
     </script>
   </head>
