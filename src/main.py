@@ -6,37 +6,33 @@ from cost_prices import cost_prices
 
 from pathlib import Path
 import shutil
-import argparse
+from arguments import get_arguments
 
 def run_all(rows = 1000):
-    num_rows = None if rows == -1 else rows
-    
     if Path("out").exists():
         print(f"Cleaning existing directory: out")
         shutil.rmtree("out")
     
-    row_display = "Full File" if num_rows is None else f"{num_rows} rows"
+    row_display = "Full File" if rows is None else f"{rows} rows"
     print(f"--- Starting RDF Triplification Process ({row_display}) ---")
     
     print("\n[1/4] Generating Terms...")
     terms()
     
     print("\n[2/4] Generating Products...")
-    products(num_rows)
+    products(rows)
     
     print("\n[3/4] Generating Orders...")
-    orders(num_rows)
+    orders(rows)
     
     print("\n[4/4] Generating Cost Prices...")
-    cost_prices(num_rows)
+    cost_prices(rows)
     
     print("\n--- Process Complete! ---")
     print("Files generated: terms.ttl, products.ttl, orders.ttl, cost_price.ttl")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--rows", type=int, default=1000, help="Number of rows to process from the CSV files.")
-    args = parser.parse_args()
+    args = get_arguments()
     
     if not os.path.exists('data'):
         print("Error: 'data' directory not found. Please ensure your CSV files are in a folder named 'data'.")

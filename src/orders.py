@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, wait
 from tqdm import tqdm
 import sys
 import signal
+from arguments import get_arguments
 
 CHUNK_SIZE = 175000
 MAX_WORKERS = 8
@@ -129,4 +130,5 @@ def orders(rows = 1000):
 
 if __name__ == "__main__":
     signal.signal(signal.SIGINT, signal.SIG_DFL)
-    orders()
+    args = get_arguments()
+    orders(args.rows)

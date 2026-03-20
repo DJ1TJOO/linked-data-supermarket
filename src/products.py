@@ -2,6 +2,7 @@ import pandas as pd
 from rdflib import Graph, Literal, RDF, XSD
 from config import BASE, SCHEMA, TERMS, bind_namespaces
 from pathlib import Path
+from arguments import get_arguments
 
 def products_graph(rows = 1000):
     item_info = pd.read_csv('data/annex1.csv', nrows=rows)
@@ -45,4 +46,5 @@ def products(rows = 1000):
     print("Generated out/products.ttl")
 
 if __name__ == "__main__":
-    products()
+    args = get_arguments()
+    products(args.rows)
