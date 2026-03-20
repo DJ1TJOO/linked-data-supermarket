@@ -1,4 +1,4 @@
-from rdflib import Namespace, RDF, XSD
+from rdflib import Namespace, RDF
 
 BASE = Namespace('https://dj1tjoo.github.io/linked-data-supermarket/')
 SCHEMA = Namespace('https://schema.org/')

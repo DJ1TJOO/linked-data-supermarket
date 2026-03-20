@@ -1,5 +1,5 @@
 import pandas as pd
-from rdflib import Graph, Literal, RDF, BNode, XSD
+from rdflib import Graph, Literal, RDF, BNode
 from config import BASE, SCHEMA, TERMS, bind_namespaces
 from pathlib import Path
 
@@ -26,7 +26,7 @@ def cost_prices_graph(rows = 1000):
         
         price_specification = BNode()
         graph.add((sub, SCHEMA["priceSpecification"], price_specification))
-        graph.add((price_specification, SCHEMA["price"], Literal(prices, datatype=XSD.double)))
+        graph.add((price_specification, SCHEMA["price"], Literal(prices, datatype=SCHEMA["Number"])))
         graph.add((price_specification, SCHEMA["priceCurrency"], Literal("CNY")))
         graph.add((price_specification, SCHEMA["referenceQuantity"], TERMS["perKG"]))
 

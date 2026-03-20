@@ -8,8 +8,8 @@ from tqdm import tqdm
 import sys
 import signal
 
-CHUNK_SIZE = 250000
-MAX_WORKERS = 4
+CHUNK_SIZE = 175000
+MAX_WORKERS = 8
 mapping_lock = threading.Lock()
 exit_event = threading.Event()
 
@@ -37,12 +37,12 @@ def build_orders_graph(sales_chunk, product_offers_mapping, offers_graph, pbar=N
 
         order_resource_uri = BASE[f"order/{index}"]
         orders_graph.add((order_resource_uri, RDF.type, SCHEMA["Order"]))
-        orders_graph.add((order_resource_uri, SCHEMA["orderDate"], Literal(f"{sale_date}T{sale_time}Z", datatype=XSD.dateTime)))
+        orders_graph.add((order_resource_uri, SCHEMA["orderDate"], Literal(f"{sale_date}T{sale_time}Z", datatype=SCHEMA["DateTime"])))
         
         quantity_blank_node = BNode()
         orders_graph.add((order_resource_uri, TERMS["orderQuantity"], quantity_blank_node))
         orders_graph.add((quantity_blank_node, RDF.type, SCHEMA["QuantitativeValue"]))
-        orders_graph.add((quantity_blank_node, SCHEMA["value"], Literal(quantity_sold, datatype=XSD.double)))
+        orders_graph.add((quantity_blank_node, SCHEMA["value"], Literal(quantity_sold, datatype=SCHEMA["Number"])))
         orders_graph.add((quantity_blank_node, SCHEMA["unitCode"], Literal("KGM")))
         
         with mapping_lock:
@@ -64,7 +64,7 @@ def build_orders_graph(sales_chunk, product_offers_mapping, offers_graph, pbar=N
                 
                 price_specification_node = BNode()
                 offers_graph.add((offer_resource_uri, SCHEMA["priceSpecification"], price_specification_node))
-                offers_graph.add((price_specification_node, SCHEMA["price"], Literal(unit_selling_price, datatype=XSD.double)))
+                offers_graph.add((price_specification_node, SCHEMA["price"], Literal(unit_selling_price, datatype=SCHEMA["Number"])))
                 offers_graph.add((price_specification_node, SCHEMA["referenceQuantity"], TERMS["perKG"]))
         
         orders_graph.add((order_resource_uri, SCHEMA["acceptedOffer"], offer_resource_uri))
@@ -79,7 +79,6 @@ def output_orders_graph(chunk_index, orders_graph, output_directory):
     
     output_path = output_directory / f"orders-{chunk_index}.ttl"
     orders_graph.serialize(destination=str(output_path), format='turtle')
-    print(f"Successfully generated: {output_path}")
     
 def process_chunk_worker(sales_chunk, chunk_index, product_offers_mapping, offers_graph, output_directory):
     if exit_event.is_set():
@@ -88,6 +87,7 @@ def process_chunk_worker(sales_chunk, chunk_index, product_offers_mapping, offer
     with tqdm(total=len(sales_chunk), desc=f"Parsing chunk {chunk_index:02d}", position=chunk_index, leave=False) as pbar:
         orders_graph = build_orders_graph(sales_chunk, product_offers_mapping, offers_graph, pbar)
         output_orders_graph(chunk_index, orders_graph, output_directory)
+        pbar.write(f"Successfully generated: {output_path}")
 
 def orders(rows = 1000):
     output_directory = Path("out")
