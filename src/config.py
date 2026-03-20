@@ -1,7 +1,7 @@
 from rdflib import Namespace, RDF, XSD
 
 BASE = Namespace('https://dj1tjoo.github.io/linked-data-supermarket/')
-SCHEMA = Namespace('http://schema.org/')
+SCHEMA = Namespace('https://schema.org/')
 TERMS = Namespace(BASE["terms/"])
 
 def bind_namespaces(graph):
