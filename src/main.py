@@ -18,17 +18,17 @@ def run_all(rows = 1000):
     row_display = "Full File" if rows is None else f"{rows} rows"
     print(f"--- Starting RDF Triplification Process ({row_display}) ---")
     
-    # print("\n[1/5] Generating Terms...")
-    # terms()
-    #
-    # print("\n[2/5] Generating Products...")
-    # products(rows)
-    #
-    # print("\n[3/5] Generating Orders...")
-    # orders(rows)
-    #
-    # print("\n[4/5] Generating Cost Prices...")
-    # cost_prices(rows)
+    print("\n[1/5] Generating Terms...")
+    terms()
+
+    print("\n[2/5] Generating Products...")
+    products(rows)
+
+    print("\n[3/5] Generating Orders...")
+    orders(rows)
+
+    print("\n[4/5] Generating Cost Prices...")
+    cost_prices(rows)
 
     print("\n[5/5] Generating Vegetables...")
     vegetables(rows)

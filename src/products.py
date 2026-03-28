@@ -7,9 +7,15 @@ from arguments import get_arguments
 def products_graph(rows = 1000):
     item_info = pd.read_csv('data/annex1.csv', nrows=rows)
     product_loss_rates = pd.read_csv('data/annex4.csv')
+    vegetables = pd.read_csv('data/vegetables.csv')
     graph = bind_namespaces(Graph())
     
     categories = []
+    vegetable_names = []
+
+    for r in vegetables.itertuples(index=False):
+        vegetable_name = r[1]
+        vegetable_names.append(vegetable_name)
 
     for r in item_info.itertuples(index=False):
         item_code = r[0]
@@ -35,7 +41,10 @@ def products_graph(rows = 1000):
             graph.add((category_uri, SCHEMA["name"], Literal(category_name)))
             graph.add((category_uri, SCHEMA["codeValue"], Literal(category_code)))
             categories.append(category_code)
-            
+
+        for vegetable in vegetable_names:
+            if item_name in vegetable:
+                graph.add((sub, TERMS["variantOf"], BASE[f"vegetable/{vegetable.replace(" ", "")}"]))
     return graph
 
 def products(rows = 1000):
