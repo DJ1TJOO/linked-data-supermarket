@@ -4,6 +4,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115168> a schema:Product ;
     terms:lossRate 4.39e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LactucaSativa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Niushou Shengcai" ;
     schema:sku 102900005115168 .
@@ -22,56 +23,63 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115625> a schema:Product ;
     terms:lossRate 1.8e-01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Local Xiaomao Cabbage" ;
     schema:sku 102900005115625 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115748> a schema:Product ;
     terms:lossRate 8.78e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "White Caitai" ;
     schema:sku 102900005115748 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115762> a schema:Product ;
     terms:lossRate 1.852e+01 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Amaranth>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AmaranthGreens> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AmaranthusSpp> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Amaranth" ;
     schema:sku 102900005115762 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115779> a schema:Product ;
     terms:lossRate 1.525e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LactucaSativa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Yunnan Shengcai" ;
     schema:sku 102900005115779 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115786> a schema:Product ;
     terms:lossRate 1.362e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/IpomoeaAquatica> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Zhuyecai" ;
     schema:sku 102900005115786 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115793> a schema:Product ;
     terms:lossRate 7.59e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Chinese Cabbage" ;
     schema:sku 102900005115793 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115816> a schema:Product ;
     terms:lossRate 1.346e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CucurbitaPepo> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Nanguajian" ;
     schema:sku 102900005115816 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115823> a schema:Product ;
     terms:lossRate 1.443e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Shanghaiqing" ;
     schema:sku 102900005115823 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115854> a schema:Product ;
     terms:lossRate 5.35e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/RaphanusSativus> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Radish Leaves" ;
     schema:sku 102900005115854 .
@@ -84,6 +92,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115878> a schema:Product ;
     terms:lossRate 6.27e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChrysanthemumCoronarium> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Garden Chrysanthemum" ;
     schema:sku 102900005115878 .
@@ -96,67 +105,77 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115908> a schema:Product ;
     terms:lossRate 1.37e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Caixin" ;
     schema:sku 102900005115908 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115946> a schema:Product ;
     terms:lossRate 7.61e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BasellaAlba> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Muercai" ;
     schema:sku 102900005115946 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115960> a schema:Product ;
     terms:lossRate 2.227e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Chinese Cabbage" ;
     schema:sku 102900005115960 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115977> a schema:Product ;
     terms:lossRate 8.36e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PisumSativum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Wandoujian" ;
     schema:sku 102900005115977 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115984> a schema:Product ;
     terms:lossRate 1.281e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LactucaSativa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Yunnan Lettuces" ;
     schema:sku 102900005115984 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116042> a schema:Product ;
     terms:lossRate 1.532e+01 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LotusRoot> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Lotus Root" ;
     schema:sku 102900005116042 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116219> a schema:Product ;
     terms:lossRate 6.73e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Hot Peppers" ;
     schema:sku 102900005116219 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116226> a schema:Product ;
     terms:lossRate 6.72e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green Hot Peppers" ;
     schema:sku 102900005116226 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116233> a schema:Product ;
     terms:lossRate 1.176e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Pepper (1)" ;
     schema:sku 102900005116233 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116257> a schema:Product ;
     terms:lossRate 6.07e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Eggplant (2)" ;
     schema:sku 102900005116257 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116509> a schema:Product ;
     terms:lossRate 5.01e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Green Eggplant (1)" ;
     schema:sku 102900005116509 .
@@ -175,22 +194,21 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116639> a schema:Product ;
     terms:lossRate 1.178e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PortulacaOleracea> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Machixian" ;
     schema:sku 102900005116639 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116714> a schema:Product ;
     terms:lossRate 9.26e+00 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccoli>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BroccoliRaab>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccolini>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChineseBroccoli> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarItalica> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
     schema:name "Broccoli" ;
     schema:sku 102900005116714 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116776> a schema:Product ;
     terms:lossRate 1.046e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SpinaciaOleracea> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Local Spinach" ;
     schema:sku 102900005116776 .
@@ -215,6 +233,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116899> a schema:Product ;
     terms:lossRate 5.54e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Net Lotus Root (1)" ;
     schema:sku 102900005116899 .
@@ -233,6 +252,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116943> a schema:Product ;
     terms:lossRate 9.99e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Hang Pepper" ;
     schema:sku 102900005116943 .
@@ -245,6 +265,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005117209> a schema:Product ;
     terms:lossRate 1.598e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "7 Colour Pepper (1)" ;
     schema:sku 102900005117209 .
@@ -257,14 +278,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118572> a schema:Product ;
     terms:lossRate 1.199e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Local Shanghaiqing" ;
     schema:sku 102900005118572 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118817> a schema:Product ;
     terms:lossRate 1.851e+01 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/MalabarSpinach>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Spinach> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SpinaciaOleracea> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Spinach" ;
     schema:sku 102900005118817 .
@@ -277,6 +298,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118831> a schema:Product ;
     terms:lossRate 2.48e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspPekinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Wawacai" ;
     schema:sku 102900005118831 .
@@ -301,12 +323,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119968> a schema:Product ;
     terms:lossRate 9e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green Hangzhou Pepper (2)" ;
     schema:sku 102900005119968 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005119975> a schema:Product ;
     terms:lossRate 8.42e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/IpomoeaBatatas> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Hongshujian" ;
     schema:sku 102900005119975 .
@@ -319,12 +343,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005123880> a schema:Product ;
     terms:lossRate 1.633e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Bell Pepper (1)" ;
     schema:sku 102900005123880 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005125808> a schema:Product ;
     terms:lossRate 5.86e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Millet Pepper" ;
     schema:sku 102900005125808 .
@@ -343,54 +369,63 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000175> a schema:Product ;
     terms:lossRate 2.038e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Kuaicai" ;
     schema:sku 102900011000175 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000328> a schema:Product ;
     terms:lossRate 1.018e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Luosi Pepper" ;
     schema:sku 102900011000328 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000335> a schema:Product ;
     terms:lossRate 3.2e-01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Round Eggplant" ;
     schema:sku 102900011000335 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000571> a schema:Product ;
     terms:lossRate 1.22e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Suizhou Bubble Green" ;
     schema:sku 102900011000571 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000632> a schema:Product ;
     terms:lossRate 2.553e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
     schema:name "Purple Cabbage (1)" ;
     schema:sku 102900011000632 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011000861> a schema:Product ;
     terms:lossRate 7.71e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Line Pepper" ;
     schema:sku 102900011000861 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001219> a schema:Product ;
     terms:lossRate 8.93e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "The Red Bell Pepper (1)" ;
     schema:sku 102900011001219 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001561> a schema:Product ;
     terms:lossRate 1.217e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Lotus (Ea)" ;
     schema:sku 102900011001561 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011001691> a schema:Product ;
     terms:lossRate 9.61e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/EleocharisDulcis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Water Chestnut (Lingjiao)" ;
     schema:sku 102900011001691 .
@@ -415,12 +450,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006689> a schema:Product ;
     terms:lossRate 2.784e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Dongmenkou Xiaobaicai" ;
     schema:sku 102900011006689 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011006948> a schema:Product ;
     terms:lossRate 2.616e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChrysanthemumCoronarium> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Foreign Garland Chrysanthemum " ;
     schema:sku 102900011006948 .
@@ -439,7 +476,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007464> a schema:Product ;
     terms:lossRate 1.288e+01 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Perilla> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PerillaFrutescens> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Perilla" ;
     schema:sku 102900011007464 .
@@ -452,12 +489,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007495> a schema:Product ;
     terms:lossRate 1.592e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/TaraxacumOfficinale> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "The Dandelion" ;
     schema:sku 102900011007495 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007969> a schema:Product ;
     terms:lossRate 1.663e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Red Lotus Root Zone" ;
     schema:sku 102900011007969 .
@@ -470,31 +509,35 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008164> a schema:Product ;
     terms:lossRate 1.568e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Naibaicai" ;
     schema:sku 102900011008164 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008485> a schema:Product ;
     terms:lossRate 1.375e+01 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/MustardGreens> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaJuncea> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Mustard" ;
     schema:sku 102900011008485 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008492> a schema:Product ;
     terms:lossRate 4.69e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarItalica> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Big Broccoli" ;
     schema:sku 102900011008492 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008515> a schema:Product ;
     terms:lossRate 1.28e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/OxalisTuberosa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Miantiaocai" ;
     schema:sku 102900011008515 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008522> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Sweet Chinese Cabbage" ;
     schema:sku 102900011008522 .
@@ -519,19 +562,21 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009277> a schema:Product ;
     terms:lossRate 1.102e+01 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/WaterChestnut> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/EleocharisDulcis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Water Chestnut" ;
     schema:sku 102900011009277 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009444> a schema:Product ;
     terms:lossRate 1.094e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Dalong Eggplant" ;
     schema:sku 102900011009444 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009772> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Fruit Pepper (Orange)" ;
     schema:sku 102900011009772 .
@@ -550,6 +595,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011010891> a schema:Product ;
     terms:lossRate 7.97e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Wild Lotus Root (1)" ;
     schema:sku 102900011010891 .
@@ -610,18 +656,21 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011015391> a schema:Product ;
     terms:lossRate 1.158e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Ganlanye" ;
     schema:sku 102900011015391 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011016701> a schema:Product ;
     terms:lossRate 5.7e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Wuhu Green Pepper (1)" ;
     schema:sku 102900011016701 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011016909> a schema:Product ;
     terms:lossRate 6.98e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Hua Eggplant" ;
     schema:sku 102900011016909 .
@@ -634,12 +683,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011018132> a schema:Product ;
     terms:lossRate 1.269e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Wild Pink Lotus Root" ;
     schema:sku 102900011018132 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021644> a schema:Product ;
     terms:lossRate 9.34e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Hongshan Caitai" ;
     schema:sku 102900011021644 .
@@ -658,12 +709,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011021842> a schema:Product ;
     terms:lossRate 1.181e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Honghu Lotus Root Powder (Fenou)" ;
     schema:sku 102900011021842 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022030> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Pepper Mix" ;
     schema:sku 102900011022030 .
@@ -682,6 +735,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011022924> a schema:Product ;
     terms:lossRate 1.094e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Green Caitai" ;
     schema:sku 102900011022924 .
@@ -694,24 +748,28 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023464> a schema:Product ;
     terms:lossRate 1.033e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Xiaoqingcai (1)" ;
     schema:sku 102900011023464 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023648> a schema:Product ;
     terms:lossRate 8.78e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Wuhu Green Pepper (2)" ;
     schema:sku 102900011023648 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011023976> a schema:Product ;
     terms:lossRate 1.162e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Net Lotus Root (2)" ;
     schema:sku 102900011023976 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011024010> a schema:Product ;
     terms:lossRate 1.269e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Fresh Lotus Root Zone (Bag)" ;
     schema:sku 102900011024010 .
@@ -766,24 +824,28 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029275> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Purple Hot Peppers" ;
     schema:sku 102900011029275 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029299> a schema:Product ;
     terms:lossRate 0e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Purple Screw Pepper" ;
     schema:sku 102900011029299 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029305> a schema:Product ;
     terms:lossRate 1.8e-01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Fruit Chili" ;
     schema:sku 102900011029305 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011029688> a schema:Product ;
     terms:lossRate 1.075e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Shuanggou Cabbage" ;
     schema:sku 102900011029688 .
@@ -796,30 +858,35 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030059> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LactucaSativa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Yunnan Lettuce (Bag)" ;
     schema:sku 102900011030059 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030097> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LactucaSativa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Yunnan Leaf Lettuce (Bag)" ;
     schema:sku 102900011030097 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030103> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChrysanthemumCoronarium> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Garden Chrysanthemum (Bag)" ;
     schema:sku 102900011030103 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030110> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SpinaciaOleracea> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Spinach (Bag)" ;
     schema:sku 102900011030110 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030134> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Caixin (Bag)" ;
     schema:sku 102900011030134 .
@@ -832,6 +899,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011030158> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Xiaoqingcai (2)" ;
     schema:sku 102900011030158 .
@@ -898,6 +966,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031100> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Millet Pepper (Bag)" ;
     schema:sku 102900011031100 .
@@ -910,6 +979,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031582> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green Hot Peppers (Bag)" ;
     schema:sku 102900011031582 .
@@ -922,18 +992,21 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031735> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "7 Colour Pepper (Bag)" ;
     schema:sku 102900011031735 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031742> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Bell Pepper (Bag)" ;
     schema:sku 102900011031742 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011031759> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Bell Pepper (Bag)" ;
     schema:sku 102900011031759 .
@@ -970,12 +1043,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032114> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/EleocharisDulcis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Water Chestnut (Bag)" ;
     schema:sku 102900011032114 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032145> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Wuhu Green Pepper (Bag)" ;
     schema:sku 102900011032145 .
@@ -988,60 +1063,70 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032206> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green Hang Pepper (Bag)" ;
     schema:sku 102900011032206 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032213> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Hang Pepper (Bag)" ;
     schema:sku 102900011032213 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032220> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Fruit Pepper (Bag)" ;
     schema:sku 102900011032220 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032237> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green Line Pepper (Bag)" ;
     schema:sku 102900011032237 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032244> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Hot Peppers (Bag)" ;
     schema:sku 102900011032244 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032251> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Luosi Pepper (Bag)" ;
     schema:sku 102900011032251 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032282> a schema:Product ;
     terms:lossRate 0e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Xiangtianhongcaitai (Bag)" ;
     schema:sku 102900011032282 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032343> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "7 Colour Pepper (2)" ;
     schema:sku 102900011032343 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032350> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Bell Pepper (2)" ;
     schema:sku 102900011032350 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032367> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Bell Pepper (2)" ;
     schema:sku 102900011032367 .
@@ -1090,6 +1175,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011032787> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/IpomoeaAquatica> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Zhuyecai (Bag)" ;
     schema:sku 102900011032787 .
@@ -1114,6 +1200,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033234> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/IpomoeaBatatas> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Hongshujian (Bag)" ;
     schema:sku 102900011033234 .
@@ -1144,12 +1231,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033906> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Powcan Mountain Chinese Cabbage " ;
     schema:sku 102900011033906 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033913> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
     schema:name "Purple Cabbage (2)" ;
     schema:sku 102900011033913 .
@@ -1180,18 +1269,21 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033975> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Green Eggplant (2)" ;
     schema:sku 102900011033975 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033982> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Eggplant (1)" ;
     schema:sku 102900011033982 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011033999> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Round Eggplant (1)" ;
     schema:sku 102900011033999 .
@@ -1204,30 +1296,35 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034200> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AmaranthusSpp> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Amaranth (Bag)" ;
     schema:sku 102900011034200 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034217> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Chinese Cabbage (Bag)" ;
     schema:sku 102900011034217 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034224> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Xiaoqingcai (Bag)" ;
     schema:sku 102900011034224 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034231> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Cabbage Stem (Bag)" ;
     schema:sku 102900011034231 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034262> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Pepper (Bag)" ;
     schema:sku 102900011034262 .
@@ -1258,6 +1355,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011034439> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green And Red Hang Pepper Mix (Bag)" ;
     schema:sku 102900011034439 .
@@ -1282,18 +1380,21 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035078> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Red Pepper (2)" ;
     schema:sku 102900011035078 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035481> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChrysanthemumCoronarium> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Foreign Garland Chrysanthemum  (Bag)" ;
     schema:sku 102900011035481 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035511> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Net Lotus Root (3)" ;
     schema:sku 102900011035511 .
@@ -1324,12 +1425,14 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035849> a schema:Product ;
     terms:lossRate 0e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Chinese Cabbage Seedling" ;
     schema:sku 102900011035849 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011035962> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Wild Lotus Root (2)" ;
     schema:sku 102900011035962 .
@@ -1342,6 +1445,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036242> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green And Red Jian Pepper Mix (Bag)" ;
     schema:sku 102900011036242 .
@@ -1354,46 +1458,49 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011036686> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BasellaAlba> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Muercai (Bag)" ;
     schema:sku 102900011036686 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000463> a schema:Product ;
     terms:lossRate 6.71e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010501> ;
     schema:name "Round Eggplant (2)" ;
     schema:sku 102900051000463 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000890> a schema:Product ;
     terms:lossRate 9.43e+00 ;
-    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccoli>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BroccoliRaab>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccolini>,
-        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChineseBroccoli> ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarItalica> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Broccoli" ;
     schema:sku 102900051000890 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000944> a schema:Product ;
     terms:lossRate 2.405e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Honghu Lotus Root" ;
     schema:sku 102900051000944 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900051004294> a schema:Product ;
     terms:lossRate 7.8e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010504> ;
     schema:name "Green Line Pepper" ;
     schema:sku 102900051004294 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900051006229> a schema:Product ;
     terms:lossRate 0e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Lotus Root Tip" ;
     schema:sku 102900051006229 .
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900051009220> a schema:Product ;
     terms:lossRate 1.094e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Youcaitai" ;
     schema:sku 102900051009220 .

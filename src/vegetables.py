@@ -59,6 +59,12 @@ def vegetables_graph(rows = 1000):
         varieties = r[14]
 
         sub = BASE[f"vegetable/{scientific_name.title().replace(".", "").replace(" ", "")}"]
+        if (sub, RDF.type, TERMS["Vegetable"]) in graph:
+            if len(graph.value(sub, TERMS["name"])) < len(vegetable_name):
+                continue
+            
+            remove_recursive(graph, sub)
+
         graph.add((sub, RDF.type, TERMS["Vegetable"]))
         graph.add((sub, TERMS["name"], Literal(vegetable_name, datatype=XSD.string)))
         graph.add((sub, TERMS["scientificName"], Literal(scientific_name, datatype=XSD.string)))
@@ -103,6 +109,13 @@ def vegetables(rows = 1000):
     Path("out").mkdir(parents=True, exist_ok=True)
     graph.serialize(destination='out/vegetables.ttl', format='turtle')
     print("Generated out/vegetables.ttl")
+
+def remove_recursive(graph, subject):
+    for s, p, o in graph.triples((subject, None, None)):
+        if isinstance(o, BNode): 
+            remove_recursive(graph, o)
+        
+        graph.remove((s, p, o))
 
 if __name__ == "__main__":
     args = get_arguments()

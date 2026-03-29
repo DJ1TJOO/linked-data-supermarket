@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 from rdflib import Graph, Literal, RDF, XSD
 from config import BASE, SCHEMA, TERMS, bind_namespaces
 from pathlib import Path
@@ -8,14 +9,10 @@ def products_graph(rows = 1000):
     item_info = pd.read_csv('data/annex1.csv', nrows=rows)
     product_loss_rates = pd.read_csv('data/annex4.csv')
     vegetables = pd.read_csv('data/vegetables.csv')
+    vegetableMapping = pd.read_csv('data/vegetable-item-mapping.csv')
     graph = bind_namespaces(Graph())
     
     categories = []
-    vegetable_names = []
-
-    for r in vegetables.itertuples(index=False):
-        vegetable_name = r[1]
-        vegetable_names.append(vegetable_name)
 
     for r in item_info.itertuples(index=False):
         item_code = r[0]
@@ -42,9 +39,17 @@ def products_graph(rows = 1000):
             graph.add((category_uri, SCHEMA["codeValue"], Literal(category_code)))
             categories.append(category_code)
 
-        for vegetable in vegetable_names:
-            if item_name in vegetable:
-                graph.add((sub, TERMS["variantOf"], BASE[f"vegetable/{vegetable.replace(" ", "")}"]))
+        match = vegetableMapping[vegetableMapping['Item Name'] == item_name]
+    
+        if not match.empty:
+            scientific_name = match.iloc[0]['Scientific Name']
+            if pd.notna(scientific_name):
+                is_present = (vegetables['Scientific Name'] == scientific_name).any()
+                if is_present:
+                    graph.add((sub, TERMS["variantOf"], BASE[f"vegetable/{scientific_name.title().replace(".", "").replace(" ", "")}"]))
+                else:
+                    print(scientific_name + " invallid")
+               
     return graph
 
 def products(rows = 1000):
