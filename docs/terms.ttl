@@ -236,8 +236,9 @@ schema:validUntil rdf:type owl:ObjectProperty .
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Climate
 :Climate rdf:type owl:Class ;
          owl:equivalentClass [ rdf:type owl:Class ;
-                               owl:oneOf ( :Cool
-                                           :Warm
+                               owl:oneOf ( :CoastalClimate
+                                           :CoolClimate
+                                           :WarmClimate
                                          )
                              ] ;
          rdfs:subClassOf :GrowingCondition ;
@@ -320,13 +321,13 @@ schema:validUntil rdf:type owl:ObjectProperty .
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Soil
 :Soil rdf:type owl:Class ;
       owl:equivalentClass [ rdf:type owl:Class ;
-                            owl:oneOf ( :Coastal
-                                        :Loose
-                                        :Moist
-                                        :Rich
-                                        :Salty
-                                        :WellDrained
-                                        :Wet
+                            owl:oneOf ( :CoastalSoil
+                                        :LooseSoil
+                                        :MoistSoil
+                                        :RichSoil
+                                        :SaltySoil
+                                        :WellDrainedSoil
+                                        :WetSoil
                                       )
                           ] ;
       rdfs:subClassOf :GrowingCondition ;
@@ -350,8 +351,8 @@ schema:validUntil rdf:type owl:ObjectProperty .
 :Sunlight rdf:type owl:Class ;
           owl:equivalentClass [ rdf:type owl:Class ;
                                 owl:oneOf ( :FullSunlight
-                                            :PartialShade
-                                            :ShadedEnvironment
+                                            :NoSunlight
+                                            :PartialSunlight
                                           )
                               ] ;
           rdfs:subClassOf :GrowingCondition ;
@@ -439,7 +440,7 @@ schema:validUntil rdf:type owl:ObjectProperty .
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Watering
 :Watering rdf:type owl:Class ;
           owl:equivalentClass [ rdf:type owl:Class ;
-                                owl:oneOf ( :Moderate
+                                owl:oneOf ( :ModerateWatering
                                           )
                               ] ;
           rdfs:subClassOf :GrowingCondition ;
@@ -495,15 +496,19 @@ schema:QuantitativeValue rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Coastal
-:Coastal rdf:type owl:NamedIndividual ,
-                  :Soil .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/CoastalClimate
+:CoastalClimate rdf:type owl:NamedIndividual ,
+                         :Climate .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Cool
-:Cool rdf:type owl:NamedIndividual ,
-               :Climate ;
-      owl:differentFrom :Warm .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/CoastalSoil
+:CoastalSoil rdf:type owl:NamedIndividual ,
+                      :Soil .
+
+
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/CoolClimate
+:CoolClimate rdf:type owl:NamedIndividual ,
+                      :Climate .
 
 
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/CoolDark
@@ -526,24 +531,29 @@ schema:QuantitativeValue rdf:type owl:Class .
                        :Sunlight .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Loose
-:Loose rdf:type owl:NamedIndividual ,
-                :Soil .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/LooseSoil
+:LooseSoil rdf:type owl:NamedIndividual ,
+                    :Soil .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Moderate
-:Moderate rdf:type owl:NamedIndividual ,
-                   :Watering .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/ModerateWatering
+:ModerateWatering rdf:type owl:NamedIndividual ,
+                           :Watering .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Moist
-:Moist rdf:type owl:NamedIndividual ,
-                :Soil .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/MoistSoil
+:MoistSoil rdf:type owl:NamedIndividual ,
+                    :Soil .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/PartialShade
-:PartialShade rdf:type owl:NamedIndividual ,
-                       :Sunlight .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/NoSunlight
+:NoSunlight rdf:type owl:NamedIndividual ,
+                     :Sunlight .
+
+
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/PartialSunlight
+:PartialSunlight rdf:type owl:NamedIndividual ,
+                          :Sunlight .
 
 
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Refrigeration
@@ -551,25 +561,20 @@ schema:QuantitativeValue rdf:type owl:Class .
                         :StorageRequirement .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Rich
-:Rich rdf:type owl:NamedIndividual ,
-               :Soil .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/RichSoil
+:RichSoil rdf:type owl:NamedIndividual ,
+                   :Soil .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Salty
-:Salty rdf:type owl:NamedIndividual ,
-                :Soil .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/SaltySoil
+:SaltySoil rdf:type owl:NamedIndividual ,
+                    :Soil .
 
 
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Seasonal
 :Seasonal rdf:type owl:NamedIndividual ,
                    :Availability ;
           owl:differentFrom :YearRound .
-
-
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/ShadedEnvironment
-:ShadedEnvironment rdf:type owl:NamedIndividual ,
-                            :Sunlight .
 
 
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Spring
@@ -582,19 +587,19 @@ schema:QuantitativeValue rdf:type owl:Class .
                  :Season .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Warm
-:Warm rdf:type owl:NamedIndividual ,
-               :Climate .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/WarmClimate
+:WarmClimate rdf:type owl:NamedIndividual ,
+                      :Climate .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/WellDrained
-:WellDrained rdf:type owl:NamedIndividual ,
-                      :Soil .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/WellDrainedSoil
+:WellDrainedSoil rdf:type owl:NamedIndividual ,
+                          :Soil .
 
 
-###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Wet
-:Wet rdf:type owl:NamedIndividual ,
-              :Soil .
+###  https://dj1tjoo.github.io/linked-data-supermarket/terms/WetSoil
+:WetSoil rdf:type owl:NamedIndividual ,
+                  :Soil .
 
 
 ###  https://dj1tjoo.github.io/linked-data-supermarket/terms/Winter
@@ -621,7 +626,7 @@ schema:QuantitativeValue rdf:type owl:Class .
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Color
+  owl:members ( :Climate
                 :Soil
                 :Sunlight
                 :Watering
@@ -630,13 +635,21 @@ schema:QuantitativeValue rdf:type owl:Class .
 
 
 [ rdf:type owl:AllDifferent ;
-  owl:distinctMembers ( :Coastal
-                        :Loose
-                        :Moist
-                        :Rich
-                        :Salty
-                        :WellDrained
-                        :Wet
+  owl:distinctMembers ( :CoastalClimate
+                        :CoolClimate
+                        :WarmClimate
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :CoastalSoil
+                        :LooseSoil
+                        :MoistSoil
+                        :RichSoil
+                        :SaltySoil
+                        :WellDrainedSoil
+                        :WetSoil
                       )
 ] .
 
@@ -660,8 +673,19 @@ schema:QuantitativeValue rdf:type owl:Class .
 
 [ rdf:type owl:AllDifferent ;
   owl:distinctMembers ( :FullSunlight
-                        :PartialShade
-                        :ShadedEnvironment
+                        :NoSunlight
+                        :PartialSunlight
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :LooseSoil
+                        :MoistSoil
+                        :RichSoil
+                        :SaltySoil
+                        :WellDrainedSoil
+                        :WetSoil
                       )
 ] .
 
