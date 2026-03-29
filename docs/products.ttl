@@ -34,6 +34,8 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005115762> a schema:Product ;
     terms:lossRate 1.852e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Amaranth>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AmaranthGreens> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Amaranth" ;
     schema:sku 102900005115762 .
@@ -124,6 +126,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116042> a schema:Product ;
     terms:lossRate 1.532e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LotusRoot> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Lotus Root" ;
     schema:sku 102900005116042 .
@@ -178,6 +181,10 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005116714> a schema:Product ;
     terms:lossRate 9.26e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccoli>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BroccoliRaab>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccolini>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChineseBroccoli> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010201> ;
     schema:name "Broccoli" ;
     schema:sku 102900005116714 .
@@ -256,6 +263,8 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900005118817> a schema:Product ;
     terms:lossRate 1.851e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/MalabarSpinach>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Spinach> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Spinach" ;
     schema:sku 102900005118817 .
@@ -430,6 +439,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011007464> a schema:Product ;
     terms:lossRate 1.288e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Perilla> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Perilla" ;
     schema:sku 102900011007464 .
@@ -466,6 +476,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011008485> a schema:Product ;
     terms:lossRate 1.375e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/MustardGreens> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Mustard" ;
     schema:sku 102900011008485 .
@@ -508,6 +519,7 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900011009277> a schema:Product ;
     terms:lossRate 1.102e+01 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/WaterChestnut> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010402> ;
     schema:name "Water Chestnut" ;
     schema:sku 102900011009277 .
@@ -1354,6 +1366,10 @@
 
 <https://dj1tjoo.github.io/linked-data-supermarket/product/102900051000890> a schema:Product ;
     terms:lossRate 9.43e+00 ;
+    terms:variantOf <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccoli>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BroccoliRaab>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/Broccolini>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChineseBroccoli> ;
     schema:category <https://dj1tjoo.github.io/linked-data-supermarket/category/1011010101> ;
     schema:name "Broccoli" ;
     schema:sku 102900051000890 .

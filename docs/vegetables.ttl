@@ -141,13 +141,13 @@
     terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 2.1e+00 ;
-            terms:kcal 23 ;
-            terms:protein 2.5e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 3e+00 ;
             terms:kcal 23 ;
             terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.1e+00 ;
+            terms:kcal 23 ;
+            terms:protein 2.5e+00 ],
         [ a terms:NutritionalValue ;
             terms:fiber 2.1e+00 ;
             terms:kcal 23 ;
@@ -535,13 +535,13 @@
     terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 2e+00 ;
-            terms:kcal 25 ;
-            terms:protein 1.9e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 2.4e+00 ;
             terms:kcal 25 ;
             terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 25 ;
+            terms:protein 1.9e+00 ],
         [ a terms:NutritionalValue ;
             terms:fiber 2.4e+00 ;
             terms:kcal 25 ;
@@ -617,15 +617,15 @@
     terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 3.6e+00 ;
-            terms:kcal 27 ;
-            terms:protein 1.7e+00 ],
-        [ a terms:NutritionalValue ;
-            terms:fiber 3.6e+00 ;
-            terms:kcal 27 ;
-            terms:protein 1.7e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 2.3e+00 ;
+            terms:kcal 27 ;
+            terms:protein 1.7e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.6e+00 ;
+            terms:kcal 27 ;
+            terms:protein 1.7e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.6e+00 ;
             terms:kcal 27 ;
             terms:protein 1.7e+00 ],
         [ a terms:NutritionalValue ;
@@ -655,13 +655,13 @@
         terms:Winter ;
     terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 2.7e+00 ;
-            terms:kcal 30 ;
-            terms:protein 3e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 2.5e+00 ;
             terms:kcal 35 ;
-            terms:protein 3.5e+00 ] ;
+            terms:protein 3.5e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.7e+00 ;
+            terms:kcal 30 ;
+            terms:protein 3e+00 ] ;
     terms:healthBenefits "High in Vitamin C, supports immune health"^^xsd:string,
         "Rich in vitamins A and C, supports immune health"^^xsd:string ;
     terms:name "Broccolini"^^xsd:string ;
@@ -917,13 +917,13 @@
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red>,
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 2.1e+00 ;
-            terms:kcal 31 ;
-            terms:protein 1e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 1.7e+00 ;
             terms:kcal 20 ;
-            terms:protein 9e-01 ] ;
+            terms:protein 9e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.1e+00 ;
+            terms:kcal 31 ;
+            terms:protein 1e+00 ] ;
     terms:healthBenefits "Rich in Vitamin C, supports immune health"^^xsd:string,
         "Rich in Vitamin C, supports immune system"^^xsd:string ;
     terms:name "Bell Pepper"^^xsd:string,
@@ -1040,12 +1040,12 @@
     terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
             terms:fiber 2e+00 ;
-            terms:kcal 23 ;
-            terms:protein 1.4e+00 ],
+            terms:kcal 18 ;
+            terms:protein 1.2e+00 ],
         [ a terms:NutritionalValue ;
             terms:fiber 2e+00 ;
-            terms:kcal 18 ;
-            terms:protein 1.2e+00 ] ;
+            terms:kcal 23 ;
+            terms:protein 1.4e+00 ] ;
     terms:healthBenefits "Supports digestion, rich in Vitamin A"^^xsd:string ;
     terms:name "Tindora"^^xsd:string ;
     terms:origin "South Asia"^^xsd:string ;
@@ -1454,13 +1454,13 @@
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange>,
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 3e+00 ;
-            terms:kcal 86 ;
-            terms:protein 1.6e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 2.5e+00 ;
             terms:kcal 38 ;
-            terms:protein 2e+00 ] ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3e+00 ;
+            terms:kcal 86 ;
+            terms:protein 1.6e+00 ] ;
     terms:healthBenefits "Rich in antioxidants, supports heart health"^^xsd:string,
         "Rich in beta-carotene, promotes eye health"^^xsd:string ;
     terms:name "Sweet Potato"^^xsd:string,
@@ -1551,13 +1551,13 @@
     terms:growsIn terms:Spring ;
     terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 1.3e+00 ;
-            terms:kcal 32 ;
-            terms:protein 3e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 1.1e+00 ;
             terms:kcal 32 ;
-            terms:protein 2.6e+00 ] ;
+            terms:protein 2.6e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.3e+00 ;
+            terms:kcal 32 ;
+            terms:protein 3e+00 ] ;
     terms:healthBenefits "High in vitamins A, C, K, supports eye health"^^xsd:string,
         "Rich in antioxidants, supports heart health"^^xsd:string ;
     terms:name "Cress"^^xsd:string ;
@@ -1733,17 +1733,17 @@
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red>,
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 1.8e+00 ;
-            terms:kcal 70 ;
-            terms:protein 1.5e+00 ],
-        [ a terms:NutritionalValue ;
-            terms:fiber 1.8e+00 ;
-            terms:kcal 70 ;
-            terms:protein 1.5e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 2.2e+00 ;
             terms:kcal 72 ;
-            terms:protein 1.3e+00 ] ;
+            terms:protein 1.3e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 70 ;
+            terms:protein 1.5e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 70 ;
+            terms:protein 1.5e+00 ] ;
     terms:healthBenefits "High in Vitamin C, supports digestion"^^xsd:string,
         "High in carbohydrates, supports energy production"^^xsd:string ;
     terms:name "Oca"^^xsd:string ;
@@ -1963,11 +1963,11 @@
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
             terms:fiber 1.6e+00 ;
             terms:kcal 16 ;
-            terms:protein 6e-01 ],
+            terms:protein 7e-01 ],
         [ a terms:NutritionalValue ;
             terms:fiber 1.6e+00 ;
             terms:kcal 16 ;
-            terms:protein 7e-01 ] ;
+            terms:protein 6e-01 ] ;
     terms:healthBenefits "High in Vitamin C, supports digestion"^^xsd:string,
         "Supports digestion, high in antioxidants"^^xsd:string ;
     terms:name "Radish"^^xsd:string,
@@ -2271,13 +2271,13 @@
     terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown>,
         <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
     terms:hasNutritionalValue [ a terms:NutritionalValue ;
-            terms:fiber 2e+00 ;
-            terms:kcal 73 ;
-            terms:protein 2e+00 ],
-        [ a terms:NutritionalValue ;
             terms:fiber 3.3e+00 ;
             terms:kcal 82 ;
-            terms:protein 3e+00 ] ;
+            terms:protein 3e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 73 ;
+            terms:protein 2e+00 ] ;
     terms:healthBenefits "Supports digestion, high in fiber"^^xsd:string,
         "Supports digestion, high in potassium"^^xsd:string ;
     terms:name "Salsify"^^xsd:string ;
