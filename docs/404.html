@@ -33,6 +33,8 @@
         target = "/linked-data-supermarket/cost_prices.ttl";
       } else if (/\/product\/[^/]+$/.test(path)) {
         target = "/linked-data-supermarket/products.ttl";
+      }  else if (/\/vegetable\/[^/]+$/.test(path)) {
+        target = "/linked-data-supermarket/vegetables.ttl";
       } else if (/\/order\/[^/]+$/.test(path)) {
         const orderMatch = path.match(/\/order\/(\d+)$/);
         if (orderMatch) {
