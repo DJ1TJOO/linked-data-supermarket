@@ -1,0 +1,2487 @@
+@prefix terms: <https://dj1tjoo.github.io/linked-data-supermarket/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AbelmoschusEsculentus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Annie Oakley"^^xsd:string,
+        "Clemson Spineless"^^xsd:string,
+        "Red Burgundy"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.2e+00 ;
+            terms:kcal 33 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in fiber, supports digestive health"^^xsd:string ;
+    terms:name "Okra"^^xsd:string ;
+    terms:origin "Africa"^^xsd:string ;
+    terms:scientificName "Abelmoschus esculentus"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AchilleaMillefolium> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Common Yarrow"^^xsd:string,
+        "Meadow Yarrow"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 43 ;
+            terms:protein 2.5e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in antioxidants"^^xsd:string ;
+    terms:name "Yarrow"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Achillea millefolium"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AlliumAmpeloprasum> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "American Flag"^^xsd:string,
+        "Carentan"^^xsd:string,
+        "King Richard"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 61 ;
+            terms:protein 1.5e+00 ] ;
+    terms:healthBenefits "Supports cardiovascular health, high in Vitamin K"^^xsd:string ;
+    terms:name "Leek"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Allium ampeloprasum"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AlliumCepa> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Red"^^xsd:string,
+        "White"^^xsd:string,
+        "Yellow"^^xsd:string ;
+    terms:growingCondition terms:LooseSoil,
+        terms:ModerateWatering ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.7e+00 ;
+            terms:kcal 40 ;
+            terms:protein 1.1e+00 ] ;
+    terms:healthBenefits "Anti-inflammatory, supports heart health"^^xsd:string ;
+    terms:name "Onion"^^xsd:string ;
+    terms:origin "Central Asia"^^xsd:string ;
+    terms:scientificName "Allium cepa"^^xsd:string ;
+    terms:shelfLife 60 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AlliumFistulosum> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Evergreen Hardy"^^xsd:string,
+        "Nabechan"^^xsd:string,
+        "White Lisbon"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:LooseSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.6e+00 ;
+            terms:kcal 32 ;
+            terms:protein 1.8e+00 ] ;
+    terms:healthBenefits "High in Vitamin K, supports bone health"^^xsd:string ;
+    terms:name "Scallion"^^xsd:string ;
+    terms:origin "Central Asia"^^xsd:string ;
+    terms:scientificName "Allium fistulosum"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AlliumSativum> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Elephant"^^xsd:string,
+        "Hardneck"^^xsd:string,
+        "Softneck"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.1e+00 ;
+            terms:kcal 149 ;
+            terms:protein 6.4e+00 ] ;
+    terms:healthBenefits "Boosts immune system, anti-inflammatory"^^xsd:string ;
+    terms:name "Garlic"^^xsd:string ;
+    terms:origin "Central Asia"^^xsd:string ;
+    terms:scientificName "Allium sativum"^^xsd:string ;
+    terms:shelfLife 120 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AmaranthusSpp> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal,
+        terms:YearRound ;
+    terms:commonVariety "Green Amaranth"^^xsd:string,
+        "Green Callaloo"^^xsd:string,
+        "Joseph's Coat"^^xsd:string,
+        "Red Amaranth"^^xsd:string,
+        "Red Garnet"^^xsd:string ;
+    terms:growingCondition terms:RichSoil,
+        terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.1e+00 ;
+            terms:kcal 23 ;
+            terms:protein 2.5e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3e+00 ;
+            terms:kcal 23 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.1e+00 ;
+            terms:kcal 23 ;
+            terms:protein 2.5e+00 ] ;
+    terms:healthBenefits "Rich in protein and iron, supports heart health"^^xsd:string,
+        "Rich in vitamins A and C, supports immune health"^^xsd:string ;
+    terms:name "Amaranth"^^xsd:string,
+        "Amaranth Greens"^^xsd:string ;
+    terms:origin "Americas"^^xsd:string,
+        "Central America"^^xsd:string ;
+    terms:scientificName "Amaranthus spp."^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AnthriscusCerefolium> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Curly Chervil"^^xsd:string,
+        "Flat-leaf Chervil"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:PartialSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring,
+        terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.2e+00 ;
+            terms:kcal 17 ;
+            terms:protein 1e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.2e+00 ;
+            terms:kcal 17 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Rich in vitamins A and C, supports digestion"^^xsd:string ;
+    terms:name "Chervil"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Anthriscus cerefolium"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ApiumGraveolens> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Celeriac"^^xsd:string,
+        "Golden"^^xsd:string,
+        "Pascal"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:MoistSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 16 ;
+            terms:protein 7e-01 ] ;
+    terms:healthBenefits "Low in calories, supports hydration"^^xsd:string ;
+    terms:name "Celery"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Apium graveolens"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ApiumGraveolensVarRapaceum> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Brilliant"^^xsd:string,
+        "Giant Prague"^^xsd:string,
+        "Monarch"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 42 ;
+            terms:protein 1.5e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 42 ;
+            terms:protein 1.5e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 42 ;
+            terms:protein 1.5e+00 ] ;
+    terms:healthBenefits "Supports bone health, rich in Vitamin K"^^xsd:string ;
+    terms:name "Celeriac"^^xsd:string,
+        "Celery Root"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Apium graveolens var. rapaceum"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/AsparagusOfficinalis> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Green"^^xsd:string,
+        "Purple"^^xsd:string,
+        "White"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:LooseSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.1e+00 ;
+            terms:kcal 20 ;
+            terms:protein 2.2e+00 ] ;
+    terms:healthBenefits "Supports bone health, rich in Vitamin K"^^xsd:string ;
+    terms:name "Asparagus"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Asparagus officinalis"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BambusaVulgaris> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Bitter"^^xsd:string,
+        "Sweet"^^xsd:string,
+        "Thorny"^^xsd:string ;
+    terms:growingCondition terms:RichSoil,
+        terms:WarmClimate ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 27 ;
+            terms:protein 2.6e+00 ] ;
+    terms:healthBenefits "Low in calories, supports digestion"^^xsd:string ;
+    terms:name "Bamboo Shoots"^^xsd:string ;
+    terms:origin "Asia"^^xsd:string ;
+    terms:scientificName "Bambusa vulgaris"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BarbareaVerna> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "American Cress"^^xsd:string,
+        "Winter Cress"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.7e+00 ;
+            terms:kcal 21 ;
+            terms:protein 2.2e+00 ] ;
+    terms:healthBenefits "Rich in vitamins A and C, supports immune health"^^xsd:string ;
+    terms:name "Upland Cress"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Barbarea verna"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BarbareaVulgaris> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "American Cress"^^xsd:string,
+        "Winter Cress"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 18 ;
+            terms:protein 1.8e+00 ] ;
+    terms:healthBenefits "Rich in vitamins A and C, supports immune health"^^xsd:string ;
+    terms:name "Land Cress"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Barbarea vulgaris"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BasellaAlba> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Creeping Spinach"^^xsd:string,
+        "Green"^^xsd:string,
+        "Red Stem"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 23 ;
+            terms:protein 2.7e+00 ] ;
+    terms:healthBenefits "Rich in vitamins A, C, supports eye and skin health"^^xsd:string ;
+    terms:name "Malabar Spinach"^^xsd:string ;
+    terms:origin "India"^^xsd:string ;
+    terms:scientificName "Basella alba"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BetaVulgaris> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Chioggia"^^xsd:string,
+        "Detroit Dark Red"^^xsd:string,
+        "Golden"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.8e+00 ;
+            terms:kcal 43 ;
+            terms:protein 1.6e+00 ] ;
+    terms:healthBenefits "Rich in nitrates, supports heart health"^^xsd:string ;
+    terms:name "Beetroot"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Beta vulgaris"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BetaVulgarisSubspCicla> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Fordhook Giant"^^xsd:string,
+        "Rainbow"^^xsd:string,
+        "Ruby Red"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring,
+        terms:Summer,
+        terms:Year-round ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 19 ;
+            terms:protein 1.8e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 19 ;
+            terms:protein 1.8e+00 ] ;
+    terms:healthBenefits "Rich in vitamins A and C, supports bone health"^^xsd:string ;
+    terms:name "Chard"^^xsd:string,
+        "Swiss Chard"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Beta vulgaris subsp. cicla"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BetaVulgarisSubspMaritima> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Sea Spinach"^^xsd:string,
+        "Wild Beet"^^xsd:string ;
+    terms:growingCondition terms:CoastalSoil,
+        terms:PartialSunlight ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.8e+00 ;
+            terms:kcal 37 ;
+            terms:protein 1.4e+00 ] ;
+    terms:healthBenefits "Supports bone health, rich in minerals"^^xsd:string ;
+    terms:name "Sea Beet"^^xsd:string ;
+    terms:origin "Coastal regions"^^xsd:string ;
+    terms:scientificName "Beta vulgaris subsp. maritima"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaJuncea> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Green Wave"^^xsd:string,
+        "Red Giant"^^xsd:string,
+        "Southern Giant Curled"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.2e+00 ;
+            terms:kcal 27 ;
+            terms:protein 2.6e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports heart health"^^xsd:string ;
+    terms:name "Mustard Greens"^^xsd:string ;
+    terms:origin "India"^^xsd:string ;
+    terms:scientificName "Brassica juncea"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaNapusVarNapobrassica> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "American Purple Top"^^xsd:string,
+        "Laurentian"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.3e+00 ;
+            terms:kcal 37 ;
+            terms:protein 1.2e+00 ] ;
+    terms:healthBenefits "Rich in Vitamin C, supports immune health"^^xsd:string ;
+    terms:name "Rutabaga"^^xsd:string ;
+    terms:origin "Scandinavia"^^xsd:string ;
+    terms:scientificName "Brassica napus var. napobrassica"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaNapusVarRapa> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Swede"^^xsd:string,
+        "Yellow Turnip"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 37 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in Vitamin C"^^xsd:string ;
+    terms:name "Rutabaga"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Brassica napus var. rapa"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleracea> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Calabrese"^^xsd:string,
+        "Romanesco"^^xsd:string,
+        "Sprouting"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.6e+00 ;
+            terms:kcal 34 ;
+            terms:protein 2.8e+00 ] ;
+    terms:healthBenefits "Boosts immune system, rich in Vitamin C"^^xsd:string ;
+    terms:name "Broccoli"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Brassica oleracea"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarAlboglabra> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Chinese Broccoli"^^xsd:string,
+        "Gai Lan"^^xsd:string,
+        "Jie Lan"^^xsd:string,
+        "Kailaan"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.7e+00 ;
+            terms:kcal 32 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.7e+00 ;
+            terms:kcal 32 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in calcium, supports bone health"^^xsd:string ;
+    terms:name "Chinese Broccoli"^^xsd:string,
+        "Gai Lan"^^xsd:string ;
+    terms:origin "China"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. alboglabra"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarBotrytis> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal,
+        terms:YearRound ;
+    terms:commonVariety "Chartreuse"^^xsd:string,
+        "Puntoverde"^^xsd:string,
+        "Purple"^^xsd:string,
+        "Romanesco"^^xsd:string,
+        "Veronica"^^xsd:string,
+        "White"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:FullSunlight,
+        terms:RichSoil,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 25 ;
+            terms:protein 1.9e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.4e+00 ;
+            terms:kcal 25 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.4e+00 ;
+            terms:kcal 25 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in Vitamin C, supports immune health"^^xsd:string,
+        "Rich in fiber, supports digestive health"^^xsd:string ;
+    terms:name "Cauliflower"^^xsd:string,
+        "Romanesco"^^xsd:string ;
+    terms:origin "Italy"^^xsd:string,
+        "Mediterranean"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. botrytis"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarCapitata> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Green"^^xsd:string,
+        "Red"^^xsd:string,
+        "Savoy"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:MoistSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 25 ;
+            terms:protein 1.3e+00 ] ;
+    terms:healthBenefits "Good for digestion, rich in Vitamin K"^^xsd:string ;
+    terms:name "Cabbage"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. capitata"^^xsd:string ;
+    terms:shelfLife 15 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarGemmifera> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Jade Cross"^^xsd:string,
+        "Long Island Improved"^^xsd:string,
+        "Redarling"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.8e+00 ;
+            terms:kcal 43 ;
+            terms:protein 3.4e+00 ] ;
+    terms:healthBenefits "High in fiber, supports digestive health"^^xsd:string ;
+    terms:name "Brussels Sprouts"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. gemmifera"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarGongylodes> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal,
+        terms:YearRound ;
+    terms:commonVariety "German Turnip"^^xsd:string,
+        "Gigante"^^xsd:string,
+        "Purple"^^xsd:string,
+        "Purple Vienna"^^xsd:string,
+        "White"^^xsd:string,
+        "White Vienna"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:FullSunlight,
+        terms:MoistSoil,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.6e+00 ;
+            terms:kcal 27 ;
+            terms:protein 1.7e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.6e+00 ;
+            terms:kcal 27 ;
+            terms:protein 1.7e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.3e+00 ;
+            terms:kcal 27 ;
+            terms:protein 1.7e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.6e+00 ;
+            terms:kcal 27 ;
+            terms:protein 1.7e+00 ] ;
+    terms:healthBenefits "Supports digestion, high in fiber"^^xsd:string,
+        "Supports digestion, rich in Vitamin C"^^xsd:string ;
+    terms:name "Kohlrabi"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. gongylodes"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry,
+        terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarItalica> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Aspabroc"^^xsd:string,
+        "Baby Broccoli"^^xsd:string,
+        "Broccolette"^^xsd:string,
+        "Sweet Baby"^^xsd:string,
+        "Tenderstem"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring,
+        terms:Summer,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.7e+00 ;
+            terms:kcal 30 ;
+            terms:protein 3e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.5e+00 ;
+            terms:kcal 35 ;
+            terms:protein 3.5e+00 ] ;
+    terms:healthBenefits "High in Vitamin C, supports immune health"^^xsd:string,
+        "Rich in vitamins A and C, supports immune health"^^xsd:string ;
+    terms:name "Broccolini"^^xsd:string ;
+    terms:origin "Japan"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. italica"^^xsd:string ;
+    terms:shelfLife 7,
+        10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarSabellica> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Curly"^^xsd:string,
+        "Lacinato"^^xsd:string,
+        "Red Russian"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/DarkGreen> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 49 ;
+            terms:protein 4.3e+00 ] ;
+    terms:healthBenefits "High in antioxidants, promotes heart health"^^xsd:string ;
+    terms:name "Kale"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. sabellica"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaOleraceaVarViridis> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Champion"^^xsd:string,
+        "Georgia"^^xsd:string,
+        "Morris Heading"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 4e+00 ;
+            terms:kcal 32 ;
+            terms:protein 3e+00 ] ;
+    terms:healthBenefits "High in calcium, supports bone health"^^xsd:string ;
+    terms:name "Collard Greens"^^xsd:string ;
+    terms:origin "Eastern Europe"^^xsd:string ;
+    terms:scientificName "Brassica oleracea var. viridis"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapa> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Golden Ball"^^xsd:string,
+        "Purple Top"^^xsd:string,
+        "Scarlet Queen"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:MoistSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 28 ;
+            terms:protein 9e-01 ] ;
+    terms:healthBenefits "Rich in Vitamin C, supports digestion"^^xsd:string ;
+    terms:name "Turnip"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Brassica rapa"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspChinensis> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Baby Bok Choy"^^xsd:string,
+        "Joi Choi"^^xsd:string,
+        "Shanghai"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:MoistSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1e+00 ;
+            terms:kcal 13 ;
+            terms:protein 1.5e+00 ] ;
+    terms:healthBenefits "High in calcium, supports bone health"^^xsd:string ;
+    terms:name "Bok Choy"^^xsd:string ;
+    terms:origin "China"^^xsd:string ;
+    terms:scientificName "Brassica rapa subsp. chinensis"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspNarinosa> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Rosette"^^xsd:string,
+        "Spoonleaf"^^xsd:string,
+        "Yukina Savoy"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 19 ;
+            terms:protein 2.1e+00 ] ;
+    terms:healthBenefits "High in vitamins A and C, supports eye health"^^xsd:string ;
+    terms:name "Tatsoi"^^xsd:string ;
+    terms:origin "East Asia"^^xsd:string ;
+    terms:scientificName "Brassica rapa subsp. narinosa"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspNipposinica> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Early Mizuna"^^xsd:string,
+        "Kyona Mizuna"^^xsd:string,
+        "Red Mizuna"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 22 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in antioxidants, supports immune health"^^xsd:string ;
+    terms:name "Mizuna"^^xsd:string ;
+    terms:origin "Japan"^^xsd:string ;
+    terms:scientificName "Brassica rapa subsp. nipposinica"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspPekinensis> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Green Rocket"^^xsd:string,
+        "Michihli"^^xsd:string,
+        "Optiko"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:MoistSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/PaleGreen> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 16 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Low in calories, rich in Vitamin C"^^xsd:string ;
+    terms:name "Napa Cabbage"^^xsd:string ;
+    terms:origin "China"^^xsd:string ;
+    terms:scientificName "Brassica rapa subsp. pekinensis"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaSubspPerviridis> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Japanese Mustard Spinach"^^xsd:string,
+        "Komatsuna"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 26 ;
+            terms:protein 3e+00 ] ;
+    terms:healthBenefits "Rich in vitamins A and C, supports eye health"^^xsd:string ;
+    terms:name "Komatsuna"^^xsd:string ;
+    terms:origin "Japan"^^xsd:string ;
+    terms:scientificName "Brassica rapa subsp. perviridis"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaVarNipposinica> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Early Mizuna"^^xsd:string,
+        "Kyona Mizuna"^^xsd:string,
+        "Red Mizuna"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 22 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in antioxidants, supports immune health"^^xsd:string ;
+    terms:name "Mizuna"^^xsd:string ;
+    terms:origin "Japan"^^xsd:string ;
+    terms:scientificName "Brassica rapa var. nipposinica"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/BrassicaRapaVarSubspRapa> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Cima di Rapa"^^xsd:string,
+        "Rapini"^^xsd:string,
+        "Spring Raab"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3e+00 ;
+            terms:kcal 22 ;
+            terms:protein 2.6e+00 ] ;
+    terms:healthBenefits "High in antioxidants, supports heart health"^^xsd:string ;
+    terms:name "Broccoli Raab"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Brassica rapa var. subsp. rapa"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CannaIndica> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Edible Canna"^^xsd:string,
+        "Queensland Arrowroot"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 130 ;
+            terms:protein 1.2e+00 ] ;
+    terms:healthBenefits "Rich in starch, supports energy production"^^xsd:string ;
+    terms:name "Canna Lily Root"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string ;
+    terms:scientificName "Canna indica"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CapsicumAnnuum> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Ancho"^^xsd:string,
+        "Green"^^xsd:string,
+        "Orange"^^xsd:string,
+        "Pasilla"^^xsd:string,
+        "Red"^^xsd:string,
+        "Yellow"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.1e+00 ;
+            terms:kcal 31 ;
+            terms:protein 1e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.7e+00 ;
+            terms:kcal 20 ;
+            terms:protein 9e-01 ] ;
+    terms:healthBenefits "Rich in Vitamin C, supports immune health"^^xsd:string,
+        "Rich in Vitamin C, supports immune system"^^xsd:string ;
+    terms:name "Bell Pepper"^^xsd:string,
+        "Poblano Pepper"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string,
+        "Mexico"^^xsd:string ;
+    terms:scientificName "Capsicum annuum"^^xsd:string ;
+    terms:shelfLife 7,
+        10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CelosiaArgentea> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Plumed Celosia"^^xsd:string,
+        "Red Cockscomb"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 30 ;
+            terms:protein 2.1e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports immune health"^^xsd:string ;
+    terms:name "Celosia"^^xsd:string ;
+    terms:origin "Africa"^^xsd:string ;
+    terms:scientificName "Celosia argentea"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ChrysanthemumCoronarium> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Edible Chrysanthemum"^^xsd:string,
+        "Shungiku"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 25 ;
+            terms:protein 2.5e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports immune health"^^xsd:string ;
+    terms:name "Chrysanthemum Greens"^^xsd:string ;
+    terms:origin "Asia"^^xsd:string ;
+    terms:scientificName "Chrysanthemum coronarium"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CichoriumEndivia> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Broadleaf Batavian"^^xsd:string,
+        "Curly Endive"^^xsd:string,
+        "Endive"^^xsd:string,
+        "Frisée"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:FullSunlight,
+        terms:RichSoil,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1e+00 ;
+            terms:kcal 15 ;
+            terms:protein 1e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.1e+00 ;
+            terms:kcal 17 ;
+            terms:protein 1.3e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in vitamins A and C"^^xsd:string,
+        "Supports digestive health, high in fiber"^^xsd:string ;
+    terms:name "Endive"^^xsd:string,
+        "Escarole"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string,
+        "Mediterranean"^^xsd:string ;
+    terms:scientificName "Cichorium endivia"^^xsd:string ;
+    terms:shelfLife 5,
+        7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CichoriumIntybus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Chioggia"^^xsd:string,
+        "Treviso"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 23 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports heart health"^^xsd:string ;
+    terms:name "Radicchio"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Cichorium intybus"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CocciniaGrandis> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Ivy Gourd"^^xsd:string,
+        "Kundru"^^xsd:string,
+        "Scarlet Gourd"^^xsd:string,
+        "Telakucha"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 23 ;
+            terms:protein 1.4e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 18 ;
+            terms:protein 1.2e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in Vitamin A"^^xsd:string ;
+    terms:name "Tindora"^^xsd:string ;
+    terms:origin "South Asia"^^xsd:string ;
+    terms:scientificName "Coccinia grandis"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ColocasiaEsculenta> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Dasheen"^^xsd:string,
+        "Eddo"^^xsd:string,
+        "Hawaiian"^^xsd:string ;
+    terms:growingCondition terms:PartialSunlight,
+        terms:WetSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 5.1e+00 ;
+            terms:kcal 142 ;
+            terms:protein 5e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 5.1e+00 ;
+            terms:kcal 142 ;
+            terms:protein 5e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 5.1e+00 ;
+            terms:kcal 142 ;
+            terms:protein 5e-01 ] ;
+    terms:healthBenefits "High in fiber, supports digestive health"^^xsd:string ;
+    terms:name "Taro"^^xsd:string,
+        "Taro Root"^^xsd:string ;
+    terms:origin "Southeast Asia"^^xsd:string ;
+    terms:scientificName "Colocasia esculenta"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CorchorusOlitorius> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Egyptian Spinach"^^xsd:string,
+        "Saluyot"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.5e+00 ;
+            terms:kcal 30 ;
+            terms:protein 1.5e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports digestion"^^xsd:string ;
+    terms:name "Jute Leaves"^^xsd:string ;
+    terms:origin "Africa"^^xsd:string ;
+    terms:scientificName "Corchorus olitorius"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CrambeMaritima> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Cultivated Sea Kale"^^xsd:string,
+        "Wild Sea Kale"^^xsd:string ;
+    terms:growingCondition terms:CoastalSoil,
+        terms:FullSunlight ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 25 ;
+            terms:protein 2.5e+00 ] ;
+    terms:healthBenefits "Rich in Vitamin C, supports immune health"^^xsd:string ;
+    terms:name "Sea Kale"^^xsd:string ;
+    terms:origin "Coastal regions"^^xsd:string ;
+    terms:scientificName "Crambe maritima"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CucumisSativus> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Pickling"^^xsd:string,
+        "Seedless"^^xsd:string,
+        "Slicing"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 5e-01 ;
+            terms:kcal 16 ;
+            terms:protein 7e-01 ] ;
+    terms:healthBenefits "Hydrating, supports skin health"^^xsd:string ;
+    terms:name "Cucumber"^^xsd:string ;
+    terms:origin "South Asia"^^xsd:string ;
+    terms:scientificName "Cucumis sativus"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CucurbitaMaxima> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Japanese Squash"^^xsd:string,
+        "Kabocha"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 26 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "High in Vitamin A, supports immune health"^^xsd:string ;
+    terms:name "Japanese Pumpkin"^^xsd:string ;
+    terms:origin "Japan"^^xsd:string ;
+    terms:scientificName "Cucurbita maxima"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CucurbitaPepo> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Black Zucchini"^^xsd:string,
+        "Cinderella"^^xsd:string,
+        "Crookneck"^^xsd:string,
+        "Jack-o'-Lantern"^^xsd:string,
+        "Round"^^xsd:string,
+        "Straightneck"^^xsd:string,
+        "Sugar Pie"^^xsd:string,
+        "Summer Squash"^^xsd:string,
+        "Yellow"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1e+00 ;
+            terms:kcal 17 ;
+            terms:protein 1.2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 5e-01 ;
+            terms:kcal 26 ;
+            terms:protein 1e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.4e+00 ;
+            terms:kcal 16 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "High in Vitamin A, supports immune system"^^xsd:string,
+        "High in Vitamin C, supports immune health"^^xsd:string,
+        "Low in calories, supports digestion"^^xsd:string ;
+    terms:name "Pumpkin"^^xsd:string,
+        "Yellow Squash"^^xsd:string,
+        "Zucchini"^^xsd:string ;
+    terms:origin "Americas"^^xsd:string,
+        "Central America"^^xsd:string,
+        "North America"^^xsd:string ;
+    terms:scientificName "Cucurbita pepo"^^xsd:string ;
+    terms:shelfLife 5,
+        7,
+        60 ;
+    terms:storedLike terms:CoolDry,
+        terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CucurbitaPepoVarTurbinata> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Gold"^^xsd:string,
+        "Table Queen"^^xsd:string,
+        "Taybelle"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 40 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Rich in Vitamin A, supports vision health"^^xsd:string ;
+    terms:name "Acorn Squash"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string ;
+    terms:scientificName "Cucurbita pepo var. turbinata"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CynaraCardunculus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Artichoke Thistle"^^xsd:string,
+        "Spanish Cardoon"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3e+00 ;
+            terms:kcal 47 ;
+            terms:protein 1.5e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports digestion"^^xsd:string ;
+    terms:name "Cardoon"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Cynara cardunculus"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/CynaraScolymus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Green Globe"^^xsd:string,
+        "Purple of Romagna"^^xsd:string,
+        "Violetta di Chioggia"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 5.4e+00 ;
+            terms:kcal 47 ;
+            terms:protein 3.3e+00 ] ;
+    terms:healthBenefits "High in antioxidants, supports liver health"^^xsd:string ;
+    terms:name "Artichoke"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Cynara scolymus"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/DaucusCarota> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Chantenay"^^xsd:string,
+        "Imperator"^^xsd:string,
+        "Nantes"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.8e+00 ;
+            terms:kcal 41 ;
+            terms:protein 9e-01 ] ;
+    terms:healthBenefits "Improves vision, rich in Vitamin A"^^xsd:string ;
+    terms:name "Carrot"^^xsd:string ;
+    terms:origin "Middle East"^^xsd:string ;
+    terms:scientificName "Daucus carota"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/DysphaniaAmbrosioides> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Common"^^xsd:string,
+        "Narrow-leaf"^^xsd:string,
+        "Red"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring,
+        terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 32 ;
+            terms:protein 3.5e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in essential oils"^^xsd:string ;
+    terms:name "Epazote"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string ;
+    terms:scientificName "Dysphania ambrosioides"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/EleocharisDulcis> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Chinese Water Chestnut"^^xsd:string,
+        "Singkamas"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WetSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 4.5e+00 ;
+            terms:kcal 97 ;
+            terms:protein 1.4e+00 ] ;
+    terms:healthBenefits "High in fiber, supports digestive health"^^xsd:string ;
+    terms:name "Water Chestnut"^^xsd:string ;
+    terms:origin "Asia"^^xsd:string ;
+    terms:scientificName "Eleocharis dulcis"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ErucaVesicariaSubspSativa> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Rocket"^^xsd:string,
+        "Sylvetta"^^xsd:string,
+        "Wild"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 25 ;
+            terms:protein 2.6e+00 ] ;
+    terms:healthBenefits "High in vitamins A and C, supports heart health"^^xsd:string ;
+    terms:name "Arugula"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Eruca vesicaria subsp. sativa"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/FoeniculumVulgare> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal,
+        terms:YearRound ;
+    terms:commonVariety "Bronze"^^xsd:string,
+        "Florence"^^xsd:string,
+        "Florence Fennel"^^xsd:string,
+        "Sweet"^^xsd:string,
+        "Sweet Fennel"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.1e+00 ;
+            terms:kcal 31 ;
+            terms:protein 1.2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.1e+00 ;
+            terms:kcal 31 ;
+            terms:protein 1.2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.1e+00 ;
+            terms:kcal 31 ;
+            terms:protein 1.2e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in Vitamin C"^^xsd:string,
+        "Supports digestion, rich in fiber"^^xsd:string ;
+    terms:name "Fennel"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Foeniculum vulgare"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/HelianthusTuberosus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Clearwater"^^xsd:string,
+        "Red Fuseau"^^xsd:string,
+        "Stampede"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:LooseSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 73 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 73 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 73 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in fiber, supports digestive health"^^xsd:string,
+        "High in potassium, supports digestive health"^^xsd:string ;
+    terms:name "Jerusalem Artichoke"^^xsd:string,
+        "Sunchoke"^^xsd:string ;
+    terms:origin "North America"^^xsd:string ;
+    terms:scientificName "Helianthus tuberosus"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/IpomoeaAquatica> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Chinese Watercress"^^xsd:string,
+        "Water Spinach"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.7e+00 ;
+            terms:kcal 20 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.7e+00 ;
+            terms:kcal 20 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in Vitamin A, supports eye health"^^xsd:string ;
+    terms:name "Kangkong"^^xsd:string ;
+    terms:origin "Southeast Asia"^^xsd:string ;
+    terms:scientificName "Ipomoea aquatica"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/IpomoeaBatatas> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal,
+        terms:YearRound ;
+    terms:commonVariety "Beauregard"^^xsd:string,
+        "Georgia Jet"^^xsd:string,
+        "Japanese"^^xsd:string,
+        "Jewel"^^xsd:string,
+        "Okinawa"^^xsd:string,
+        "Purple"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3e+00 ;
+            terms:kcal 86 ;
+            terms:protein 1.6e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.5e+00 ;
+            terms:kcal 38 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports heart health"^^xsd:string,
+        "Rich in beta-carotene, promotes eye health"^^xsd:string ;
+    terms:name "Sweet Potato"^^xsd:string,
+        "Sweet Potato Leaves"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string ;
+    terms:scientificName "Ipomoea batatas"^^xsd:string ;
+    terms:shelfLife 7,
+        30 ;
+    terms:storedLike terms:CoolDark,
+        terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LactucaSativa> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Butterhead"^^xsd:string,
+        "Iceberg"^^xsd:string,
+        "Romaine"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:MoistSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.3e+00 ;
+            terms:kcal 15 ;
+            terms:protein 1.4e+00 ] ;
+    terms:healthBenefits "Low in calories, supports digestion"^^xsd:string ;
+    terms:name "Lettuce"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Lactuca sativa"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LactucaSativaVarAsparagina> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Green"^^xsd:string,
+        "Red"^^xsd:string,
+        "Tongshan"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:RichSoil ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.3e+00 ;
+            terms:kcal 18 ;
+            terms:protein 9e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.3e+00 ;
+            terms:kcal 18 ;
+            terms:protein 9e-01 ] ;
+    terms:healthBenefits "Low in calories, supports hydration"^^xsd:string ;
+    terms:name "Celtuce"^^xsd:string ;
+    terms:origin "China"^^xsd:string ;
+    terms:scientificName "Lactuca sativa var. asparagina"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LagenariaSiceraria> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Bottle Gourd"^^xsd:string,
+        "Calabash"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.3e+00 ;
+            terms:kcal 14 ;
+            terms:protein 6e-01 ] ;
+    terms:healthBenefits "Supports digestion, low in calories"^^xsd:string ;
+    terms:name "Gourd"^^xsd:string ;
+    terms:origin "Africa"^^xsd:string ;
+    terms:scientificName "Lagenaria siceraria"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/LepidiumSativum> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal,
+        terms:YearRound ;
+    terms:commonVariety "Curled"^^xsd:string,
+        "Garden Cress"^^xsd:string,
+        "Land"^^xsd:string,
+        "Pepper Cress"^^xsd:string,
+        "Winter"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:PartialSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.3e+00 ;
+            terms:kcal 32 ;
+            terms:protein 3e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.1e+00 ;
+            terms:kcal 32 ;
+            terms:protein 2.6e+00 ] ;
+    terms:healthBenefits "High in vitamins A, C, K, supports eye health"^^xsd:string,
+        "Rich in antioxidants, supports heart health"^^xsd:string ;
+    terms:name "Cress"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string,
+        "Mediterranean"^^xsd:string ;
+    terms:scientificName "Lepidium sativum"^^xsd:string ;
+    terms:shelfLife 5,
+        7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ManihotEsculenta> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Bitter"^^xsd:string,
+        "Brazilian"^^xsd:string,
+        "Sweet"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Year-round ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 160 ;
+            terms:protein 1.4e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 160 ;
+            terms:protein 1.4e+00 ] ;
+    terms:healthBenefits "High in carbohydrates, supports energy production"^^xsd:string ;
+    terms:name "Cassava"^^xsd:string ;
+    terms:origin "South America"^^xsd:string ;
+    terms:scientificName "Manihot esculenta"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/MatteucciaStruthiopteris> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Bracken Fern"^^xsd:string,
+        "Ostrich Fern"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:NoSunlight ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.5e+00 ;
+            terms:kcal 34 ;
+            terms:protein 3e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports digestive health"^^xsd:string ;
+    terms:name "Fiddlehead Fern"^^xsd:string ;
+    terms:origin "North America"^^xsd:string ;
+    terms:scientificName "Matteuccia struthiopteris"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/MomordicaCharantia> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Chinese"^^xsd:string,
+        "Indian"^^xsd:string,
+        "White"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.6e+00 ;
+            terms:kcal 17 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Supports blood sugar regulation, high in Vitamin C"^^xsd:string ;
+    terms:name "Bitter Melon"^^xsd:string ;
+    terms:origin "India"^^xsd:string ;
+    terms:scientificName "Momordica charantia"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NasturtiumOfficinale> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Broadleaf"^^xsd:string,
+        "Upland"^^xsd:string,
+        "Winter Cress"^^xsd:string ;
+    terms:growingCondition terms:PartialSunlight,
+        terms:WetSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 5e-01 ;
+            terms:kcal 11 ;
+            terms:protein 2.3e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports eye health"^^xsd:string ;
+    terms:name "Watercress"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Nasturtium officinale"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/NelumboNucifera> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Chinese Lotus Root"^^xsd:string,
+        "Indian Lotus"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.3e+00 ;
+            terms:kcal 74 ;
+            terms:protein 2.6e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.3e+00 ;
+            terms:kcal 74 ;
+            terms:protein 2.6e+00 ] ;
+    terms:healthBenefits "Rich in Vitamin C, supports immune health"^^xsd:string ;
+    terms:name "Lotus Root"^^xsd:string ;
+    terms:origin "Asia"^^xsd:string ;
+    terms:scientificName "Nelumbo nucifera"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/OpuntiaFicus-Indica> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Red"^^xsd:string,
+        "Spineless"^^xsd:string,
+        "White"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Year-round ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 16 ;
+            terms:protein 1.3e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in antioxidants"^^xsd:string ;
+    terms:name "Nopales"^^xsd:string ;
+    terms:origin "Mexico"^^xsd:string ;
+    terms:scientificName "Opuntia ficus-indica"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/OpuntiaSpp> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Paddle Cactus"^^xsd:string,
+        "Prickly Pear"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Year-round ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 16 ;
+            terms:protein 1.3e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 16 ;
+            terms:protein 1.3e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in antioxidants"^^xsd:string ;
+    terms:name "Nopales"^^xsd:string,
+        "Nopalito"^^xsd:string ;
+    terms:origin "Mexico"^^xsd:string ;
+    terms:scientificName "Opuntia spp."^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/OxalisTuberosa> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Hopin"^^xsd:string,
+        "New Zealand Oca"^^xsd:string,
+        "New Zealand Yam"^^xsd:string,
+        "Peruvian Oca"^^xsd:string,
+        "Red Oca"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Pink>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 70 ;
+            terms:protein 1.5e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 70 ;
+            terms:protein 1.5e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 72 ;
+            terms:protein 1.3e+00 ] ;
+    terms:healthBenefits "High in Vitamin C, supports digestion"^^xsd:string,
+        "High in carbohydrates, supports energy production"^^xsd:string ;
+    terms:name "Oca"^^xsd:string ;
+    terms:origin "Andes"^^xsd:string,
+        "South America"^^xsd:string ;
+    terms:scientificName "Oxalis tuberosa"^^xsd:string ;
+    terms:shelfLife 10,
+        30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PachyrhizusErosus> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Mexican Turnip"^^xsd:string,
+        "Water Chestnut"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Summer,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 4.9e+00 ;
+            terms:kcal 38 ;
+            terms:protein 7e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 4.9e+00 ;
+            terms:kcal 38 ;
+            terms:protein 7e-01 ] ;
+    terms:healthBenefits "Low in calories, supports digestive health"^^xsd:string ;
+    terms:name "Jicama"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string ;
+    terms:scientificName "Pachyrhizus erosus"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PastinacaSativa> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "All American"^^xsd:string,
+        "Harris Model"^^xsd:string,
+        "Hollow Crown"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 4.9e+00 ;
+            terms:kcal 75 ;
+            terms:protein 1.2e+00 ] ;
+    terms:healthBenefits "High in potassium, supports heart health"^^xsd:string ;
+    terms:name "Parsnip"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Pastinaca sativa"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PerillaFrutescens> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Japanese Basil"^^xsd:string,
+        "Shiso"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.6e+00 ;
+            terms:kcal 43 ;
+            terms:protein 3.5e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports heart health"^^xsd:string ;
+    terms:name "Perilla"^^xsd:string ;
+    terms:origin "Asia"^^xsd:string ;
+    terms:scientificName "Perilla frutescens"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PhaseolusVulgaris> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Bush"^^xsd:string,
+        "French"^^xsd:string,
+        "Pole"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.7e+00 ;
+            terms:kcal 31 ;
+            terms:protein 1.8e+00 ] ;
+    terms:healthBenefits "High in Vitamin K, supports bone health"^^xsd:string ;
+    terms:name "Green Beans"^^xsd:string ;
+    terms:origin "South America"^^xsd:string ;
+    terms:scientificName "Phaseolus vulgaris"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PhysalisPhiladelphica> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Purple"^^xsd:string,
+        "Rio Grande Verde"^^xsd:string,
+        "Toma Verde"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.9e+00 ;
+            terms:kcal 32 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Rich in Vitamin C, supports immune health"^^xsd:string ;
+    terms:name "Tomatillo"^^xsd:string ;
+    terms:origin "Mexico"^^xsd:string ;
+    terms:scientificName "Physalis philadelphica"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PisumSativum> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Garden Peas"^^xsd:string,
+        "Snap Peas"^^xsd:string,
+        "Snow Peas"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 5.7e+00 ;
+            terms:kcal 81 ;
+            terms:protein 5.4e+00 ] ;
+    terms:healthBenefits "High in protein, supports eye health"^^xsd:string ;
+    terms:name "Peas"^^xsd:string ;
+    terms:origin "Mediterranean"^^xsd:string ;
+    terms:scientificName "Pisum sativum"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PortulacaOleracea> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Common Purslane"^^xsd:string,
+        "Golden"^^xsd:string,
+        "Green"^^xsd:string,
+        "Red"^^xsd:string,
+        "Red Purslane"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 16 ;
+            terms:protein 1.3e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.4e+00 ;
+            terms:kcal 20 ;
+            terms:protein 1.3e+00 ] ;
+    terms:healthBenefits "Rich in Omega-3 fatty acids, supports heart health"^^xsd:string,
+        "Rich in omega-3 fatty acids, supports heart health"^^xsd:string ;
+    terms:name "Purslane"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string,
+        "Mediterranean"^^xsd:string ;
+    terms:scientificName "Portulaca oleracea"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PsophocarpusTetragonolobus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Asparagus Pea"^^xsd:string,
+        "Goa Bean"^^xsd:string,
+        "Princess Bean"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 49 ;
+            terms:protein 2.8e+00 ] ;
+    terms:healthBenefits "High in protein, supports digestive health"^^xsd:string ;
+    terms:name "Winged Bean"^^xsd:string ;
+    terms:origin "Southeast Asia"^^xsd:string ;
+    terms:scientificName "Psophocarpus tetragonolobus"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/PuerariaMontana> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Arrowroot"^^xsd:string,
+        "Japanese Kudzu"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 5e+00 ;
+            terms:kcal 100 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in fiber, supports digestive health"^^xsd:string ;
+    terms:name "Kudzu"^^xsd:string ;
+    terms:origin "Asia"^^xsd:string ;
+    terms:scientificName "Pueraria montana"^^xsd:string ;
+    terms:shelfLife 30 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/RaphanusSativus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Daikon"^^xsd:string,
+        "French Breakfast"^^xsd:string,
+        "Long White Radish"^^xsd:string,
+        "Red Globe"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:LooseSoil,
+        terms:ModerateWatering,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 16 ;
+            terms:protein 6e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 16 ;
+            terms:protein 7e-01 ] ;
+    terms:healthBenefits "High in Vitamin C, supports digestion"^^xsd:string,
+        "Supports digestion, high in antioxidants"^^xsd:string ;
+    terms:name "Radish"^^xsd:string,
+        "White Radish"^^xsd:string ;
+    terms:origin "Asia"^^xsd:string,
+        "Southeast Asia"^^xsd:string ;
+    terms:scientificName "Raphanus sativus"^^xsd:string ;
+    terms:shelfLife 10,
+        14 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/RaphanusSativusVarKoreanus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Korean Daikon"^^xsd:string,
+        "Mu"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 15 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "High in Vitamin C, supports digestion"^^xsd:string ;
+    terms:name "Korean Radish"^^xsd:string ;
+    terms:origin "Korea"^^xsd:string ;
+    terms:scientificName "Raphanus sativus var. koreanus"^^xsd:string ;
+    terms:shelfLife 10 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/RaphanusSativusVarLongipinnatus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Alpine"^^xsd:string,
+        "Minowase"^^xsd:string,
+        "Miyashige"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 18 ;
+            terms:protein 6e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 18 ;
+            terms:protein 6e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.6e+00 ;
+            terms:kcal 18 ;
+            terms:protein 6e-01 ] ;
+    terms:healthBenefits "High in Vitamin C, supports digestion"^^xsd:string ;
+    terms:name "Daikon Radish"^^xsd:string ;
+    terms:origin "East Asia"^^xsd:string ;
+    terms:scientificName "Raphanus sativus var. longipinnatus"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/RaphanusSativusVarNiger> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Nero Tondo"^^xsd:string,
+        "Noir Long Maraîcher"^^xsd:string,
+        "Round Spanish"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Black>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.5e+00 ;
+            terms:kcal 20 ;
+            terms:protein 8e-01 ] ;
+    terms:healthBenefits "Supports digestion, high in fiber"^^xsd:string ;
+    terms:name "Black Radish"^^xsd:string ;
+    terms:origin "Eastern Europe"^^xsd:string ;
+    terms:scientificName "Raphanus sativus var. niger"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/RheumRhabarbarum> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Canada Red"^^xsd:string,
+        "Crimson Red"^^xsd:string,
+        "Victoria"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring,
+        terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 21 ;
+            terms:protein 9e-01 ] ;
+    terms:healthBenefits "High in antioxidants, supports digestion"^^xsd:string ;
+    terms:name "Rhubarb"^^xsd:string ;
+    terms:origin "Siberia"^^xsd:string ;
+    terms:scientificName "Rheum rhabarbarum"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/RumexAcetosa> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Broadleaf"^^xsd:string,
+        "French"^^xsd:string,
+        "French Sorrel"^^xsd:string,
+        "Garden Sorrel"^^xsd:string,
+        "Red-veined"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:PartialSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring,
+        terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.3e+00 ;
+            terms:kcal 43 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 1.4e+00 ;
+            terms:kcal 22 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "High in Vitamin C, supports digestive health"^^xsd:string,
+        "Rich in Vitamin C, supports immune health"^^xsd:string ;
+    terms:name "Sorrel"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Rumex acetosa"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SalicorniaEuropaea> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Marsh"^^xsd:string,
+        "Rock"^^xsd:string,
+        "Sea Asparagus"^^xsd:string ;
+    terms:growingCondition terms:CoastalClimate,
+        terms:SaltySoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 22 ;
+            terms:protein 2.1e+00 ] ;
+    terms:healthBenefits "Rich in minerals, supports thyroid health"^^xsd:string ;
+    terms:name "Samphire"^^xsd:string ;
+    terms:origin "Coastal regions"^^xsd:string ;
+    terms:scientificName "Salicornia europaea"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SechiumEdule> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Pear Squash"^^xsd:string,
+        "Smooth"^^xsd:string,
+        "Spiny"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 19 ;
+            terms:protein 8e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 19 ;
+            terms:protein 8e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 19 ;
+            terms:protein 8e-01 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 19 ;
+            terms:protein 8e-01 ] ;
+    terms:healthBenefits "Supports digestion, rich in Vitamin C"^^xsd:string ;
+    terms:name "Chayote"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string ;
+    terms:scientificName "Sechium edule"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumLycopersicum> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Beefsteak"^^xsd:string,
+        "Cherry"^^xsd:string,
+        "Roma"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.2e+00 ;
+            terms:kcal 18 ;
+            terms:protein 9e-01 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports heart health"^^xsd:string ;
+    terms:name "Tomato"^^xsd:string ;
+    terms:origin "South America"^^xsd:string ;
+    terms:scientificName "Solanum lycopersicum"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumMelongena> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Black Beauty"^^xsd:string,
+        "Graffiti"^^xsd:string,
+        "Japanese"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3e+00 ;
+            terms:kcal 25 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Supports brain health, high in fiber"^^xsd:string ;
+    terms:name "Eggplant"^^xsd:string ;
+    terms:origin "India"^^xsd:string ;
+    terms:scientificName "Solanum melongena"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SolanumTuberosum> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Red"^^xsd:string,
+        "Russet"^^xsd:string,
+        "Yukon Gold"^^xsd:string ;
+    terms:growingCondition terms:LooseSoil,
+        terms:ModerateWatering ;
+    terms:growsIn terms:Fall ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 77 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "Provides energy, good source of potassium"^^xsd:string ;
+    terms:name "Potato"^^xsd:string ;
+    terms:origin "South America"^^xsd:string ;
+    terms:scientificName "Solanum tuberosum"^^xsd:string ;
+    terms:shelfLife 60 ;
+    terms:storedLike terms:CoolDark .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/SpinaciaOleracea> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Flat-leaf"^^xsd:string,
+        "Savoy"^^xsd:string,
+        "Semi-savoy"^^xsd:string ;
+    terms:growingCondition terms:MoistSoil,
+        terms:PartialSunlight ;
+    terms:growsIn terms:Fall,
+        terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.2e+00 ;
+            terms:kcal 23 ;
+            terms:protein 2.9e+00 ] ;
+    terms:healthBenefits "High in iron, good for bone health"^^xsd:string ;
+    terms:name "Spinach"^^xsd:string ;
+    terms:origin "Central Asia"^^xsd:string ;
+    terms:scientificName "Spinacia oleracea"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/TaraxacumOfficinale> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Common"^^xsd:string,
+        "Common Dandelion"^^xsd:string,
+        "French"^^xsd:string,
+        "Red-Ribbed"^^xsd:string,
+        "Wild Lettuce"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.5e+00 ;
+            terms:kcal 45 ;
+            terms:protein 2.7e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.5e+00 ;
+            terms:kcal 45 ;
+            terms:protein 2.7e+00 ] ;
+    terms:healthBenefits "Rich in antioxidants, supports liver health"^^xsd:string,
+        "Rich in vitamins A and C, supports liver health"^^xsd:string ;
+    terms:name "Dandelion Greens"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Taraxacum officinale"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/TragopogonPorrifolius> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Black"^^xsd:string,
+        "Mammoth Sandwich Island"^^xsd:string,
+        "Oyster Plant"^^xsd:string,
+        "Vegetable Oyster"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Fall,
+        terms:Winter ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 73 ;
+            terms:protein 2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 3.3e+00 ;
+            terms:kcal 82 ;
+            terms:protein 3e+00 ] ;
+    terms:healthBenefits "Supports digestion, high in fiber"^^xsd:string,
+        "Supports digestion, high in potassium"^^xsd:string ;
+    terms:name "Salsify"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string,
+        "Mediterranean"^^xsd:string ;
+    terms:scientificName "Tragopogon porrifolius"^^xsd:string ;
+    terms:shelfLife 14 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/TrichosanthesCucumerina> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Long"^^xsd:string,
+        "Short"^^xsd:string,
+        "White"^^xsd:string ;
+    terms:growingCondition terms:RichSoil,
+        terms:WarmClimate ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.4e+00 ;
+            terms:kcal 18 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in fiber"^^xsd:string ;
+    terms:name "Snake Gourd"^^xsd:string ;
+    terms:origin "India"^^xsd:string ;
+    terms:scientificName "Trichosanthes cucumerina"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/TropaeolumMajus> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Garden Nasturtium"^^xsd:string,
+        "Indian Cress"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green>,
+        <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2e+00 ;
+            terms:kcal 40 ;
+            terms:protein 2e+00 ] ;
+    terms:healthBenefits "Rich in Vitamin C, supports immune health"^^xsd:string ;
+    terms:name "Nasturtium"^^xsd:string ;
+    terms:origin "South America"^^xsd:string ;
+    terms:scientificName "Tropaeolum majus"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/UrticaDioica> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Common Nettle"^^xsd:string,
+        "Stinging Nettle"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:NoSunlight ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 6.9e+00 ;
+            terms:kcal 42 ;
+            terms:protein 2.5e+00 ] ;
+    terms:healthBenefits "Rich in vitamins and minerals, supports blood health"^^xsd:string ;
+    terms:name "Nettle"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Urtica dioica"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ValerianellaLocusta> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Lamb's Lettuce"^^xsd:string,
+        "Mâche"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Spring ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.2e+00 ;
+            terms:kcal 15 ;
+            terms:protein 1.5e+00 ] ;
+    terms:healthBenefits "Rich in vitamins A and C, supports bone health"^^xsd:string ;
+    terms:name "Corn Salad"^^xsd:string ;
+    terms:origin "Europe"^^xsd:string ;
+    terms:scientificName "Valerianella locusta"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/VernoniaAmygdalina> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Cameroonian"^^xsd:string,
+        "Nigerian"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Year-round ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.6e+00 ;
+            terms:kcal 26 ;
+            terms:protein 2.3e+00 ] ;
+    terms:healthBenefits "Supports blood sugar regulation, rich in antioxidants"^^xsd:string ;
+    terms:name "Bitter Leaf"^^xsd:string ;
+    terms:origin "Africa"^^xsd:string ;
+    terms:scientificName "Vernonia amygdalina"^^xsd:string ;
+    terms:shelfLife 5 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/VignaUnguiculataSubspSesquipedalis> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Mosaic"^^xsd:string,
+        "Red Noodle"^^xsd:string,
+        "Stickless Wonder"^^xsd:string ;
+    terms:growingCondition terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 3.6e+00 ;
+            terms:kcal 47 ;
+            terms:protein 3e+00 ] ;
+    terms:healthBenefits "High in protein, supports heart health"^^xsd:string ;
+    terms:name "Yardlong Bean"^^xsd:string ;
+    terms:origin "Southeast Asia"^^xsd:string ;
+    terms:scientificName "Vigna unguiculata subsp. sesquipedalis"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/WasabiaJaponica> a terms:Vegetable ;
+    terms:availableIn terms:YearRound ;
+    terms:commonVariety "Japanese Horseradish"^^xsd:string ;
+    terms:growingCondition terms:CoolClimate,
+        terms:NoSunlight ;
+    terms:growsIn terms:Year-round ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 1.8e+00 ;
+            terms:kcal 50 ;
+            terms:protein 1e+00 ] ;
+    terms:healthBenefits "Supports digestion, rich in antioxidants"^^xsd:string ;
+    terms:name "Wasabi"^^xsd:string ;
+    terms:origin "Japan"^^xsd:string ;
+    terms:scientificName "Wasabia japonica"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:Refrigeration .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable/ZeaMays> a terms:Vegetable ;
+    terms:availableIn terms:Seasonal ;
+    terms:commonVariety "Dent Corn"^^xsd:string,
+        "Flint Corn"^^xsd:string,
+        "Golden Bantam"^^xsd:string,
+        "Popcorn"^^xsd:string,
+        "Silver Queen"^^xsd:string,
+        "Sweet Corn"^^xsd:string ;
+    terms:growingCondition terms:FullSunlight,
+        terms:WarmClimate,
+        terms:WellDrainedSoil ;
+    terms:growsIn terms:Summer ;
+    terms:hasColor <https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> ;
+    terms:hasNutritionalValue [ a terms:NutritionalValue ;
+            terms:fiber 2.7e+00 ;
+            terms:kcal 86 ;
+            terms:protein 3.2e+00 ],
+        [ a terms:NutritionalValue ;
+            terms:fiber 2.7e+00 ;
+            terms:kcal 86 ;
+            terms:protein 3.2e+00 ] ;
+    terms:healthBenefits "Good source of energy, high in fiber"^^xsd:string,
+        "Supports energy production, rich in fiber"^^xsd:string ;
+    terms:name "Corn"^^xsd:string,
+        "Sweet Corn"^^xsd:string ;
+    terms:origin "Central America"^^xsd:string ;
+    terms:scientificName "Zea mays"^^xsd:string ;
+    terms:shelfLife 7 ;
+    terms:storedLike terms:CoolDry .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Black> a terms:Color ;
+    terms:value "Black" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/DarkGreen> a terms:Color ;
+    terms:value "Dark Green" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/PaleGreen> a terms:Color ;
+    terms:value "Pale Green" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Pink> a terms:Color ;
+    terms:value "Pink" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Orange> a terms:Color ;
+    terms:value "Orange" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Purple> a terms:Color ;
+    terms:value "Purple" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Brown> a terms:Color ;
+    terms:value "Brown" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Yellow> a terms:Color ;
+    terms:value "Yellow" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Red> a terms:Color ;
+    terms:value "Red" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/White> a terms:Color ;
+    terms:value "White" .
+
+<https://dj1tjoo.github.io/linked-data-supermarket/vegetable-color/Green> a terms:Color ;
+    terms:value "Green" .
+

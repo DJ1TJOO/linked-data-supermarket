@@ -1,8 +1,44 @@
 import pandas as pd
 from rdflib import Graph, Literal, RDF, XSD, BNode
-from config import BASE, SCHEMA, TERMS, bind_namespaces
+from config import BASE, TERMS, bind_namespaces
 from pathlib import Path
 from arguments import get_arguments
+
+storeageRequirements = {
+    "Refrigeration": TERMS["Refrigeration"],
+    "Cool, dry place": TERMS["CoolDry"],
+    "Cool, dark place": TERMS["CoolDark"]
+}
+
+availableIn = {
+    "Year-round": TERMS["YearRound"],
+    "Seasonal": TERMS["Seasonal"]
+}
+
+growingConditions = {
+    # Sunlight
+    "full sunlight": TERMS["FullSunlight"],
+    "partial shade": TERMS["PartialSunlight"],
+    "shaded environment": TERMS["NoSunlight"],
+
+    # Soil
+    "coastal soil": TERMS["CoastalSoil"],
+    "well-drained soil": TERMS["WellDrainedSoil"],
+    "loose soil": TERMS["LooseSoil"],
+    "moist soil": TERMS["MoistSoil"],
+    "rich soil": TERMS["RichSoil"],
+    "salty soil": TERMS["SaltySoil"],
+    "wet soil": TERMS["WetSoil"],
+
+    # Climate
+    "cool": TERMS["CoolClimate"],
+    "cool climate": TERMS["CoolClimate"],
+    "warm climate": TERMS["WarmClimate"],
+    "coastal climate": TERMS["CoastalClimate"],
+
+    # Watering
+    "moderate watering": TERMS["ModerateWatering"]
+}
 
 def vegetables_graph(rows = 1000):
     vegetable_data = pd.read_csv('data/vegetables.csv', nrows=rows)
@@ -12,7 +48,7 @@ def vegetables_graph(rows = 1000):
         vegetable_name = r[1]
         scientific_name = r[2]
         colors = r[4]
-        season = r[5]
+        seasons = r[5]
         origin = r[6]
         nutrition = r[7]
         availability = r[9]
@@ -22,69 +58,42 @@ def vegetables_graph(rows = 1000):
         health = r[13]
         varieties = r[14]
 
-        sub = BASE[f"vegetable/{vegetable_name.replace(" ", "")}"]
-        pred = TERMS["name"]
-        obj = Literal(vegetable_name)
-        graph.add((sub, pred, obj))
+        sub = BASE[f"vegetable/{scientific_name.title().replace(".", "").replace(" ", "")}"]
         graph.add((sub, RDF.type, TERMS["Vegetable"]))
+        graph.add((sub, TERMS["name"], Literal(vegetable_name, datatype=XSD.string)))
+        graph.add((sub, TERMS["scientificName"], Literal(scientific_name, datatype=XSD.string)))
+        graph.add((sub, TERMS["origin"], Literal(origin, datatype=XSD.string)))
+        
+        graph.add((sub, TERMS["shelfLife"], Literal(int(shelf_life), datatype=XSD.integer)))
+        graph.add((sub, TERMS["healthBenefits"], Literal(health, datatype=XSD.string)))
 
-        pred = TERMS["scientificName"]
-        obj = Literal(scientific_name)
-        graph.add((sub, pred, obj))
-
-        pred = TERMS["origin"]
-        obj = Literal(origin)
-        graph.add((sub, pred, obj))
-
-        pred = TERMS["shelfLife"]
-        obj = Literal(shelf_life)
-        graph.add((sub, pred, obj))
-
-        pred = TERMS["healthBenefits"]
-        obj = Literal(health)
-        graph.add((sub, pred, obj))
-
-        pred = TERMS["commonVariety"]
         for variety in varieties.split(","):
-            variety = variety.strip()
-            obj = Literal(variety)
-            graph.add((sub, pred, obj))
+            graph.add((sub, TERMS["commonVariety"], Literal(variety.strip(), datatype=XSD.string)))
 
-        pred = TERMS["hasColor"]
         for color in colors.split(","):
-            color = color.strip()
-            obj = Literal(color)
-            graph.add((sub, pred, obj))
-            graph.add((obj, RDF.type, TERMS["Color"]))
+            colorNode = BASE[f"vegetable-color/{color.title().replace(" ", "")}"]
+            graph.add((colorNode, RDF.type, TERMS["Color"] ))
+            graph.add((colorNode, TERMS["value"], Literal(color.strip())))
+            graph.add((sub, TERMS["hasColor"], colorNode))
 
-        pred = TERMS["growsIn"]
-        for season in season.split(","):
-            season = season.strip()
-            obj = Literal(season)
-            graph.add((sub, pred, obj))
-            graph.add((obj, RDF.type, TERMS["Season"]))
+        for season in seasons.split("/"):
+            season_uri = TERMS[season.strip()]
+            graph.add((sub, TERMS["growsIn"], season_uri))
 
-        pred = TERMS["storedLike"]
-        obj = Literal(storage)
-        graph.add((sub, pred, obj))
+        graph.add((sub, TERMS["storedLike"], storeageRequirements[storage.strip()]))
 
-        pred = TERMS["availabileIn"]
-        obj = Literal(availability)
-        graph.add((sub, pred, obj))
+        graph.add((sub, TERMS["availableIn"], availableIn[availability.strip()]))
 
-        # Growing Conditions
         for condition in growing.split(","):
-            condition = condition.strip()
-            pred = TERMS["growingCondition"]
-            obj = Literal(condition)
-            graph.add((sub, pred, obj))
+            graph.add((sub, TERMS["growingCondition"], growingConditions[condition.strip().lower()]))
 
         kcal, protein, fiber = nutrition.split(",")
         nut_value = BNode()
         graph.add((sub, TERMS["hasNutritionalValue"], nut_value))
-        graph.add((nut_value, TERMS["kcal"], Literal(kcal.strip())))
-        graph.add((nut_value, TERMS["protein"], Literal(protein.strip())))
-        graph.add((nut_value, TERMS["fiber"], Literal(fiber.strip())))
+        graph.add((nut_value, RDF.type, TERMS["NutritionalValue"]))
+        graph.add((nut_value, TERMS["kcal"], Literal(int(kcal.replace("kcal", "").strip()), datatype=XSD.integer)))
+        graph.add((nut_value, TERMS["protein"], Literal(float(protein.replace("g protein", "").strip()), datatype=XSD.double)))
+        graph.add((nut_value, TERMS["fiber"], Literal(float(fiber.replace("g fiber", "").strip()), datatype=XSD.double)))
 
     return graph
 
