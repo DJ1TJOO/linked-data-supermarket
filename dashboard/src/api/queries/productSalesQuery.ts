@@ -4,7 +4,6 @@ import { schema, terms, xsd } from "./namespaces";
 import { filterDateRange, limitQuery, normalizeClauseOrder } from "./utils";
 import {
 	amount,
-	date,
 	offer,
 	order,
 	orderQuantity,
@@ -26,9 +25,9 @@ export const productSalesQuery = (
 					${schema.name} ${productName} .
 
 				${order} a ${schema.Order} ;
-					${schema.orderDate} ${date} ;
 					${schema.acceptedOffer} ${offer} ;
 					${terms.orderQuantity} ${orderQuantity} .
+					
 				${offer} ${schema.itemOffered} ${productRecord} .
 
 				${orderQuantity} ${schema.value} ${amount} .

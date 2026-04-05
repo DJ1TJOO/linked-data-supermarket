@@ -6,21 +6,10 @@ import {
 import useSWRV from "swrv";
 import { toValue, type MaybeRefOrGetter } from "vue";
 
-export function useMostSoldProducts(
-	startDate?: MaybeRefOrGetter<string>,
-	endDate?: MaybeRefOrGetter<string>,
-	limit?: MaybeRefOrGetter<number>,
-) {
+export function useMostSoldProducts(limit?: MaybeRefOrGetter<number>) {
 	return useSWRV<MostSoldProduct[]>(
-		() =>
-			[
-				"mostSoldProducts",
-				toValue(startDate),
-				toValue(endDate),
-				toValue(limit),
-			].join("|"),
-		() =>
-			getMostSoldProducts(toValue(startDate), toValue(endDate), toValue(limit)),
+		() => ["mostSoldProducts", toValue(limit)].join("|"),
+		() => getMostSoldProducts(toValue(limit)),
 		baseOptions,
 	);
 }

@@ -11,7 +11,7 @@ export function useProductSales(
 	return useSWRV<ProductSales[]>(
 		() =>
 			[
-				"productSalesByDate",
+				"productSales",
 				toValue(startDate),
 				toValue(endDate),
 				toValue(limit),
