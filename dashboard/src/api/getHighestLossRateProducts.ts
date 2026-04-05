@@ -6,11 +6,11 @@ export type HighestLossRateProduct = {
 	lossRate: number;
 };
 
-export const getHighestLossRateProducts = async () => {
+export const getHighestLossRateProducts = async (limit?: number) => {
 	const {
 		results: { bindings },
 	} = await getSparqlClient().select<"productName" | "lossRate">(
-		highestLossRateProductsQuery,
+		highestLossRateProductsQuery(limit),
 	);
 
 	return bindings.map((row) => ({

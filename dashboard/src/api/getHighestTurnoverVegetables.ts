@@ -6,11 +6,15 @@ export type HighestTurnoverVegetable = {
 	turnover: number;
 };
 
-export const getHighestTurnoverVegetables = async () => {
+export const getHighestTurnoverVegetables = async (
+	startDate?: string,
+	endDate?: string,
+	limit?: number,
+) => {
 	const {
 		results: { bindings },
 	} = await getSparqlClient().select<"vegetableName" | "turnover">(
-		highestTurnoverVegetablesQuery,
+		highestTurnoverVegetablesQuery(startDate, endDate, limit),
 	);
 
 	return bindings.map((row) => ({

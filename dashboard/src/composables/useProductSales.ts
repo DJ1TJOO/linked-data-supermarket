@@ -1,31 +1,22 @@
 import { baseOptions } from "@/api/client";
-import {
-	getHighestTurnoverProducts,
-	type HighestTurnoverProduct,
-} from "@/api/getHighestTurnoverProducts";
+import { getProductSales, type ProductSales } from "@/api/getProductSales";
 import useSWRV from "swrv";
-
 import { toValue, type MaybeRefOrGetter } from "vue";
 
-export function useHighestTurnoverProducts(
+export function useProductSales(
 	startDate?: MaybeRefOrGetter<string>,
 	endDate?: MaybeRefOrGetter<string>,
 	limit?: MaybeRefOrGetter<number>,
 ) {
-	return useSWRV<HighestTurnoverProduct[]>(
+	return useSWRV<ProductSales[]>(
 		() =>
 			[
-				"highestTurnoverProducts",
+				"productSalesByDate",
 				toValue(startDate),
 				toValue(endDate),
 				toValue(limit),
 			].join("|"),
-		() =>
-			getHighestTurnoverProducts(
-				toValue(startDate),
-				toValue(endDate),
-				toValue(limit),
-			),
+		() => getProductSales(toValue(startDate), toValue(endDate), toValue(limit)),
 		baseOptions,
 	);
 }

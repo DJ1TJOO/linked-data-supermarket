@@ -6,11 +6,15 @@ export type HighestTurnoverProduct = {
 	turnover: number;
 };
 
-export const getHighestTurnoverProducts = async () => {
+export const getHighestTurnoverProducts = async (
+	startDate?: string,
+	endDate?: string,
+	limit?: number,
+) => {
 	const {
 		results: { bindings },
 	} = await getSparqlClient().select<"productName" | "turnover">(
-		highestTurnoverProductsQuery,
+		highestTurnoverProductsQuery(startDate, endDate, limit),
 	);
 
 	return bindings.map((row) => ({

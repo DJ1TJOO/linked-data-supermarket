@@ -1,16 +1,20 @@
 import { getSparqlClient } from "./client";
-import { productSalesByDateQuery } from "./queries/productSalesByDateQuery";
+import { productSalesQuery } from "./queries/productSalesQuery";
 
-export type ProductSalesByDate = {
+export type ProductSales = {
 	productName: string;
 	sales: number;
 };
 
-export const getProductSalesByDate = async (dateString: string) => {
+export const getProductSales = async (
+	startDate?: string,
+	endDate?: string,
+	limit?: number,
+) => {
 	const {
 		results: { bindings },
 	} = await getSparqlClient().select<"productName" | "sales">(
-		productSalesByDateQuery(dateString),
+		productSalesQuery(startDate, endDate, limit),
 	);
 
 	return bindings.map((row) => ({

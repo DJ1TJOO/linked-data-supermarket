@@ -1,14 +1,16 @@
 import { baseOptions } from "@/api/client";
 import {
-	type HighestLossRateProduct,
 	getHighestLossRateProducts,
+	type HighestLossRateProduct,
 } from "@/api/getHighestLossRateProducts";
 import useSWRV from "swrv";
 
-export function useHighestLossRateProducts() {
+import { toValue, type MaybeRefOrGetter } from "vue";
+
+export function useHighestLossRateProducts(limit?: MaybeRefOrGetter<number>) {
 	return useSWRV<HighestLossRateProduct[]>(
-		"highestLossRateProducts",
-		getHighestLossRateProducts,
+		() => ["highestLossRateProducts", toValue(limit)].join("|"),
+		() => getHighestLossRateProducts(toValue(limit)),
 		baseOptions,
 	);
 }

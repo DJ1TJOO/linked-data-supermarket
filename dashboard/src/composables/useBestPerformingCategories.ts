@@ -1,14 +1,31 @@
 import { baseOptions } from "@/api/client";
 import {
-	type BestPerformingCategory,
 	getBestPerformingCategories,
+	type BestPerformingCategory,
 } from "@/api/getBestPerformingCategories";
 import useSWRV from "swrv";
 
-export function useBestPerformingCategories() {
+import { toValue, type MaybeRefOrGetter } from "vue";
+
+export function useBestPerformingCategories(
+	startDate?: MaybeRefOrGetter<string>,
+	endDate?: MaybeRefOrGetter<string>,
+	limit?: MaybeRefOrGetter<number>,
+) {
 	return useSWRV<BestPerformingCategory[]>(
-		"bestPerformingCategories",
-		getBestPerformingCategories,
+		() =>
+			[
+				"bestPerformingCategories",
+				toValue(startDate),
+				toValue(endDate),
+				toValue(limit),
+			].join("|"),
+		() =>
+			getBestPerformingCategories(
+				toValue(startDate),
+				toValue(endDate),
+				toValue(limit),
+			),
 		baseOptions,
 	);
 }

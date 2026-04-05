@@ -7,12 +7,16 @@ export type BestPerformingCategory = {
 	totalQuantity: number;
 };
 
-export const getBestPerformingCategories = async () => {
+export const getBestPerformingCategories = async (
+	startDate?: string,
+	endDate?: string,
+	limit?: number,
+) => {
 	const {
 		results: { bindings },
 	} = await getSparqlClient().select<
 		"categoryName" | "totalRevenue" | "totalQuantity"
-	>(bestPerformingCategoriesQuery);
+	>(bestPerformingCategoriesQuery(startDate, endDate, limit));
 
 	return bindings.map((row) => ({
 		categoryName: row.categoryName.value,

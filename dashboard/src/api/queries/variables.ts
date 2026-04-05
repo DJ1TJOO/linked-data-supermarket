@@ -33,6 +33,5 @@ export const date = rdf.variable("date");
 export const quantityValue = rdf.variable("quantityValue");
 export const sales = rdf.variable("sales");
 export const productRecord = rdf.variable("productRecord");
-export const vegetableVariant = rdf.variable("vegetableVariant");
 export const healthBenefit = rdf.variable("healthBenefit");
 export const health = rdf.variable("health");

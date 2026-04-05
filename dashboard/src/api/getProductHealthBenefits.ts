@@ -6,11 +6,11 @@ export type ProductHealthBenefit = {
 	health: string;
 };
 
-export const getProductHealthBenefits = async () => {
+export const getProductHealthBenefits = async (limit?: number) => {
 	const {
 		results: { bindings },
 	} = await getSparqlClient().select<"productName" | "health">(
-		productHealthBenefitsQuery,
+		productHealthBenefitsQuery(limit),
 	);
 
 	return bindings.map((row) => ({
