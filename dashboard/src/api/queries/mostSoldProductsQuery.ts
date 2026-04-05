@@ -3,7 +3,14 @@ import { SELECT } from "@tpluscode/sparql-builder";
 import rdf from "@zazuko/env/web.js";
 import { schema, terms, xsd } from "./namespaces";
 import { normalizeClauseOrder } from "./utils";
-import { offer, order, orderQuantity, productName, value } from "./variables";
+import {
+	offer,
+	order,
+	orderQuantity,
+	product,
+	productName,
+	value,
+} from "./variables";
 
 const prefixes = { schema, xsd, terms };
 
@@ -12,10 +19,10 @@ export const mostSoldProductsQuery = normalizeClauseOrder(
       ${order} a ${schema.Order} ;
         ${schema.acceptedOffer} ${offer} ;
         ${terms.orderQuantity} ${orderQuantity} .
-      ${offer} ${schema.itemOffered} ${productName} .
+      ${offer} ${schema.itemOffered} ${product} .
       ${orderQuantity} a ${schema.QuantitativeValue} ;
         ${schema.value} ${value} .
-      ${productName} ${schema.name} ${productName} .
+      ${product} ${schema.name} ${productName} .
     `
 		.GROUP()
 		.BY(productName)
