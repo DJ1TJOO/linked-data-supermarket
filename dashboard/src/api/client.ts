@@ -1,5 +1,4 @@
 import { ParsingClient } from "sparql-http-client";
-import useSWRV from "swrv";
 
 export function getSparqlClient() {
 	const endpoint = import.meta.env.VITE_SPARQL_ENDPOINT || "";
@@ -20,5 +19,3 @@ export const baseOptions = {
 	revalidateOnFocus: false,
 	dedupingInterval: 5000,
 };
-
-export { useSWRV };
