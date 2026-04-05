@@ -1,5 +1,6 @@
 // Q4: What product categories are best performing?
 import { SELECT } from "@tpluscode/sparql-builder";
+import { ordersGraph, productsGraph } from "./graphs";
 import { schema, terms, xsd } from "./namespaces";
 import { filterDateRange, limitQuery, normalizeClauseOrder } from "./utils";
 import {
@@ -23,8 +24,10 @@ export const bestPerformingCategoriesQuery = (
 	limit?: number,
 ) => {
 	const query = SELECT`${categoryName}
-    (SUM(xsd:decimal(STR(${price})) * xsd:decimal(STR(${quantity}))) AS ${totalRevenue})
-    (SUM(xsd:decimal(STR(${quantity}))) AS ${totalQuantity})`.WHERE`
+	(SUM(xsd:decimal(STR(${price})) * xsd:decimal(STR(${quantity}))) AS ${totalRevenue})
+	(SUM(xsd:decimal(STR(${quantity}))) AS ${totalQuantity})`
+		.FROM(productsGraph)
+		.FROM(ordersGraph).WHERE`
       ${order} a ${schema.Order} ;
         ${schema.acceptedOffer} ${offer} ;
         ${terms.orderQuantity} ${orderQuantity} .

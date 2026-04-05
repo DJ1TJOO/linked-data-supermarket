@@ -1,6 +1,7 @@
 // Q1: What products get sold the most (in KG)?
 import { SELECT } from "@tpluscode/sparql-builder";
 import rdf from "@zazuko/env/web.js";
+import { ordersGraph, productsGraph } from "./graphs";
 import { schema, terms, xsd } from "./namespaces";
 import { limitQuery, normalizeClauseOrder } from "./utils";
 import {
@@ -16,7 +17,8 @@ const prefixes = { schema, xsd, terms };
 
 export const mostSoldProductsQuery = (limit?: number) => {
 	const query = SELECT`${productName} (SUM(xsd:decimal(STR(${value}))) AS ?sum)`
-		.WHERE`
+		.FROM(ordersGraph)
+		.FROM(productsGraph).WHERE`
       ${order} a ${schema.Order} ;
         ${schema.acceptedOffer} ${offer} ;
         ${terms.orderQuantity} ${orderQuantity} .

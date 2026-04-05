@@ -1,5 +1,6 @@
 // Q8: What are the health benefits of each product?
 import { SELECT } from "@tpluscode/sparql-builder";
+import { productsGraph, vegetablesGraph } from "./graphs";
 import { schema, terms, xsd } from "./namespaces";
 import { limitQuery, normalizeClauseOrder } from "./utils";
 import {
@@ -15,7 +16,8 @@ const prefixes = { schema, xsd, terms };
 export const productHealthBenefitsQuery = (limit?: number) => {
 	const query =
 		SELECT`${productName} (GROUP_CONCAT(DISTINCT STR(${healthBenefit}); separator=", ") AS ${health})`
-			.WHERE`
+			.FROM(productsGraph)
+			.FROM(vegetablesGraph).WHERE`
         ${productRecord} a ${schema.Product} ;
           ${schema.name} ${productName} ;
           ${terms.variantOf} ${vegetable} .

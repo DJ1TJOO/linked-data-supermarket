@@ -1,5 +1,6 @@
 // Q2: What products produce the highest turnover?
 import { SELECT } from "@tpluscode/sparql-builder";
+import { ordersGraph, productsGraph } from "./graphs";
 import { schema, terms, xsd } from "./namespaces";
 import { filterDateRange, limitQuery, normalizeClauseOrder } from "./utils";
 import {
@@ -21,7 +22,9 @@ export const highestTurnoverProductsQuery = (
 	limit?: number,
 ) => {
 	const query =
-		SELECT`${productName} (SUM(xsd:decimal(STR(?value))) AS ${turnover})`.WHERE`
+		SELECT`${productName} (SUM(xsd:decimal(STR(?value))) AS ${turnover})`
+			.FROM(ordersGraph)
+			.FROM(productsGraph).WHERE`
         ${order} a ${schema.Order} ;
           ${schema.acceptedOffer} ${offer} ;
           ${terms.orderQuantity} ${orderQuantity} .

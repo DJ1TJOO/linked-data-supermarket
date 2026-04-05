@@ -1,5 +1,6 @@
 // Q3: What (known) vegetables are responsible for the highest turnover?
 import { SELECT } from "@tpluscode/sparql-builder";
+import { ordersGraph, productsGraph, vegetablesGraph } from "./graphs";
 import { schema, terms, xsd } from "./namespaces";
 import { filterDateRange, limitQuery, normalizeClauseOrder } from "./utils";
 import {
@@ -23,7 +24,9 @@ export const highestTurnoverVegetablesQuery = (
 ) => {
 	const query =
 		SELECT`${vegetableName} (SUM(xsd:decimal(STR(?value))) AS ${turnover})`
-			.WHERE`
+			.FROM(ordersGraph)
+			.FROM(productsGraph)
+			.FROM(vegetablesGraph).WHERE`
         ${vegetable} a ${terms.Vegetable} ;
           ${terms.name} ${vegetableName} .
 

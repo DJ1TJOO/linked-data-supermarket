@@ -1,5 +1,6 @@
 // Q7: How much of each product got sold on a certain date?
 import { SELECT } from "@tpluscode/sparql-builder";
+import { ordersGraph, productsGraph } from "./graphs";
 import { schema, terms, xsd } from "./namespaces";
 import { filterDateRange, limitQuery, normalizeClauseOrder } from "./utils";
 import {
@@ -20,7 +21,9 @@ export const productSalesQuery = (
 	limit?: number,
 ): string => {
 	const query =
-		SELECT`${productName} (SUM(xsd:decimal(STR(${amount}))) AS ${sales})`.WHERE`
+		SELECT`${productName} (SUM(xsd:decimal(STR(${amount}))) AS ${sales})`
+			.FROM(ordersGraph)
+			.FROM(productsGraph).WHERE`
 				${productRecord} a ${schema.Product} ;
 					${schema.name} ${productName} .
 
