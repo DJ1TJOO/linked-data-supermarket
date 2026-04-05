@@ -1,5 +1,46 @@
-# Vue 3 + TypeScript + Vite
+# Linked Data Supermarket Dashboard
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Single-page dashboard built with Vue 3, shadcn-vue components, and Unovis charts.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+It executes 8 SPARQL queries against a running SPARQL endpoint and visualizes results for:
+
+- most sold products
+- highest turnover products
+- top-performing vegetables
+- best-performing categories
+- highest loss rate products
+- highest lost revenue products
+- date-based sales distribution
+- health benefits by product
+
+## Prerequisites
+
+- Node.js 20+
+- pnpm 10+
+- A running SPARQL endpoint containing the supermarket RDF dataset
+
+## Environment
+
+Create a local env file in this folder.
+
+1. Copy `.env.example` to `.env.local`
+2. Set your endpoint URL
+
+
+## Install
+
+```bash
+pnpm install
+```
+
+## Run
+
+```bash
+pnpm dev
+```
+
+## Build
+
+```bash
+pnpm build
+```
