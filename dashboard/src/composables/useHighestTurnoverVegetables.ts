@@ -1,3 +1,4 @@
+import { baseOptions } from "@/api/client";
 import {
 	type HighestTurnoverVegetable,
 	getHighestTurnoverVegetables,
@@ -8,5 +9,6 @@ export function useHighestTurnoverVegetables() {
 	return useSWRV<HighestTurnoverVegetable[]>(
 		"highestTurnoverVegetables",
 		getHighestTurnoverVegetables,
+		baseOptions,
 	);
 }

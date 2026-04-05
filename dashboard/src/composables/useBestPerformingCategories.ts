@@ -1,3 +1,4 @@
+import { baseOptions } from "@/api/client";
 import {
 	type BestPerformingCategory,
 	getBestPerformingCategories,
@@ -8,5 +9,6 @@ export function useBestPerformingCategories() {
 	return useSWRV<BestPerformingCategory[]>(
 		"bestPerformingCategories",
 		getBestPerformingCategories,
+		baseOptions,
 	);
 }

@@ -1,3 +1,4 @@
+import { baseOptions } from "@/api/client";
 import {
 	getProductSalesByDate,
 	type ProductSalesByDate,
@@ -9,5 +10,6 @@ export function useProductSalesByDate(dateString: MaybeRefOrGetter<string>) {
 	return useSWRV<ProductSalesByDate[]>(
 		() => ["productSalesByDate", toValue(dateString)],
 		() => getProductSalesByDate(toValue(dateString)),
+		baseOptions,
 	);
 }

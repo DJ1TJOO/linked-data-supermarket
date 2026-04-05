@@ -1,3 +1,4 @@
+import { baseOptions } from "@/api/client";
 import {
 	type ProductHealthBenefit,
 	getProductHealthBenefits,
@@ -8,5 +9,6 @@ export function useProductHealthBenefits() {
 	return useSWRV<ProductHealthBenefit[]>(
 		"productHealthBenefits",
 		getProductHealthBenefits,
+		baseOptions,
 	);
 }

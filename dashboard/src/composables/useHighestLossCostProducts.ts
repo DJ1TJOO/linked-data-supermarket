@@ -1,3 +1,4 @@
+import { baseOptions } from "@/api/client";
 import {
 	type HighestLossCostProduct,
 	getHighestLossCostProducts,
@@ -8,5 +9,6 @@ export function useHighestLossCostProducts() {
 	return useSWRV<HighestLossCostProduct[]>(
 		"highestLossCostProducts",
 		getHighestLossCostProducts,
+		baseOptions,
 	);
 }

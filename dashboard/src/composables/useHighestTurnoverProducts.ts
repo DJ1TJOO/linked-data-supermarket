@@ -1,3 +1,4 @@
+import { baseOptions } from "@/api/client";
 import {
 	type HighestTurnoverProduct,
 	getHighestTurnoverProducts,
@@ -8,5 +9,6 @@ export function useHighestTurnoverProducts() {
 	return useSWRV<HighestTurnoverProduct[]>(
 		"highestTurnoverProducts",
 		getHighestTurnoverProducts,
+		baseOptions,
 	);
 }
