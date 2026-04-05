@@ -1,12 +1,12 @@
 import {
 	type BestPerformingCategory,
-	bestPerformingCategories,
-} from "@/api/bestPerformingCategories";
+	getBestPerformingCategories,
+} from "@/api/getBestPerformingCategories";
 import useSWRV from "swrv";
 
 export function useBestPerformingCategories() {
 	return useSWRV<BestPerformingCategory[]>(
 		"bestPerformingCategories",
-		bestPerformingCategories,
+		getBestPerformingCategories,
 	);
 }

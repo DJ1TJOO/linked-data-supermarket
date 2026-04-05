@@ -1,4 +1,16 @@
-import { ParsingClient } from "sparql-http-client";
+export type SPARQLBindingValue = {
+	type: "uri" | "literal" | "bnode";
+	value: string;
+	"xml:lang"?: string;
+	datatype?: string;
+};
+
+export type SPARQLResult<KEYS extends string> = {
+	head: { vars: KEYS[] };
+	results: {
+		bindings: Record<KEYS, SPARQLBindingValue>[];
+	};
+};
 
 export function getSparqlClient() {
 	const endpoint = import.meta.env.VITE_SPARQL_ENDPOINT || "";
@@ -8,11 +20,27 @@ export function getSparqlClient() {
 		);
 	}
 
-	return new ParsingClient({
-		endpointUrl: endpoint,
-		fetch:
-			typeof window !== "undefined" ? window.fetch.bind(window) : undefined,
-	});
+	return {
+		select: async <KEYS extends string>(query: string) => {
+			const response = await fetch(endpoint, {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/sparql-query",
+					Accept: "application/sparql-results+json",
+				},
+				body: query,
+			});
+
+			if (!response.ok) {
+				const text = await response.text();
+				throw new Error(
+					`SPARQL query failed: ${response.status} ${response.statusText}\n${text}`,
+				);
+			}
+
+			return response.json() as Promise<SPARQLResult<KEYS>>;
+		},
+	};
 }
 
 export const baseOptions = {

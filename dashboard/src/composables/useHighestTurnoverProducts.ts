@@ -1,12 +1,12 @@
 import {
 	type HighestTurnoverProduct,
-	highestTurnoverProducts,
-} from "@/api/highestTurnoverProducts";
+	getHighestTurnoverProducts,
+} from "@/api/getHighestTurnoverProducts";
 import useSWRV from "swrv";
 
 export function useHighestTurnoverProducts() {
 	return useSWRV<HighestTurnoverProduct[]>(
 		"highestTurnoverProducts",
-		highestTurnoverProducts,
+		getHighestTurnoverProducts,
 	);
 }

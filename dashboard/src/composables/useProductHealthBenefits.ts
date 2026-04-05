@@ -1,12 +1,12 @@
 import {
 	type ProductHealthBenefit,
-	productHealthBenefits,
-} from "@/api/productHealthBenefits";
+	getProductHealthBenefits,
+} from "@/api/getProductHealthBenefits";
 import useSWRV from "swrv";
 
 export function useProductHealthBenefits() {
 	return useSWRV<ProductHealthBenefit[]>(
 		"productHealthBenefits",
-		productHealthBenefits,
+		getProductHealthBenefits,
 	);
 }

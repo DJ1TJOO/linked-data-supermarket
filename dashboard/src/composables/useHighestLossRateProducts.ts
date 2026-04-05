@@ -1,12 +1,12 @@
 import {
 	type HighestLossRateProduct,
-	highestLossRateProducts,
-} from "@/api/highestLossRateProducts";
+	getHighestLossRateProducts,
+} from "@/api/getHighestLossRateProducts";
 import useSWRV from "swrv";
 
 export function useHighestLossRateProducts() {
 	return useSWRV<HighestLossRateProduct[]>(
 		"highestLossRateProducts",
-		highestLossRateProducts,
+		getHighestLossRateProducts,
 	);
 }

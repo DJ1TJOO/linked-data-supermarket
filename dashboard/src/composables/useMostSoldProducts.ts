@@ -1,6 +1,9 @@
-import { type MostSoldProduct, mostSoldProducts } from "@/api/mostSoldProduct";
+import {
+	type MostSoldProduct,
+	getMostSoldProducts,
+} from "@/api/getMostSoldProducts";
 import useSWRV from "swrv";
 
 export function useMostSoldProducts() {
-	return useSWRV<MostSoldProduct[]>("mostSoldProducts", mostSoldProducts);
+	return useSWRV<MostSoldProduct[]>("mostSoldProducts", getMostSoldProducts);
 }

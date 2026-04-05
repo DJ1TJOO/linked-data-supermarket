@@ -21,7 +21,6 @@
     "lucide-vue-next": "^1.0.0",
     "rdf-sparql-builder": "^0.2.5",
     "reka-ui": "^2.9.3",
-    "sparql-http-client": "^3.1.0",
     "swrv": "^1.2.0",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.2",
