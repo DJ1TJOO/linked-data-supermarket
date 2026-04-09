@@ -1,4 +1,4 @@
-# Project Name
+# Supermarket linked data
 
 This project requires **Python 3.12**.
 
