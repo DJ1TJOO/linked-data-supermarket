@@ -1,7 +1,7 @@
 import { baseOptions } from "@/api/client";
 import {
-	getHighestTurnoverVegetables,
-	type HighestTurnoverVegetable,
+    getHighestTurnoverVegetables,
+    type HighestTurnoverVegetable,
 } from "@/api/getHighestTurnoverVegetables";
 import useSWRV from "swrv";
 
@@ -11,6 +11,7 @@ export function useHighestTurnoverVegetables(
 	startDate?: MaybeRefOrGetter<string>,
 	endDate?: MaybeRefOrGetter<string>,
 	limit?: MaybeRefOrGetter<number>,
+	endpoint?: MaybeRefOrGetter<string>,
 ) {
 	return useSWRV<HighestTurnoverVegetable[]>(
 		() =>
@@ -19,12 +20,14 @@ export function useHighestTurnoverVegetables(
 				toValue(startDate),
 				toValue(endDate),
 				toValue(limit),
+				toValue(endpoint),
 			].join("|"),
 		() =>
 			getHighestTurnoverVegetables(
 				toValue(startDate),
 				toValue(endDate),
 				toValue(limit),
+				toValue(endpoint),
 			),
 		baseOptions,
 	);

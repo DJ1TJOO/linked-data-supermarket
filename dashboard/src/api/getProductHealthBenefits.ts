@@ -6,10 +6,10 @@ export type ProductHealthBenefit = {
 	health: string;
 };
 
-export const getProductHealthBenefits = async (limit?: number) => {
+export const getProductHealthBenefits = async (limit?: number, endpoint?: string) => {
 	const {
 		results: { bindings },
-	} = await getSparqlClient().select<"productName" | "health">(
+	} = await getSparqlClient(endpoint).select<"productName" | "health">(
 		productHealthBenefitsQuery(limit),
 	);
 

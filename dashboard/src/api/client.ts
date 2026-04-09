@@ -12,11 +12,10 @@ export type SPARQLResult<KEYS extends string> = {
 	};
 };
 
-export function getSparqlClient() {
-	const endpoint = import.meta.env.VITE_SPARQL_ENDPOINT || "";
+export function getSparqlClient(endpoint?: string) {
 	if (!endpoint) {
 		throw new Error(
-			"Missing SPARQL endpoint. Set VITE_SPARQL_ENDPOINT in your Vite environment.",
+			"Missing SPARQL endpoint. Set VITE_SPARQL_ENDPOINT in your Vite environment or provide one.",
 		);
 	}
 

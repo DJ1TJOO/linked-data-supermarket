@@ -11,6 +11,7 @@ export function useBestPerformingCategories(
 	startDate?: MaybeRefOrGetter<string>,
 	endDate?: MaybeRefOrGetter<string>,
 	limit?: MaybeRefOrGetter<number>,
+	endpoint?: MaybeRefOrGetter<string>,
 ) {
 	return useSWRV<BestPerformingCategory[]>(
 		() =>
@@ -19,12 +20,14 @@ export function useBestPerformingCategories(
 				toValue(startDate),
 				toValue(endDate),
 				toValue(limit),
+				toValue(endpoint),
 			].join("|"),
 		() =>
 			getBestPerformingCategories(
 				toValue(startDate),
 				toValue(endDate),
 				toValue(limit),
+				toValue(endpoint),
 			),
 		baseOptions,
 	);

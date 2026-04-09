@@ -7,6 +7,7 @@ export function useProductSales(
 	startDate?: MaybeRefOrGetter<string>,
 	endDate?: MaybeRefOrGetter<string>,
 	limit?: MaybeRefOrGetter<number>,
+	endpoint?: MaybeRefOrGetter<string>,
 ) {
 	return useSWRV<ProductSales[]>(
 		() =>
@@ -15,8 +16,9 @@ export function useProductSales(
 				toValue(startDate),
 				toValue(endDate),
 				toValue(limit),
+				toValue(endpoint),
 			].join("|"),
-		() => getProductSales(toValue(startDate), toValue(endDate), toValue(limit)),
+		() => getProductSales(toValue(startDate), toValue(endDate), toValue(limit), toValue(endpoint)),
 		baseOptions,
 	);
 }

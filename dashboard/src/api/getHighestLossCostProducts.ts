@@ -10,10 +10,11 @@ export const getHighestLossCostProducts = async (
 	startDate?: string,
 	endDate?: string,
 	limit?: number,
+	endpoint?: string
 ) => {
 	const {
 		results: { bindings },
-	} = await getSparqlClient().select<"productName" | "losses">(
+	} = await getSparqlClient(endpoint).select<"productName" | "losses">(
 		highestLossCostProductsQuery(startDate, endDate, limit),
 	);
 

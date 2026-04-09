@@ -11,10 +11,11 @@ export const getBestPerformingCategories = async (
 	startDate?: string,
 	endDate?: string,
 	limit?: number,
+	endpoint?: string
 ) => {
 	const {
 		results: { bindings },
-	} = await getSparqlClient().select<
+	} = await getSparqlClient(endpoint).select<
 		"categoryName" | "totalRevenue" | "totalQuantity"
 	>(bestPerformingCategoriesQuery(startDate, endDate, limit));
 

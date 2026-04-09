@@ -6,10 +6,10 @@ export type MostSoldProduct = {
 	sum: number;
 };
 
-export const getMostSoldProducts = async (limit?: number) => {
+export const getMostSoldProducts = async (limit?: number, endpoint?: string) => {
 	const {
 		results: { bindings },
-	} = await getSparqlClient().select<"productName" | "sum">(
+	} = await getSparqlClient(endpoint).select<"productName" | "sum">(
 		mostSoldProductsQuery(limit),
 	);
 

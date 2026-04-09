@@ -10,10 +10,11 @@ export const getHighestTurnoverVegetables = async (
 	startDate?: string,
 	endDate?: string,
 	limit?: number,
+	endpoint?: string
 ) => {
 	const {
 		results: { bindings },
-	} = await getSparqlClient().select<"vegetableName" | "turnover">(
+	} = await getSparqlClient(endpoint).select<"vegetableName" | "turnover">(
 		highestTurnoverVegetablesQuery(startDate, endDate, limit),
 	);
 

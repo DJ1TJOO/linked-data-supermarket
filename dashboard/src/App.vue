@@ -32,18 +32,20 @@ import PieChart from "./components/PieChart.vue"
 import { Badge } from "./components/ui/badge"
 import { Spinner } from "./components/ui/spinner"
 
+const endpointUrl = ref(import.meta.env.VITE_SPARQL_ENDPOINT);
+
 const startDate = ref("2020-07-01")
 const endDate = ref("2020-07-01")
 const limit = ref(10)
 
-const { data: mostSoldProducts, isValidating: isMostSoldProductsValidating } = useMostSoldProducts(limit)
-const { data: highestTurnoverProducts, isValidating: isHighestTurnoverProductsValidating } = useHighestTurnoverProducts(startDate, endDate, limit)
-const { data: highestTurnoverVegetables, isValidating: isHighestTurnoverVegetablesValidating } = useHighestTurnoverVegetables(startDate, endDate, limit)
-const { data: bestPerformingCategories, isValidating: isBestPerformingCategoriesValidating } = useBestPerformingCategories(startDate, endDate, limit)
-const { data: highestLossRateProducts, isValidating: isHighestLossRateProductsValidating } = useHighestLossRateProducts(limit)
-const { data: highestLossCostProducts, isValidating: isHighestLossCostProductsValidating } = useHighestLossCostProducts(startDate, endDate, limit)
-const { data: productSales, isValidating: isProductSalesValidating } = useProductSales(startDate, endDate, limit)
-const { data: productHealthBenefits, isValidating: isProductHealthBenefitsValidating } = useProductHealthBenefits(limit)
+const { data: mostSoldProducts, isValidating: isMostSoldProductsValidating } = useMostSoldProducts(limit, endpointUrl)
+const { data: highestTurnoverProducts, isValidating: isHighestTurnoverProductsValidating } = useHighestTurnoverProducts(startDate, endDate, limit, endpointUrl)
+const { data: highestTurnoverVegetables, isValidating: isHighestTurnoverVegetablesValidating } = useHighestTurnoverVegetables(startDate, endDate, limit, endpointUrl)
+const { data: bestPerformingCategories, isValidating: isBestPerformingCategoriesValidating } = useBestPerformingCategories(startDate, endDate, limit, endpointUrl)
+const { data: highestLossRateProducts, isValidating: isHighestLossRateProductsValidating } = useHighestLossRateProducts(limit, endpointUrl)
+const { data: highestLossCostProducts, isValidating: isHighestLossCostProductsValidating } = useHighestLossCostProducts(startDate, endDate, limit, endpointUrl)
+const { data: productSales, isValidating: isProductSalesValidating } = useProductSales(startDate, endDate, limit, endpointUrl)
+const { data: productHealthBenefits, isValidating: isProductHealthBenefitsValidating } = useProductHealthBenefits(limit, endpointUrl)
 
 const busy = computed(() => isMostSoldProductsValidating.value || isHighestTurnoverProductsValidating.value || isHighestTurnoverVegetablesValidating.value || isBestPerformingCategoriesValidating.value || isHighestLossRateProductsValidating.value || isHighestLossCostProductsValidating.value || isProductSalesValidating.value || isProductHealthBenefitsValidating.value)
 </script>
@@ -60,10 +62,14 @@ const busy = computed(() => isMostSoldProductsValidating.value || isHighestTurno
                         Fetching
                     </Badge>
                 </div>
-                <p class="max-w-4xl text-base text-muted-foreground leading-6">
-                    Actionable insights and trends for supermarket operations, sales, and product performance.
-                </p>
+                <div class="flex items-center gap-2 mt-4">
+                    <Label for="endpoint-input">SPARQL Endpoint:</Label>
+                    <Input id="endpoint-input" v-model="endpointUrl" class="w-100" />
+                </div>
             </div>
+            <p class="max-w-4xl text-base text-muted-foreground leading-6">
+                Actionable insights and trends for supermarket operations, sales, and product performance.
+            </p>
 
             <div class="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-6">
                 <div class="grid w-full max-w-sm items-center gap-1.5">

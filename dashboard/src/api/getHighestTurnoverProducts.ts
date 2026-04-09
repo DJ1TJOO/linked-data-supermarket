@@ -10,10 +10,11 @@ export const getHighestTurnoverProducts = async (
 	startDate?: string,
 	endDate?: string,
 	limit?: number,
+	endpoint?: string
 ) => {
 	const {
 		results: { bindings },
-	} = await getSparqlClient().select<"productName" | "turnover">(
+	} = await getSparqlClient(endpoint).select<"productName" | "turnover">(
 		highestTurnoverProductsQuery(startDate, endDate, limit),
 	);
 

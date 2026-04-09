@@ -1,15 +1,15 @@
 import { baseOptions } from "@/api/client";
 import {
-	getProductHealthBenefits,
-	type ProductHealthBenefit,
+    getProductHealthBenefits,
+    type ProductHealthBenefit,
 } from "@/api/getProductHealthBenefits";
 import useSWRV from "swrv";
 import { toValue, type MaybeRefOrGetter } from "vue";
 
-export function useProductHealthBenefits(limit?: MaybeRefOrGetter<number>) {
+export function useProductHealthBenefits(limit?: MaybeRefOrGetter<number>, endpoint?: MaybeRefOrGetter<string>) {
 	return useSWRV<ProductHealthBenefit[]>(
-		() => ["productHealthBenefits", toValue(limit)].join("|"),
-		() => getProductHealthBenefits(toValue(limit)),
+		() => ["productHealthBenefits", toValue(limit), toValue(endpoint)].join("|"),
+		() => getProductHealthBenefits(toValue(limit), toValue(endpoint)),
 		baseOptions,
 	);
 }
