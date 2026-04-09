@@ -10,6 +10,10 @@ export const termsGraph = rdf.namedNode(
 export const ordersGraph = rdf.namedNode(
 	"https://dj1tjoo.github.io/linked-data-supermarket/orders",
 );
+export const offersGraph = rdf.namedNode(
+	"https://dj1tjoo.github.io/linked-data-supermarket/offers",
+)
+
 export const costPricesGraph = rdf.namedNode(
 	"https://dj1tjoo.github.io/linked-data-supermarket/cost-prices",
 );

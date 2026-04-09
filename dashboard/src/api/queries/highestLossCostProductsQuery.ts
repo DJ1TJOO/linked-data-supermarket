@@ -1,6 +1,6 @@
 // Q6: What products cost the most money in losses?
 import { SELECT } from "@tpluscode/sparql-builder";
-import { costPricesGraph, ordersGraph, productsGraph } from "./graphs";
+import {costPricesGraph, offersGraph, ordersGraph, productsGraph} from "./graphs";
 import { schema, terms, xsd } from "./namespaces";
 import { filterDateRange, limitQuery, normalizeClauseOrder } from "./utils";
 import {
@@ -30,7 +30,7 @@ export const highestLossCostProductsQuery = (
 	endDate?: string,
 	limit?: number,
 ) => {
-	const avaerageCostPriceQuery = SELECT`${product} 
+	const averageCostPriceQuery = SELECT`${product} 
 		(SUM(xsd:decimal(STR(${costPrice})) * ${days}) / SUM(${days}) AS ${averageCostPrice})`
 		.WHERE`
       ${costPriceRecord} a ${terms.CostPrice} ;
@@ -74,12 +74,13 @@ export const highestLossCostProductsQuery = (
     (( ${averageCostPrice} * ${lossRate} * (${totalSold} / (100 - ${lossRate})) ) AS ${losses})`
 		.FROM(productsGraph)
 		.FROM(ordersGraph)
-		.FROM(costPricesGraph).WHERE`
+		.FROM(costPricesGraph)
+		.FROM(offersGraph).WHERE`
       ${product} a ${schema.Product} ;
         ${schema.name} ${productName} ;
         ${terms.lossRate} ${lossRate} .
 
-      ${avaerageCostPriceQuery}
+      ${averageCostPriceQuery}
 
       ${totalSoldQuery}
     `
