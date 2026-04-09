@@ -478,7 +478,7 @@ schema:PriceSpecification rdf:type owl:Class .
 schema:Product rdf:type owl:Class ;
                rdfs:subClassOf [ rdf:type owl:Restriction ;
                                  owl:onProperty :varientOf ;
-                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                  owl:onClass :Vegetable
                                ] ,
                                [ rdf:type owl:Restriction ;
